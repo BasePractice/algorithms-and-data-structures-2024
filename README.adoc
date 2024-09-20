@@ -1,0 +1,12 @@
+== Алгоритмы и структуры данных в системах реального времени
+
+image:https://github.com/BasePractice/algorithms-and-data-structures-2024/actions/workflows/codeql-analysis.yml/badge.svg[link="https://github.com/BasePractice/algorithms-and-data-structures-2024/actions/workflows/codeql-analysis.yml"]
+image:https://github.com/BasePractice/algorithms-and-data-structures-2024/actions/workflows/maven.yml/badge.svg[link="https://github.com/BasePractice/algorithms-and-data-structures-2024/actions/workflows/maven.yml"]
+
+=== Задания студентов
+
+1. link:students/0000001/README.adoc[0000001]
+
+В качестве имени студента указывается его номер зачетной книжки, также, в README модуля указывается фамилия студента.
+
+Например вместо `0000001` пишется `21K0478` при этом все символы кириллицы заменяются на соответствующие им транслитерированные латинские.

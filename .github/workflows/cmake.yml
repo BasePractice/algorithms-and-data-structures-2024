@@ -1,0 +1,29 @@
+name: CMake
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+env:
+  BUILD_TYPE: Release
+
+jobs:
+  samples:
+    strategy:
+      max-parallel: 2
+      matrix:
+        part: [p01]
+        os: [ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Configure ${{ matrix.part }}
+        run: cmake -H${{ matrix.part }}/src/main/c -B ${{github.workspace}}/build_${{ matrix.part }} -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}}
+      - name: Build ${{ matrix.part }}
+        run: cmake --build ${{github.workspace}}/build_${{ matrix.part }} --config ${{env.BUILD_TYPE}}
+      - name: Test ${{ matrix.part }}
+        working-directory: ${{github.workspace}}/build_${{ matrix.part }}
+        run: ctest -C ${{env.BUILD_TYPE}}
+      
