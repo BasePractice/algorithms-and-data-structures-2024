@@ -1,4 +1,4 @@
-package ru.mirea.practice.s230k754.task2;
+package ru.mirea.practice.s230k754.lab2.task2;
 
 public final class TestBall {
     private TestBall(){}

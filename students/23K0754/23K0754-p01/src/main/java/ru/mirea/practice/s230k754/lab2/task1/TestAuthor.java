@@ -1,4 +1,4 @@
-package ru.mirea.practice.s230k754.task1;
+package ru.mirea.practice.s230k754.lab2.task1;
 
 public final class TestAuthor {
     private TestAuthor() {}

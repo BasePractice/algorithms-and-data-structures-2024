@@ -1,4 +1,4 @@
-package ru.mirea.practice.s230k754.task3;
+package ru.mirea.practice.s230k754.lab2.task3;
 
 import java.util.Objects;
 

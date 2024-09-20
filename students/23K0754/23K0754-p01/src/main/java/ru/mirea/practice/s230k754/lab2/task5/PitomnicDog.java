@@ -1,4 +1,4 @@
-package ru.mirea.practice.s230k754.task5;
+package ru.mirea.practice.s230k754.lab2.task5;
 
 public final class PitomnicDog {
     private PitomnicDog() {}
