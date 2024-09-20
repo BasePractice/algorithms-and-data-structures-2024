@@ -26,7 +26,7 @@ public final class Main {
         }
     }
 
-    public static void task45() {
+    public static void task4P5() {
         try(Scanner scanner = new Scanner(System.in)) {
             System.out.println("Введите кол-во числе в массиве: ");
             int n = scanner.nextInt();
@@ -53,12 +53,43 @@ public final class Main {
                 System.out.print(number + " ");
             }
         }
+    }
 
+    public static void task6() {
+        for(int i = 1; i < 11; i++ ) {
+            System.out.print(1.0 / i + "\t");
+        }
+    }
 
+    public static long factorial(int number){
+        if (number < 0){
+            System.out.println("Число должно быть не отрицательное");
+            return -1;
+        } else if (number == 0) {
+            return 1;
+        } else {
+            long factorial = 1;
+            for (int i = 1; i <= number; i++) {
+                factorial *= i;
+            }
+            return factorial;
+        }
+    }
+
+    public static void task7() {
+        System.out.println("\n Введите число: ");
+        try(Scanner scanner = new Scanner(System.in)) {
+            long result = factorial(scanner.nextInt());
+            if(result != -1){
+                System.out.println("Факториал числа равен: " + result);
+            }
+        }
     }
 
     public static void main(String[] args) {
         task3();
-        task45();
+        task4P5();
+        task6();
+        task7();
     }
 }
