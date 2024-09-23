@@ -1,4 +1,4 @@
-package ru.mirea.practice.s23k0164.t2;
+package ru.mirea.practice.s23k0164.t1;
 
 import java.util.Comparator;
 
