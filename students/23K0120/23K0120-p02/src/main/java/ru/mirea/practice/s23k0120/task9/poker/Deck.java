@@ -1,7 +1,6 @@
 package ru.mirea.practice.s23k0120.task9.poker;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Deck extends ArrayList<Card> {
     public Deck() {
