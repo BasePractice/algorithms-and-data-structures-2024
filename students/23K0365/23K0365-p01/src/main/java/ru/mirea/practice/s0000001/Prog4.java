@@ -7,7 +7,7 @@ public abstract class Prog4 {
         try(Scanner sc = new Scanner(System.in)){
         int ln = 3;
         int min=9999;
-        int max=0; int i=0; int sum=0;
+        int max=0; int i=0;
         System.out.println("lenght of array = "+ ln);
         int [] b = new int [ln];
         while (i<ln){
@@ -15,7 +15,7 @@ public abstract class Prog4 {
             if(min>b[i]){min=b[i];}
             if(max<b[i]){max=b[i];}
             i++;}
-        sum = Arrays.stream(b).sum();
+        int sum = Arrays.stream(b).sum();
         System.out.println("summary: "+sum);
         System.out.println("maximum: "+max+"; minimum: "+min);
     }
