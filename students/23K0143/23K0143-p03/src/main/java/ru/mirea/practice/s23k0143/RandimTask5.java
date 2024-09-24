@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public abstract class RandimTask5 {
     public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in);) {
+        try (Scanner scanner = new Scanner(System.in)) {
             int n = 0;
             while (true) {
                 System.out.print("Введите размер массива (натуральное число больше 0): ");

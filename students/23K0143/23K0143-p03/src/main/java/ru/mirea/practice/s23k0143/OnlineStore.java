@@ -7,7 +7,7 @@ public abstract class OnlineStore {
     private static final double[] rates = {1.0, 0.90, 92.80};
 
     public static void main(String[] args) {
-        try(Scanner sc = new Scanner(System.in);) {
+        try (Scanner sc = new Scanner(System.in)) {
             Converter converter = new Converter(currencies, rates);
 
             System.out.print("Введите название товара: ");
