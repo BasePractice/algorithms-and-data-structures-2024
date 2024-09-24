@@ -10,7 +10,7 @@
     </parent>
     <artifactId>23K0368</artifactId>
     <packaging>pom</packaging>
-    <description>Практическая работа Пети</description>
+    <description>Практическая работа Андрея</description>
 
     <modules>
         <module>23K0368-p01</module>
