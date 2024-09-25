@@ -9,7 +9,7 @@ public abstract class RandomTask3 {
 
         Random random = new Random();
         for (int i = 0; i < 4; i++) {
-            arr[i] = random.nextDouble(89) + 10;
+            arr[i] = random.nextDouble() * 89 + 10;
         }
         System.out.println("\nМассив, заполненный с использованием класса Random:");
         System.out.println(Arrays.toString(arr));
