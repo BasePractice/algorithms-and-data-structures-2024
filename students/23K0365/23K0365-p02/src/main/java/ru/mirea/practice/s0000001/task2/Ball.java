@@ -1,8 +1,8 @@
 package ru.mirea.practice.s0000001.task2;
 
 public class Ball {
-    private double x = .0;
-    private double y = .0;
+    private double x;
+    private double y;
 
     public Ball(double x, double y){
         this.x=x;
@@ -11,9 +11,9 @@ public class Ball {
     public Ball(){
         this.x=0.0;
         this.y=0.0;}
-
-    public double getX() {return x;}
-    public double getY() {return y;}
+//
+//    public double getX() {return x;}
+//    public double getY() {return y;}
 
     public void setX(double x) {
         this.x = x;}

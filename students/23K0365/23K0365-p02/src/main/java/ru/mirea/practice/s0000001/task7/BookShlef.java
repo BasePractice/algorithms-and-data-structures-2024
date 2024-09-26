@@ -40,7 +40,7 @@ public class BookShlef {
 
     public BookShlef sortByYear(BookShlef mas) {
         boolean isSorted = false;
-        Book temp=new Book("","",0);
+        Book temp;
 
         while(!isSorted) {
             isSorted = true;
