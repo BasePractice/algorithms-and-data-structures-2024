@@ -1,4 +1,5 @@
 package ru.mirea.practice.s23k0120.task6.circle;
+
 import ru.mirea.practice.s23k0120.task3.circle.Point;
 
 public class Circle1 extends ru.mirea.practice.s23k0120.task3.circle.Circle {
@@ -16,15 +17,16 @@ public class Circle1 extends ru.mirea.practice.s23k0120.task3.circle.Circle {
     }
 
     public void setArea(double area) {
-        this.setR(Math.sqrt(area/Math.PI));
+        this.setR(Math.sqrt(area / Math.PI));
     }
 
     public void setCircumference(double length) {
-        this.setR(length/(2*Math.PI));
+        this.setR(length / (2 * Math.PI));
     }
 
     @Override
     public String toString() {
-        return String.format("Круг: Центр - %s Радиус - %.3f Длина окружности - %.3f Площадь - %.3f", this.getCenter().toString(), this.getR(), this.getCircumference(), this.getArea());
+        return String.format("Круг: Центр - %s Радиус - %.3f Длина окружности - %.3f Площадь - %.3f",
+                this.getCenter().toString(), this.getR(), this.getCircumference(), this.getArea());
     }
 }

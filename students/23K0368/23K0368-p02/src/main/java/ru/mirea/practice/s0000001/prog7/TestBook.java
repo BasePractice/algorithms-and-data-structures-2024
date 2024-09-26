@@ -1,4 +1,5 @@
 package ru.mirea.practice.s0000001.prog7;
+
 import java.util.Scanner;
 
 
@@ -19,8 +20,8 @@ public abstract class TestBook {
             Book book2 = new Book(name, title, year, pages);
 
 
-            System.out.println("First " + book1.toString());
-            System.out.println("Second " + book2.toString());
+            System.out.println("First " + book1);
+            System.out.println("Second " + book2);
         }
     }
 }

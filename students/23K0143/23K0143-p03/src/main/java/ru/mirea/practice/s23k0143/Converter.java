@@ -1,8 +1,8 @@
 package ru.mirea.practice.s23k0143;
 
 public class Converter {
-    private String[] currencies;
-    private double[] rates;
+    private final String[] currencies;
+    private final double[] rates;
 
     public Converter(String[] currencies, double[] rates) {
         this.currencies = currencies;
@@ -23,7 +23,7 @@ public class Converter {
         }
 
         double baseSumCurrency = amount / rates[fromIndex];
-        return  baseSumCurrency * rates[toIndex];
+        return baseSumCurrency * rates[toIndex];
     }
 
     public static void main(String[] args) {

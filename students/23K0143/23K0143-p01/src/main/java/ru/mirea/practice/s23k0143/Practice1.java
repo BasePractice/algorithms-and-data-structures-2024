@@ -67,13 +67,14 @@ public abstract class Practice1 {
         }
         //6
         for (int i = 1; i < 11; i++) {
-            System.out.printf("Number %d: %.3f\n", i, 1 /(float) i);
+            System.out.printf("Number %d: %.3f\n", i, 1 / (float) i);
         }
     }
+
     //7
     public static int fact(int n) {
         int f = 1;
-        while (n <= 1){
+        while (n <= 1) {
             f *= n;
             n -= 1;
         }

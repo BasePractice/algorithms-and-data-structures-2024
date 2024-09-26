@@ -15,10 +15,15 @@ public abstract class RandomTask3 {
         System.out.println(Arrays.toString(arr));
         boolean flag = true;
         for (int i = 1; i < 4; i++) {
-            if (arr[i - 1] > arr[i]) {flag = false;}
+            if (arr[i - 1] > arr[i]) {
+                flag = false;
+                break;
+            }
         }
         if (flag) {
             System.out.println("Массив является строго возрастающим.");
-        } else {System.out.println("Массив не является строго возрастающим.");}
+        } else {
+            System.out.println("Массив не является строго возрастающим.");
+        }
     }
 }

@@ -1,4 +1,5 @@
 package ru.mirea.practice.s0000001.prog5;
+
 import java.util.Arrays;
 import java.util.Scanner;
 

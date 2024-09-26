@@ -40,7 +40,7 @@ public class Currency {
     public String toString() {
         return String.format("Currency{%s, %s = %s}", name,
                 getValueFormatted(1, this.getLocale()),
-                getValueFormatted(standart.getValue()/value, standart.getLocale()));
+                getValueFormatted(standart.getValue() / value, standart.getLocale()));
     }
 }
 

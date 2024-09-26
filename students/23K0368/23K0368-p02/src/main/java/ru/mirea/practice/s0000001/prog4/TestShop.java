@@ -1,4 +1,5 @@
 package ru.mirea.practice.s0000001.prog4;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -16,9 +17,7 @@ public abstract class TestShop {
 
     public static Shop[] adding(Shop element, Shop[] shop) {
         Shop[] shop1 = new Shop[shop.length + 1];
-        for (int i = 0; i < shop.length; i++) {
-            shop1[i] = shop[i];
-        }
+        System.arraycopy(shop, 0, shop1, 0, shop.length);
         shop1[shop.length - 1] = element;
         return shop1;
     }
@@ -47,10 +46,6 @@ public abstract class TestShop {
                 String name = array[2];
                 shop[i] = new Shop(model, price, name);
             }
-//        shop[0] = new Shop("Apple", 130, "M1");
-//        shop[1] = new Shop("AMD", 140, "M2");
-//        shop[2] = new Shop("Intel", 150, "M3");
-//        shop[3] = new Shop("BMW", 160, "M4");
 
             System.out.println("Введите что вы хотите сделать добавить удалить или найти компьютер?");
 

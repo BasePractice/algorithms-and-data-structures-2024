@@ -21,6 +21,6 @@ public abstract class Shell {
         System.out.println("Строковое представление: " + d);
 
         //Вывод всех
-        System.out.println(dX1 + " " +  dX2  + " " +  prD  + " " +  pD  + " " +  pF  + " " +  pL  + " " +  pI);
+        System.out.println(dX1 + " " + dX2 + " " + prD + " " + pD + " " + pF + " " + pL + " " + pI);
     }
 }
