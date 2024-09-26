@@ -8,7 +8,7 @@ public abstract class BookTest {
 
         Book[] books = new Book[6];
         for (int i = books.length - 1; i >= 0; i--) {
-            books[books.length - i - 1] = new Book(Integer.toString(i), Integer.toString(i), new Date(1830 + i - 1900, i-1, i));
+            books[books.length - i - 1] = new Book(Integer.toString(i), Integer.toString(i), new Date(1830 + i - 1900, i - 1, i));
         }
 
         Bookshelf bookshelf = new Bookshelf(books);

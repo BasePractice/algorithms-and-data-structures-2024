@@ -15,13 +15,11 @@ public abstract class Tester {
         try (Scanner sc = new Scanner(System.in)) {
             sc.useLocale(Locale.US);
             while (!"exit".equalsIgnoreCase(choice)) {
-                System.out.print("\nEnter command: " +
-                        "\nExit: Exit " +
-                        "\nShow all: show" +
-                        "\nAdd item: Add " +
-                        "\nRemove item: Remove" +
-                        "\nFind item: Find" +
-                        "\nEnter here: ");
+                System.out.print("\nEnter command: " + "\nExit: Exit "
+                        + "\nShow all: show"
+                        + "\nAdd item: Add "
+                        + "\nRemove item: Remove"
+                        + "\nFind item: Find" + "\nEnter here: ");
                 choice = sc.nextLine();
                 switch (choice.toLowerCase(russian)) {
                     case "exit":
@@ -54,13 +52,11 @@ public abstract class Tester {
                             System.out.println("Enter item name: ");
                             name = sc.nextLine();
                             System.out.println("Found items:");
-                            System.out.print("Found items: " +
-                                    shop.findByName(name) + '\n');
+                            System.out.print("Found items: " + shop.findByName(name) + '\n');
                         } else {
                             System.out.println("Enter item cost: ");
                             cost = sc.nextFloat();
-                            System.out.print("Found items: " +
-                                    shop.findByCost(cost) + '\n');
+                            System.out.print("Found items: " + shop.findByCost(cost) + '\n');
                         }
                         choice = sc.nextLine();
                         break;
