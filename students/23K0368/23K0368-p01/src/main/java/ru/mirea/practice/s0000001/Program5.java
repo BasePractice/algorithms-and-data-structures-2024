@@ -1,4 +1,5 @@
 package ru.mirea.practice.s0000001;
+
 import java.util.Arrays;
 
 public abstract class Program5 {
