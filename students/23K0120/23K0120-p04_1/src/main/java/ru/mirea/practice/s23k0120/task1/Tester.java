@@ -8,10 +8,8 @@ public abstract class Tester {
 
         Shape[] shapes = {circle, rect, square};
 
-        for (Shape shape: shapes) {
-            System.out.printf("%s, %s Perimeter: %f Area: %f\n",
-                    shape.getType(), shape,
-                    shape.getPerimeter(), shape.getArea());
+        for (Shape shape : shapes) {
+            System.out.printf("%s, %s Perimeter: %f Area: %f\n", shape.getType(), shape, shape.getPerimeter(), shape.getArea());
         }
     }
 }

@@ -1,6 +1,6 @@
 package ru.mirea.practice.s23k0120.task10;
 
-public class Ship extends Vehicle{
+public class Ship extends Vehicle {
 
     public Ship() {
         // Default constructor
@@ -17,6 +17,7 @@ public class Ship extends Vehicle{
     public Ship(double speed, double cost, int passengerSeats, double cargoCapacity) {
         super(speed, cost, passengerSeats, cargoCapacity);
     }
+
     @Override
     public void transportPassengers(int numOfPassengers, double distance) {
         super.transportPassengers(numOfPassengers, distance);

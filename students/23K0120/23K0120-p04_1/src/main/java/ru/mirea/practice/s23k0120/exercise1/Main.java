@@ -12,7 +12,7 @@ public abstract class Main {
         // (Trying to access Parent class version but it doesn't exist)
         // Can't access child version of a method when the object is upcasted, but the method isn't defined in the parent class
 
-        Circle c1 = (Circle)s1;// Downcast back to Circle
+        Circle c1 = (Circle) s1;// Downcast back to Circle
         System.out.println(c1); // Child class version
         System.out.println(c1.getArea()); // Child class version
         System.out.println(c1.getPerimeter()); // Child class version
@@ -28,7 +28,7 @@ public abstract class Main {
         System.out.println(s3.getColor()); // Child class version
         //System.out.println(s3.getLength()); // Cannot resolve method "getLength" in "Shape" (Trying to access Parent class version)
         System.out.println("Rectangle r1 = (Rectangle)s3;");
-        Rectangle r1 = (Rectangle)s3; //downcast
+        Rectangle r1 = (Rectangle) s3; //downcast
         System.out.println(r1);
         System.out.println(r1.getArea());
         System.out.println(r1.getColor());
@@ -38,16 +38,17 @@ public abstract class Main {
         System.out.println(s4.getArea());
         System.out.println(s4.getColor());
         //System.out.println(s4.getSide()); // Cannot resolve method "getSide" in "Shape" (Trying to access Parent class version)
-/*обратите внимание, что выполняем downcast Shape s4 к
-Rectangle, который является суперклассом
-Square(родителем), вместо Square */
-        Rectangle r2 = (Rectangle)s4;
-        System.out.println(r2); System.out.println(r2.getArea());
+        /*обратите внимание, что выполняем downcast Shape s4 к
+        Rectangle, который является суперклассом
+        Square(родителем), вместо Square */
+        Rectangle r2 = (Rectangle) s4;
+        System.out.println(r2);
+        System.out.println(r2.getArea());
         System.out.println(r2.getColor());
         //System.out.println(r2.getSide()); // Cannot resolve method "getSide" in "Shape" (Trying to access Parent class version)
         System.out.println(r2.getLength());
-// Downcast Rectangle r2 к Square
-        Square sq1 = (Square)r2;
+        // Downcast Rectangle r2 к Square
+        Square sq1 = (Square) r2;
         System.out.println(sq1);
         System.out.println(sq1.getArea());
         System.out.println(sq1.getColor());

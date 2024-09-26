@@ -26,20 +26,16 @@ public class Circle extends Shape {
 
     @Override
     public double getPerimeter() {
-        return radius*Math.PI*2;
+        return radius * Math.PI * 2;
     }
 
     @Override
     public double getArea() {
-        return radius*radius*Math.PI;
+        return radius * radius * Math.PI;
     }
 
     @Override
     public String toString() {
-        return "Circle{" +
-                "radius=" + radius +
-                ", color='" + color + '\'' +
-                ", filled=" + filled +
-                '}';
+        return "Circle{" + "radius=" + radius + ", color='" + color + '\'' + ", filled=" + filled + '}';
     }
 }

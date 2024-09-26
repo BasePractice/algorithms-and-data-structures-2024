@@ -4,9 +4,11 @@ public class Student extends Learner {
     public Student() {
         super();
     }
+
     public Student(String name, int age) {
         super(name, age);
     }
+
     public Student(String name, int age, float grade) {
         super(name, age, grade);
     }
@@ -18,9 +20,6 @@ public class Student extends Learner {
 
     @Override
     public String toString() {
-        return "Студент{" +
-                "ФИО= " + this.name +
-                ", Возраст=" + this.age +
-                " лет}";
+        return "Студент{" + "ФИО= " + this.name + ", Возраст=" + this.age + " лет}";
     }
 }

@@ -27,7 +27,7 @@ public class Matrix {
         }
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
-                this.values[i][j] = matrix.values[i][j];
+                this.values[i][j] += matrix.values[i][j];
             }
         }
     }
@@ -63,6 +63,10 @@ public class Matrix {
             }
         }
         return matrixA;
+    }
+
+    public static Matrix multiply(Matrix matrixA, Matrix matrixB) {
+        return matrixA.multiplyRight(matrixB);
     }
 
     public Matrix multiplyRight(Matrix matrix) {
@@ -101,14 +105,10 @@ public class Matrix {
         return matrix1;
     }
 
-    public static Matrix multiply(Matrix matrixA, Matrix matrixB) {
-        return matrixA.multiplyRight(matrixB);
-    }
-
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
-        for (float[] row: values) {
+        for (float[] row : values) {
             stringBuilder.append(Arrays.toString(row));
             stringBuilder.append('\n');
         }

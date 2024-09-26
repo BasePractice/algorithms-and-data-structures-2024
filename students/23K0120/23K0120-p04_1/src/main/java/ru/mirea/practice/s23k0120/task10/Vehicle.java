@@ -9,6 +9,7 @@ public class Vehicle {
     public Vehicle() {
         // Default constructor
     }
+
     public Vehicle(double speed, double cost, int passengerSeats) {
         this.speed = speed;
         this.cost = cost;
@@ -43,17 +44,16 @@ public class Vehicle {
     public int getPassengerSeats() {
         return passengerSeats;
     }
+
     public void transportPassengers(int numOfPassengers, double distance) {
-        double cost = distance * (numOfPassengers*80) * this.cost / (1000 * 100);
-        double time = distance/this.speed;
-        System.out.printf("It would cost $ %.2f to transfer %d passengers for %.3f km for %.3f hours",
-                cost, numOfPassengers, distance, time);
+        double cost = distance * (numOfPassengers * 80) * this.cost / (1000 * 100);
+        double time = distance / this.speed;
+        System.out.printf("It would cost $ %.2f to transfer %d passengers for %.3f km for %.3f hours", cost, numOfPassengers, distance, time);
     }
 
     public void transportCargo(double weight, double distance) {
-        double cost = distance * weight *this.cost / (1000 * 100) ;
-        double time = distance/this.speed;
-        System.out.printf("It would cost $ %f to transfer %f cargo for %f km for %f hours",
-                cost, weight, distance, time);
+        double cost = distance * weight * this.cost / (1000 * 100);
+        double time = distance / this.speed;
+        System.out.printf("It would cost $ %f to transfer %f cargo for %f km for %f hours", cost, weight, distance, time);
     }
 }

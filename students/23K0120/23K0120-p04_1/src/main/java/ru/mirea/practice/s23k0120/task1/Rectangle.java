@@ -1,8 +1,9 @@
 package ru.mirea.practice.s23k0120.task1;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
     float width;
     float height;
+
     public Rectangle(float width, float height) {
         this.width = width;
         this.height = height;
@@ -15,19 +16,16 @@ public class Rectangle extends Shape{
 
     @Override
     public float getPerimeter() {
-        return (float)(width*2 + height*2);
+        return width * 2 + height * 2;
     }
 
     @Override
     public float getArea() {
-        return (float)(width*height);
+        return width * height;
     }
 
     @Override
     public String toString() {
-        return "Rectangle{" +
-                "width=" + width +
-                ", length=" + height +
-                '}';
+        return "Rectangle{" + "width=" + width + ", length=" + height + '}';
     }
 }

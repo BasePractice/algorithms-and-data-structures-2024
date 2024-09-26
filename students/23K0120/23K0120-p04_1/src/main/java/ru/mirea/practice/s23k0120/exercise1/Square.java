@@ -22,10 +22,6 @@ public class Square extends Rectangle {
 
     @Override
     public String toString() {
-        return "Square{" +
-                "side=" + width +
-                ", filled=" + filled +
-                ", color='" + color + '\'' +
-                '}';
+        return "Square{" + "side=" + width + ", filled=" + filled + ", color='" + color + '\'' + '}';
     }
 }

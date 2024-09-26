@@ -10,18 +10,18 @@ public abstract class Main {
         Learner[] learners;
         learners = new Learner[]{student1, pupil1, student2, student3, pupil2};
 
-        for (Learner learner: learners) {
+        for (Learner learner : learners) {
             if (learner instanceof Pupil) {
                 System.out.println(learner);
             }
         }
-        for (Learner learner: learners) {
+        for (Learner learner : learners) {
             if (learner instanceof Student) {
                 System.out.println(learner);
             }
         }
 
-        for (Learner learner: learners) {
+        for (Learner learner : learners) {
             learner.study();
         }
     }

@@ -1,6 +1,6 @@
 package ru.mirea.practice.s23k0120.task1;
 
-public class Square extends Rectangle{
+public class Square extends Rectangle {
 
     public Square(float side) {
         super(side, side);
@@ -13,8 +13,6 @@ public class Square extends Rectangle{
 
     @Override
     public String toString() {
-        return "Square{" +
-                "side=" + width +
-                "}";
+        return "Square{" + "side=" + width + "}";
     }
 }

@@ -1,6 +1,6 @@
 package ru.mirea.practice.s23k0120.task10;
 
-public class Plane extends Vehicle{
+public class Plane extends Vehicle {
 
     public Plane() {
         // Default constructor
