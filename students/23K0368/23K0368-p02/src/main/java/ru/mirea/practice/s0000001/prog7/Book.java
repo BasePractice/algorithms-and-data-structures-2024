@@ -13,25 +13,41 @@ public class Book {
         this.pages = pages;
     }
 
-    public String getAuthor() {return author;}
-    public void setAuthor(String author) {this.author = author;}
+    public String getAuthor() {
+        return author;
+    }
 
-    public String getTitle() {return title;}
-    public void setTitle(String title) {this.title = title;}
+    public void setAuthor(String author) {
+        this.author = author;
+    }
 
-    public Integer getYear() {return year;}
-    public void setYear(Integer year) {this.year = year;}
+    public String getTitle() {
+        return title;
+    }
 
-    public String getStranichy() {return pages;}
-    public void setStranichy(String stranichy) {this.pages = pages;}
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public Integer getYear() {
+        return year;
+    }
+
+    public void setYear(Integer year) {
+        this.year = year;
+    }
+
+    public String getStranichy() {
+        return pages;
+    }
+
+    public void setStranichy(String stranichy) {
+        this.pages = pages;
+    }
 
     @Override
     public String toString() {
-        return "Book{" +
-                "Author='" + author + '\'' +
-                ", Title='" + title + '\'' +
-                ", Year='" + year + '\'' +
-                ", Stranichy='" + pages + '\'' +
-                '}';
+        return "Book{" + "Author='" + author + '\''
+                + ", Title='" + title + '\'' + ", Year='" + year + '\'' + ", Stranichy='" + pages + '\'' + '}';
     }
 }
