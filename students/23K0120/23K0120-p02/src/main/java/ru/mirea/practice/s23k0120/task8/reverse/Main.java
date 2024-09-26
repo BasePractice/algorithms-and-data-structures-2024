@@ -16,11 +16,11 @@ public abstract class Main {
         }
 
         char c;
-        for (int i = 0; i < str.length()/2; i++) {
+        for (int i = 0; i < str.length() / 2; i++) {
             c = str.charAt(i);
-            str.setCharAt(i, str.charAt(str.length()-1-i));
-            str.setCharAt(str.length()-1-i, c);
+            str.setCharAt(i, str.charAt(str.length() - 1 - i));
+            str.setCharAt(str.length() - 1 - i, c);
         }
-        System.out.println(str.toString());
+        System.out.println(str);
     }
 }

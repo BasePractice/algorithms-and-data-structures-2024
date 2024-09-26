@@ -1,8 +1,9 @@
 package ru.mirea.practice.s0000001;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-abstract public class Program4 {
+public abstract class Program4 {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
 
@@ -18,8 +19,8 @@ abstract public class Program4 {
                 i++;
             }
 
-            int sum = Arrays.stream(array).sum();
-            int max = Arrays.stream(array).max().getAsInt();
+            final int sum = Arrays.stream(array).sum();
+            final int max = Arrays.stream(array).max().getAsInt();
             i = 0;
 
             do {

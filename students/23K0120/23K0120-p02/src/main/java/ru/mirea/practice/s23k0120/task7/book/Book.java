@@ -39,10 +39,6 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
-                "author='" + author + '\'' +
-                ", name='" + name + '\'' +
-                ", date=" + date +
-                '}';
+        return "Book{" + "author='" + author + '\'' + ", name='" + name + '\'' + ", date=" + date + '}';
     }
 }
