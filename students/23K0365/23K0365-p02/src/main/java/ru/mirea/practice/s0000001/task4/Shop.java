@@ -12,21 +12,21 @@ public class Shop{
         this.gpu = gpu;
     }
 
-    public String getBrand() {
-        return brand;
-    }
-
-    public String getcpu() {
-        return cpu;
-    }
-
-    public int getPrice() {
-        return price;
-    }
-
-    public String getgpu() {
-        return gpu;
-    }
+//    public String getBrand() {
+//        return brand;
+//    }
+//
+//    public String getcpu() {
+//        return cpu;
+//    }
+//
+//    public int getPrice() {
+//        return price;
+//    }
+//
+//    public String getgpu() {
+//        return gpu;
+//    }
 
     public Shop[] addComp(Shop[] arr, Shop newOne){
         int len=arr.length;
@@ -49,9 +49,8 @@ public class Shop{
 
     public void findExactByPrice(int priceMax, int priceMin){
         if(priceMin<=this.price && this.price<=priceMax){
-                System.out.print("Ur option: "+toString());}
+                System.out.print("Ur option: " + toString());}
     }
-
 
     @Override
     public String toString(){
