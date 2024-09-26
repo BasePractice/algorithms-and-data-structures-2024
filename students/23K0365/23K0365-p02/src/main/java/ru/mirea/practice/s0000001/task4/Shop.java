@@ -1,31 +1,31 @@
 package ru.mirea.practice.s0000001.task4;
 public class Shop{
     private String brand;
-    private String CPU;
+    private String cpu;
     private int price;
-    private String GPU;
+    private String gpu;
 
-    public Shop(String brand, String CPU, int price, String GPU) {
+    public Shop(String brand, String cpu, int price, String gpu) {
         this.brand = brand;
-        this.CPU = CPU;
+        this.cpu = cpu;
         this.price = price;
-        this.GPU = GPU;
+        this.gpu = gpu;
     }
 
     public String getBrand() {
         return brand;
     }
 
-    public String getCPU() {
-        return CPU;
+    public String getcpu() {
+        return cpu;
     }
 
     public int getPrice() {
         return price;
     }
 
-    public String getGPU() {
-        return GPU;
+    public String getgpu() {
+        return gpu;
     }
 
     public Shop[] addComp(Shop[] arr, Shop newOne){
@@ -38,8 +38,13 @@ public class Shop{
         return newArr;
     }
 
-    public void delComp(){
-        System.out.print("Deleted: "+toString());
+    public Shop[] delComp(Shop[] arr, int cnt){
+        int len=arr.length;
+        Shop[] newArr = new Shop[len-1];
+        for(int i =0;i<len;i++){
+            if(i!=cnt){newArr[i]=arr[i];}
+        }
+        return newArr;
     }
 
     public void findExactByPrice(int priceMax, int priceMin){
@@ -50,9 +55,9 @@ public class Shop{
 
     @Override
     public String toString(){
-        return "Brand is "+brand+" with CPU - "
-                +CPU+" and GPU - "
-                +GPU+". Price is "+price;
+        return "Brand is "+brand+" with cpu - "
+                +cpu+" and gpu - "
+                +gpu+". Price is "+price;
     }
 
 }
