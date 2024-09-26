@@ -1,4 +1,5 @@
 package ru.mirea.practice.s0000001;
+
 import java.util.Scanner;
 
 public abstract class Program6 {

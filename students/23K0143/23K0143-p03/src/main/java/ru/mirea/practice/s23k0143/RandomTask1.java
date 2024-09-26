@@ -6,7 +6,6 @@ import java.util.Random;
 public abstract class RandomTask1 {
     public static void main(String[] args) {
         double[] arr1 = new double[10];
-        double[] arr2 = new double[10];
 
         for (int i = 0; i < 10; i++) {
             arr1[i] = Math.random() * 100;
@@ -18,6 +17,7 @@ public abstract class RandomTask1 {
         System.out.println(Arrays.toString(arr1));
 
         Random random = new Random();
+        double[] arr2 = new double[10];
         for (int i = 0; i < 10; i++) {
             arr2[i] = random.nextDouble() * 100;
         }

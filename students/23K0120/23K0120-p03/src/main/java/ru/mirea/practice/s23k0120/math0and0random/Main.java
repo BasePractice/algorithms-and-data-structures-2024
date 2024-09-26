@@ -1,4 +1,4 @@
-package ru.mirea.practice.s23k0120.math_and_random;
+package ru.mirea.practice.s23k0120.math0and0random;
 
 import java.util.Arrays;
 import java.util.Random;

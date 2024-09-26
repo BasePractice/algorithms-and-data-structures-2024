@@ -1,9 +1,9 @@
 package ru.mirea.practice.s23k0143;
 
 public class Author {
-    private String name;
+    private final String name;
     private String email;
-    private char gender;
+    private final char gender;
 
     public Author(String name, String email, char gender) {
         this.name = name;
@@ -23,7 +23,7 @@ public class Author {
         return gender;
     }
 
-    public void setEmail(String email){
+    public void setEmail(String email) {
         this.email = email;
     }
 

@@ -3,7 +3,7 @@ package ru.mirea.practice.s23k0143;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class DogKennel extends ArrayList<Dog>{
+public class DogKennel extends ArrayList<Dog> {
 
     public void addDog(Dog dog) {
         this.add(dog);
@@ -32,7 +32,7 @@ public class DogKennel extends ArrayList<Dog>{
             System.out.println("\nСписок собак в приюте:");
             kennel.displayDogs();
 
-        }  catch (RuntimeException e) {
+        } catch (RuntimeException e) {
             throw new RuntimeException(e);
         }
     }

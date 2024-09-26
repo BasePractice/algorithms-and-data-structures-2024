@@ -8,15 +8,19 @@ public class Item {
         this.name = name;
         this.cost = cost;
     }
+
     public String getName() {
         return this.name;
     }
+
     public float getCost() {
         return this.cost;
     }
+
     public void setName(String name) {
         this.name = name;
     }
+
     public void setCost(float cost) {
         this.cost = cost;
     }
@@ -24,9 +28,6 @@ public class Item {
 
     @Override
     public String toString() {
-        return "{" +
-                "name='" + name + '\'' +
-                ", cost=" + cost +
-                '}';
+        return "{" + "name='" + name + '\'' + ", cost=" + cost + '}';
     }
 }

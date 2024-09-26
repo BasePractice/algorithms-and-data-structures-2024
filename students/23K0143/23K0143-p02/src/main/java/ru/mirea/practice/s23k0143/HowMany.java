@@ -5,7 +5,7 @@ import java.util.Scanner;
 public abstract class HowMany {
     public static void main(String[] args) {
 
-        try(Scanner sc = new Scanner(System.in);) {
+        try (Scanner sc = new Scanner(System.in)) {
 
             System.out.println("Введите текст: ");
             String s = sc.nextLine();

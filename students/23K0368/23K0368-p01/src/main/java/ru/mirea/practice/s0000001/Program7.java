@@ -1,9 +1,10 @@
 package ru.mirea.practice.s0000001;
+
 import java.util.Scanner;
 
 public abstract class Program7 {
     public static void main(String[] args) {
-        try (Scanner sc = new Scanner(System.in)){
+        try (Scanner sc = new Scanner(System.in)) {
 
             int n = 0;
             int fact = 1;
