@@ -15,7 +15,7 @@ public class Plane extends Vehicle{
     }
 
     public Plane(double speed, double cost, int passengerSeats, double cargoCapacity) {
-        super(speed, cost, cargoCapacity);
+        super(speed, cost, passengerSeats, cargoCapacity);
     }
 
     @Override

@@ -15,7 +15,7 @@ public class Ship extends Vehicle{
     }
 
     public Ship(double speed, double cost, int passengerSeats, double cargoCapacity) {
-        super(speed, cost, cargoCapacity);
+        super(speed, cost, passengerSeats, cargoCapacity);
     }
     @Override
     public void transportPassengers(int numOfPassengers, double distance) {

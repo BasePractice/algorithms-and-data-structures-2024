@@ -15,7 +15,7 @@ public class Car extends Vehicle{
     }
 
     public Car(double speed, double cost, int passengerSeats, double cargoCapacity) {
-        super(speed, cost, cargoCapacity);
+        super(speed, cost, passengerSeats, cargoCapacity);
     }
 
     @Override

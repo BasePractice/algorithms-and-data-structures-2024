@@ -20,6 +20,7 @@ public abstract class Main {
         System.out.println(c1.isFilled()); // Child class version
         System.out.println(c1.getRadius()); // Child class version
         Shape s2 = new Shape();
+        System.out.println(s2);
         Shape s3 = new Rectangle(1.0, 2.0, "RED", false); // Upcast
         System.out.println(s3); // Child class version
         System.out.println(s3.getArea()); // Child class version

@@ -8,7 +8,7 @@ public class Vehicle {
 
     public Vehicle() {
         // Default constructor
-    };
+    }
     public Vehicle(double speed, double cost, int passengerSeats) {
         this.speed = speed;
         this.cost = cost;

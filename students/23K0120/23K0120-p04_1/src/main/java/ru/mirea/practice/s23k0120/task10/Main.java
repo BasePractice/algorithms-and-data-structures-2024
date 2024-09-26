@@ -1,6 +1,6 @@
 package ru.mirea.practice.s23k0120.task10;
 
-public class Main {
+public abstract class Main {
     public static void main(String[] args) {
         Car car = new Car(110f, 200f, 4, 300);
         Plane plane = new Plane(950f, 5000f, 20, 5000);
