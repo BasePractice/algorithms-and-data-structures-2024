@@ -8,11 +8,11 @@
         <version>2024.1</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
-    <artifactId>23K0350</artifactId>
+    <artifactId>23K1302</artifactId>
     <packaging>pom</packaging>
-    <description>Практическая работа Ксении Кобловой</description>
+    <description>Практическая работа Тимофея</description>
 
     <modules>
-        <module>23K0350-p01</module>
+        <module>23K1302-p01</module>
     </modules>
 </project>
