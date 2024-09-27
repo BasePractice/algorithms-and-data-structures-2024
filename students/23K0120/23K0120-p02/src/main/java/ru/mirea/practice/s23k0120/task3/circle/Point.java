@@ -4,6 +4,7 @@ package ru.mirea.practice.s23k0120.task3.circle;
 public class Point {
     private double x = 0.0;
     private double y = 0.0;
+
     public Point() {
         // Default Constructor
     }
@@ -15,8 +16,8 @@ public class Point {
 
     public void setPolar(double r, double angle) {
         angle = angle * Math.PI / 180f;
-        this.x = r*Math.cos(angle);
-        this.y = r*Math.sin(angle);
+        this.x = r * Math.cos(angle);
+        this.y = r * Math.sin(angle);
     }
 
     public double getX() {
@@ -52,8 +53,8 @@ public class Point {
     public void rotate(double angle) {
         angle = angle * Math.PI / 180f;
         double xTemp = this.x;
-        this.x = this.x*Math.cos(angle) - this.y*Math.sin(angle);
-        this.y = xTemp*Math.sin(angle) + this.y*Math.cos(angle);
+        this.x = this.x * Math.cos(angle) - this.y * Math.sin(angle);
+        this.y = xTemp * Math.sin(angle) + this.y * Math.cos(angle);
     }
 
     @Override

@@ -7,7 +7,9 @@ public class Converter extends ArrayList<Currency> {
 
     public Currency getCurrency(String name) throws NoSuchObjectException {
         for (Currency currency : this) {
-            if (currency.getName().equals(name)) {return currency;}
+            if (currency.getName().equals(name)) {
+                return currency;
+            }
         }
         throw new NoSuchObjectException(String.format("No currency with name '%s' found", name));
     }
@@ -25,7 +27,7 @@ public class Converter extends ArrayList<Currency> {
     }
 
     public String convert(float valueFrom, Currency currencyFrom, Currency currencyTo) {
-        float valueTo = valueFrom * currencyFrom.getValue() / currencyTo.getValue() ;
+        float valueTo = valueFrom * currencyFrom.getValue() / currencyTo.getValue();
         return String.format("%s = %s", Currency.getValueFormatted(valueFrom, currencyFrom.getLocale()),
                 Currency.getValueFormatted(valueTo, currencyTo.getLocale()));
     }

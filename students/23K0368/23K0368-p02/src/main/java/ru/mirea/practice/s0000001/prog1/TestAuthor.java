@@ -1,5 +1,5 @@
 package ru.mirea.practice.s0000001.prog1;
-import java.lang.*;
+
 import java.util.Scanner;
 
 public abstract class TestAuthor {

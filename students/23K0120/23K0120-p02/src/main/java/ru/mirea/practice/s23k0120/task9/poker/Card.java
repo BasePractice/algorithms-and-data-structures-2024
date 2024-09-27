@@ -1,10 +1,8 @@
 package ru.mirea.practice.s23k0120.task9.poker;
 
 public class Card {
-    public enum Suits {HEARTS, DIAMONDS, CLUBS, SPADES}
-    public enum Ranks {TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING, ACE, JOKER}
-    private Suits suit;
-    private Ranks rank;
+    private final Suits suit;
+    private final Ranks rank;
 
     public Card(Suits suit, Ranks rank) {
         this.suit = suit;
@@ -28,11 +26,18 @@ public class Card {
         if (rank == Ranks.JOKER) {
             if (suit == Suits.HEARTS) {
                 return "RED " + rank;
-            }
-            else {
+            } else {
                 return "BLACK " + rank;
             }
         }
         return rank + " " + suit;
+    }
+
+    public enum Suits {
+        HEARTS, DIAMONDS, CLUBS, SPADES
+    }
+
+    public enum Ranks {
+        TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING, ACE, JOKER
     }
 }

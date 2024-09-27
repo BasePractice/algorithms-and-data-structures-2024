@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Bookshelf {
     Book[] books;
     int size;
+
     public Bookshelf(Book[] books) {
         this.books = books.clone();
         this.size = this.books.length;
@@ -52,9 +53,7 @@ public class Bookshelf {
 
     @Override
     public String toString() {
-        return "Bookshelf: " +
-                "\n" + Arrays.toString(books).replace("}, ", "}\n" ) +
-                ", size=" + size +
-                '}';
+        return "Bookshelf: "
+                + "\n" + Arrays.toString(books).replace("}, ", "}\n") + ", size=" + size + '}';
     }
 }
