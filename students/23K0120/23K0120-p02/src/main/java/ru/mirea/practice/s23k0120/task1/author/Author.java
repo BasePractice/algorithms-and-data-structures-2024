@@ -2,8 +2,8 @@ package ru.mirea.practice.s23k0120.task1.author;
 
 public class Author {
     private final String name;
-    private String email;
     private final char gender;
+    private String email;
 
     public Author(String name, String email, char gender) {
         this.name = name;
