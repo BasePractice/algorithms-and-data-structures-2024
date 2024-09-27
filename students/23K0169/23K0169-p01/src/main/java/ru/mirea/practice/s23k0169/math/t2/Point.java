@@ -1,7 +1,6 @@
-package ru.mirea.practice.s23k0169.t3;
+package ru.mirea.practice.s23k0169.math.t2;
 
-
-public class Point {
+class Point {
     private double x;
     private double y;
 
@@ -16,13 +15,5 @@ public class Point {
 
     public double getY() {
         return y;
-    }
-
-    @Override
-    public String toString() {
-        return "Point{" +
-                "x='" + x +
-                ", y='" + y +
-                '}';
     }
 }
