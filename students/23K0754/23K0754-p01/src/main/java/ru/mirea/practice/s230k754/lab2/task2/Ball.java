@@ -8,7 +8,6 @@ public class Ball {
         this.x = x;
         this.y = y;
     }
-
     public Ball() {
         this.x = 0.0;
         this.y = 0.0;
@@ -35,9 +34,6 @@ public class Ball {
         this.y = y;
     }
 
-    public void move(double xdisp, double ydisp) {
-        this.x += xdisp;
-        this.y += ydisp;
     }
 
     @Override
