@@ -3,16 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>algorithms-and-data-structures</artifactId>
+        <artifactId>24K0459</artifactId>
         <groupId>ru.mirea.practice</groupId>
         <version>2024.1</version>
-        <relativePath>../../pom.xml</relativePath>
+        <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>23K0350</artifactId>
-    <packaging>pom</packaging>
-    <description>Практическая работа Ксении Кобловой</description>
-
-    <modules>
-        <module>23K0350-p01</module>
-    </modules>
+    <artifactId>24K0459-p02</artifactId>
+    <description>?</description>
 </project>
