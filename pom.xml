@@ -28,12 +28,20 @@
 
     <modules>
         <module>students/0000001</module>
+        <module>students/23K0093</module>
+        <module>students/23K0690</module>
         <module>students/23K0120</module>
+        <module>students/23K0143</module>
+        <module>students/23K0365</module>
+        <module>students/23K0368</module>
+        <module>students/23K0754</module>
         <module>students/24K0458</module>
         <module>students/23K0350</module>
-        <module>students/23K0143</module>
-        <module>students/23K0368</module>
+        <module>students/23K1302</module>
+        <module>students/23K0346</module>
         <module>students/24K0459</module>
+        <module>students/23K0364</module>
+        <module>students/23K0155</module>
     </modules>
 
     <dependencies>
