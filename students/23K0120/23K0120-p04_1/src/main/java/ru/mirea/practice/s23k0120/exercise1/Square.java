@@ -14,10 +14,13 @@ public class Square extends Rectangle {
         super(side, side, color, filled);
     }
 
-
     public void setSide(double side) {
         this.width = side;
         this.length = side;
+    }
+
+    public double getSide() {
+        return this.width;
     }
 
     @Override

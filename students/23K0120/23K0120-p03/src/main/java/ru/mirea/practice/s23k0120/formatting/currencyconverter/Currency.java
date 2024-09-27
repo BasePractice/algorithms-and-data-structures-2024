@@ -9,15 +9,15 @@ public class Currency {
     private final Locale locale;
     private float value;
 
-    public static String getValueFormatted(float value, Locale locale) {
-        NumberFormat format = NumberFormat.getCurrencyInstance(locale);
-        return format.format(value);
-    }
-
     public Currency(String name, Locale locale, float value) {
         this.name = name;
         this.locale = locale;
         this.value = value;
+    }
+
+    public static String getValueFormatted(float value, Locale locale) {
+        NumberFormat format = NumberFormat.getCurrencyInstance(locale);
+        return format.format(value);
     }
 
     public String getName() {
