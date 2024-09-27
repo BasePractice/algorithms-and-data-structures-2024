@@ -10,6 +10,13 @@ public class PitomnicSobac {
         numberOfDogs = 0;
     }
 
+    public static void main(String[] args) {
+        PitomnicSobac kennel = new PitomnicSobac(5);
+        kennel.addDog(new Dog("Мухтар", 7));
+        kennel.addDog(new Dog("САША", 5));
+        kennel.printDogs();
+    }
+
     public void addDog(Dog dog) {
         if (numberOfDogs < dogs.length) {
             dogs[numberOfDogs++] = dog;
@@ -20,12 +27,5 @@ public class PitomnicSobac {
         for (int i = 0; i < numberOfDogs; i++) {
             System.out.println(dogs[i]);
         }
-    }
-
-    public static void main(String[] args) {
-        PitomnicSobac kennel = new PitomnicSobac(5);
-        kennel.addDog(new Dog("Мухтар", 7));
-        kennel.addDog(new Dog("САША", 5));
-        kennel.printDogs();
     }
 }

@@ -9,6 +9,13 @@ public class Tester {
         numberOfCircles = 0;
     }
 
+    public static void main(String[] args) {
+        Tester tester = new Tester(5);
+        tester.addCircle(new Circle(new Point(0, 0), 5));
+        tester.addCircle(new Circle(new Point(2, 3), 10));
+        tester.printCircles();
+    }
+
     public void addCircle(Circle circle) {
         if (numberOfCircles < circles.length) {
             circles[numberOfCircles++] = circle;
@@ -19,12 +26,5 @@ public class Tester {
         for (int i = 0; i < numberOfCircles; i++) {
             System.out.println(circles[i]);
         }
-    }
-
-    public static void main(String[] args) {
-        Tester tester = new Tester(5);
-        tester.addCircle(new Circle(new Point(0, 0), 5));
-        tester.addCircle(new Circle(new Point(2, 3), 10));
-        tester.printCircles();
     }
 }
