@@ -11,17 +11,28 @@ public class Book {
         this.year = year;
     }
 
-    public String getAuthor() {return author;}
-//    public void setAuthor(String author) {this.author = author;}
-    public String getname() {return name;}
-    public void setname(String name) {this.name = name;}
-    public int getyear() {return year;}
-//    public void setyear(int year) {this.year = year;}
+    public String getAuthor() {
+        return author;
+    }
+
+    //    public void setAuthor(String author) {this.author = author;}
+    public String getname() {
+        return name;
+    }
+
+    public void setname(String name) {
+        this.name = name;
+    }
+
+    public int getyear() {
+        return year;
+    }
+    //public void setyear(int year) {this.year = year;}
 
     @Override
     public String toString() {
         return "This book's Author is "
-                +author+". Year of publication - "
-                +year+". It's name is '"+name+".\n";
+                + author + ". Year of publication - "
+                + year + ". It's name is '" + name + ".\n";
     }
 }

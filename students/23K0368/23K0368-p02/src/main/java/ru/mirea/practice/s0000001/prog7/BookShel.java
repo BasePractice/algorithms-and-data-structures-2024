@@ -6,21 +6,6 @@ public class BookShel {
 
     public static Book[] polka = new Book[5];
 
-    public void release() {
-        int min = 1000;
-        int max = 0;
-        for (int i = 0; i < 5; i++) {
-            Integer cmt = polka[i].getYear();
-            if (cmt < min) {
-                min = cmt;
-            }
-            if (cmt > max) {
-                max = cmt;
-            }
-        }
-    }
-
-
     public static void ssort() {
         for (int i = 0; i < 5; i++) {
             for (int j = i + 1; j < 5; j++) {
@@ -45,5 +30,19 @@ public class BookShel {
         ssort();
         System.out.println(Arrays.toString(polka));
 
+    }
+
+    public void release() {
+        int min = 1000;
+        int max = 0;
+        for (int i = 0; i < 5; i++) {
+            Integer cmt = polka[i].getYear();
+            if (cmt < min) {
+                min = cmt;
+            }
+            if (cmt > max) {
+                max = cmt;
+            }
+        }
     }
 }

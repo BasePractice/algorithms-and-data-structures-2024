@@ -11,15 +11,19 @@ public class Dog {
         this.years = years;
     }
 
-    public String getName() {return name;}
+    public String getName() {
+        return name;
+    }
 
-    public int dogToHuman(){return this.years*7;}
+    public int dogToHuman() {
+        return this.years * 7;
+    }
 
     @Override
     public String toString() {
-        return "Dod's name is "+name+
-                " and it's owner is "+owner+
-                ". This dog is "+years+
-                " years old!!!!)";
+        return "Dod's name is " + name
+                + " and it's owner is " + owner
+                + ". This dog is " + years
+                + " years old!!!!)";
     }
 }

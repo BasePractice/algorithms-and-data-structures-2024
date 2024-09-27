@@ -11,11 +11,6 @@ public class Tester {
         this.numOfObjects = this.circles.length;
     }
 
-    @Override
-    public String toString() {
-        return "Tester{" + "circles=" + Arrays.toString(circles) + ", numOfObjects=" + numOfObjects + '}';
-    }
-
     public static void main(String[] args) {
         Circle[] circles = new Circle[5];
         for (int i = 0; i < circles.length; i++) {
@@ -24,6 +19,11 @@ public class Tester {
 
         Tester tester = new Tester(circles);
         System.out.println(tester);
+    }
+
+    @Override
+    public String toString() {
+        return "Tester{" + "circles=" + Arrays.toString(circles) + ", numOfObjects=" + numOfObjects + '}';
     }
 
 }
