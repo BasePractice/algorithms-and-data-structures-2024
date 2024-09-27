@@ -40,17 +40,17 @@ public enum Seasons {
 
     public String getDescription() {
         String season;
-        switch ((int) temperature) {
-            case 25:
+        switch (this) {
+            case SUMMER:
                 season = "Тёплое";
                 break;
-            case 15:
+            case SPRING:
                 season = "Умеренное";
                 break;
-            case 5:
+            case AUTUMN:
                 season = "Прохладное";
                 break;
-            case -10:
+            case WINTER:
                 season = "Холодное";
                 break;
             default:
@@ -63,17 +63,17 @@ public enum Seasons {
     @Override
     public String toString() {
         String season;
-        switch ((int) temperature) {
-            case 25:
+        switch (this) {
+            case SUMMER:
                 season = "Лето";
                 break;
-            case 15:
+            case SPRING:
                 season = "Весна";
                 break;
-            case 5:
+            case AUTUMN:
                 season = "Осень";
                 break;
-            case -10:
+            case WINTER:
                 season = "Зима";
                 break;
             default:
