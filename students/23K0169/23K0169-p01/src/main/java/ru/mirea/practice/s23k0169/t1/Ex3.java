@@ -2,9 +2,9 @@ package ru.mirea.practice.s23k0169.t1;
 
 import java.util.Scanner;
 
-public final class Ex1 {
+public final class Ex3 {
 
-    private Ex1() {
+    private Ex3() {
 
     }
 
