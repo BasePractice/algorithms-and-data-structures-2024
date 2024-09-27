@@ -8,6 +8,7 @@ public class Ball {
         this.x = x;
         this.y = y;
     }
+
     public Ball() {
         this.x = 0.0;
         this.y = 0.0;
@@ -32,8 +33,6 @@ public class Ball {
     public void setXY(double x, double y) {
         this.x = x;
         this.y = y;
-    }
-
     }
 
     @Override

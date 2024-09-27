@@ -15,7 +15,6 @@ public final class TestBall {
         b1.setY(2.2);
         System.out.println(b1.toString());
 
-        b1.move(1.0, 1.0);
         System.out.println(b1.toString());
     }
 }

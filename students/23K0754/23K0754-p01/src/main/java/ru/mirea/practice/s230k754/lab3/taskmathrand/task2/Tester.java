@@ -9,13 +9,13 @@ public class Tester {
         this.count = countTester;
     }
 
-    public void append(Circle cr){
+    public void append(Circle cr) {
         this.arr[count] = cr;
     }
 
     public void bigCircle() {
         double maxRadius = arr[0].getRadius();
-        for(int i = 0; i < count; i++) {
+        for (int i = 0; i < count; i++) {
             if (arr[i].getRadius() >= maxRadius) {
                 maxRadius = arr[i].getRadius();
             }
@@ -26,7 +26,7 @@ public class Tester {
 
     public void smallCircle() {
         double smRadius = arr[0].getRadius();
-        for(int i = 0; i < count; i++) {
+        for (int i = 0; i < count; i++) {
             if (arr[i].getRadius() <= smRadius) {
                 smRadius = arr[i].getRadius();
             }
@@ -37,8 +37,8 @@ public class Tester {
 
     public void sort() {
         Circle temp;
-        for(int i = 0; i < count; i++) {
-            for(int j = 0; j < count - i - 1; j++) {
+        for (int i = 0; i < count; i++) {
+            for (int j = 0; j < count - i - 1; j++) {
                 if (arr[i].getRadius() > arr[j + 1].getRadius()) {
                     temp = arr[j];
                     arr[j] = arr[j + 1];
