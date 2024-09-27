@@ -3,11 +3,12 @@ package ru.mirea.practice.s23k0120.task4.shop;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Shop extends ArrayList<Item>{
+public class Shop extends ArrayList<Item> {
 
     public Shop() {
         //Default Constructor
     }
+
     public Shop(Item[] items) {
         this.addAll(Arrays.asList(items));
     }
