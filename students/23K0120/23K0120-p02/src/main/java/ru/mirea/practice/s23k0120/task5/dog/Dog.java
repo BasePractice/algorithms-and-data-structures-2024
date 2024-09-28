@@ -21,12 +21,12 @@ public class Dog {
         return age;
     }
 
-    public float getAgeToHuman() {
-        return age * 7f;
-    }
-
     public void setAge(float age) {
         this.age = age;
+    }
+
+    public float getAgeToHuman() {
+        return age * 7f;
     }
 
     @Override

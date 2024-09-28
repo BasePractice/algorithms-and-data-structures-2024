@@ -5,17 +5,6 @@ import java.util.Scanner;
 
 public class DogKennel extends ArrayList<Dog> {
 
-    public void addDog(Dog dog) {
-        this.add(dog);
-    }
-
-    public void displayDogs() {
-        for (Object obj : this) {
-            Dog dog = (Dog) obj;
-            System.out.println(dog);
-        }
-    }
-
     public static void main(String[] args) {
         DogKennel kennel = new DogKennel();
         try (Scanner sc = new Scanner(System.in)) {
@@ -34,6 +23,17 @@ public class DogKennel extends ArrayList<Dog> {
 
         } catch (RuntimeException e) {
             throw new RuntimeException(e);
+        }
+    }
+
+    public void addDog(Dog dog) {
+        this.add(dog);
+    }
+
+    public void displayDogs() {
+        for (Object obj : this) {
+            Dog dog = (Dog) obj;
+            System.out.println(dog);
         }
     }
 }

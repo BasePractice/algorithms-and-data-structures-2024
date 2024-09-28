@@ -13,12 +13,12 @@ public class Item {
         return this.name;
     }
 
-    public float getCost() {
-        return this.cost;
-    }
-
     public void setName(String name) {
         this.name = name;
+    }
+
+    public float getCost() {
+        return this.cost;
     }
 
     public void setCost(float cost) {

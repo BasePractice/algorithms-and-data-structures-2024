@@ -12,12 +12,12 @@ public class Circle1 extends ru.mirea.practice.s23k0120.task3.circle.Circle {
         return Math.PI * Math.pow(this.getR(), 2);
     }
 
-    public double getCircumference() {
-        return Math.PI * this.getR() * 2f;
-    }
-
     public void setArea(double area) {
         this.setR(Math.sqrt(area / Math.PI));
+    }
+
+    public double getCircumference() {
+        return Math.PI * this.getR() * 2f;
     }
 
     public void setCircumference(double length) {
