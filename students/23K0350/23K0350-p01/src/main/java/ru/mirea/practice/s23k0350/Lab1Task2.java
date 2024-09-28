@@ -1,7 +1,7 @@
 package ru.mirea.practice.s23k0350;
 import java.util.Scanner;
 
-public abstract class Lab1task2 {
+public abstract class Lab1Task2 {
     public static void main(String[] args) {
         int summa = 0;
         int maxi = -10000;
