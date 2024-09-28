@@ -1,5 +1,7 @@
+package ru.mirea.practice.s0000001.task2;
+
 public class Circle extends Shape implements Shapes {
-    private int radius;
+    int radius;
 
     @Override
     public void getShape() {

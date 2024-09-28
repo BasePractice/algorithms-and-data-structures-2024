@@ -1,6 +1,8 @@
+package ru.mirea.practice.s0000001.task2;
+
 public class Rectangle extends Shape implements Shapes {
-    private int x2;
-    private int y2;
+    int x2;
+    int y2;
 
     @Override
     public void getShape() {

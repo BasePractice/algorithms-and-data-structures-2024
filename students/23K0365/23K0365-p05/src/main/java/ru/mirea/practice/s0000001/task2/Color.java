@@ -1,3 +1,5 @@
+package ru.mirea.practice.s0000001.task2;
+
 import java.util.Random;
 
 public enum Color {
