@@ -5,7 +5,7 @@ public abstract class Main {
         Seasons season = Seasons.SPRING;
         System.out.printf("%s, Длится с 1 марта по 31 мая, Второе время года в году\n", season);
 
-        for (Seasons s: Seasons.values()) {
+        for (Seasons s : Seasons.values()) {
             System.out.printf("%s, %s\n", s, s.getDescription());
         }
     }

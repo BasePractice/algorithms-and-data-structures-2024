@@ -16,26 +16,46 @@ public enum Seasons {
         return temperature;
     }
 
-    public static void iLike(Seasons season) {
+    public static void like(Seasons season) {
         String seasonStr;
         switch (season) {
-            case SUMMER: seasonStr = "лето"; break;
-            case SPRING: seasonStr = "весну"; break;
-            case AUTUMN: seasonStr = "осень"; break;
-            case WINTER: seasonStr = "зиму"; break;
-            default: seasonStr = "-"; break;
+            case SUMMER:
+                seasonStr = "лето";
+                break;
+            case SPRING:
+                seasonStr = "весну";
+                break;
+            case AUTUMN:
+                seasonStr = "осень";
+                break;
+            case WINTER:
+                seasonStr = "зиму";
+                break;
+            default:
+                seasonStr = "-";
+                break;
         }
         System.out.printf("Я люблю %s\n", seasonStr);
     }
 
     public String getDescription() {
         String season;
-        switch ((int) temperature) {
-            case 25: season = "Тёплое"; break;
-            case 15: season = "Умеренное"; break;
-            case 5: season = "Прохладное"; break;
-            case -10: season = "Холодное"; break;
-            default: season = "-"; break;
+        switch (this) {
+            case SUMMER:
+                season = "Тёплое";
+                break;
+            case SPRING:
+                season = "Умеренное";
+                break;
+            case AUTUMN:
+                season = "Прохладное";
+                break;
+            case WINTER:
+                season = "Холодное";
+                break;
+            default:
+                season = "-";
+                break;
         }
         return String.format("%s время года", season);
     }
@@ -43,12 +63,22 @@ public enum Seasons {
     @Override
     public String toString() {
         String season;
-        switch ((int) temperature) {
-            case 25: season = "Лето"; break;
-            case 15: season = "Весна"; break;
-            case 5: season = "Осень"; break;
-            case -10: season = "Зима"; break;
-            default: season = "-"; break;
+        switch (this) {
+            case SUMMER:
+                season = "Лето";
+                break;
+            case SPRING:
+                season = "Весна";
+                break;
+            case AUTUMN:
+                season = "Осень";
+                break;
+            case WINTER:
+                season = "Зима";
+                break;
+            default:
+                season = "-";
+                break;
         }
         return String.format("Время года - %s, Средняя температура - %.2f°C", season, this.temperature);
     }

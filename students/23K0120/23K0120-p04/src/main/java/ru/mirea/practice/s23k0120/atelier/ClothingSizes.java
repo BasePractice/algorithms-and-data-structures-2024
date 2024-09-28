@@ -1,11 +1,7 @@
 package ru.mirea.practice.s23k0120.atelier;
 
 public enum ClothingSizes {
-    XXS(32),
-    XS(34),
-    S(36),
-    M(38),
-    L(40);
+    XXS(32), XS(34), S(36), M(38), L(40);
 
     final int euroSize;
 
@@ -14,8 +10,11 @@ public enum ClothingSizes {
     }
 
     public String getDescription() {
-        if (euroSize >= 34) {return "Взрослый размер";}
-        else {return "Детский размер";}
+        if (euroSize >= 34) {
+            return "Взрослый размер";
+        } else {
+            return "Детский размер";
+        }
     }
 
     @Override
