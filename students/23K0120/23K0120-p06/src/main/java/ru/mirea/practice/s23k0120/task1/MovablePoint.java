@@ -1,16 +1,16 @@
-package ru.mirea.practice.s23K0120.task1;
+package ru.mirea.practice.s23k0120.task1;
 
-public class MovablePoint implements Movable{
+public class MovablePoint implements Movable {
     private double x;
     private double y;
-    private double xSpeed;
-    private double ySpeed;
+    private final double xSpeed;
+    private final double ySpeed;
 
-    public MovablePoint(double x, double y, double xSpeed, double ySpeed) {
+    public MovablePoint(double x, double y, double xspeed, double yspeed) {
         this.x = x;
         this.y = y;
-        this.xSpeed = xSpeed;
-        this.ySpeed = ySpeed;
+        this.xSpeed = xspeed;
+        this.ySpeed = yspeed;
     }
 
     public void moveUp() {
@@ -39,11 +39,6 @@ public class MovablePoint implements Movable{
 
     @Override
     public String toString() {
-        return "MovablePoint{" +
-                "x=" + x +
-                ", y=" + y +
-                ", xSpeed=" + xSpeed +
-                ", ySpeed=" + ySpeed +
-                '}';
+        return "MovablePoint{" + "x=" + x + ", y=" + y + ", xSpeed=" + xSpeed + ", ySpeed=" + ySpeed + '}';
     }
 }

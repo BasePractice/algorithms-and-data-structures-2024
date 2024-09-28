@@ -1,6 +1,6 @@
-package ru.mirea.practice.s23K0120.task11;
+package ru.mirea.practice.s23k0120.task11;
 
-public class Temperature implements Convertible  {
+public class Temperature implements Convertible {
     private Unit unit;
     private double value;
 
@@ -18,7 +18,7 @@ public class Temperature implements Convertible  {
                         returnValue = value + 273.15;
                         break;
                     case FAHRENHEIT:
-                        returnValue = (value * 9 / 5) + 32;
+                        returnValue = value * 9 / 5 + 32;
                         break;
                     default:
                         break;

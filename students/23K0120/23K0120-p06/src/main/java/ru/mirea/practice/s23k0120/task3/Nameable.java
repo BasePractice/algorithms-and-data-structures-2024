@@ -1,4 +1,4 @@
-package ru.mirea.practice.s23K0120.task3;
+package ru.mirea.practice.s23k0120.task3;
 
 public interface Nameable {
     String getName();
