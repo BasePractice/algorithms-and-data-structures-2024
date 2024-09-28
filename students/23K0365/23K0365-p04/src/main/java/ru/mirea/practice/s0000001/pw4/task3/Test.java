@@ -50,7 +50,7 @@ public abstract class Test {
                     default: break;
                 }
             }
-            System.out.println(cart);
+            cart.finishShopping();
         }
     }
 }
