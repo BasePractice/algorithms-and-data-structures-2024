@@ -12,7 +12,7 @@ public enum Size {
     M(38),
     L(40);
 
-    private final int euroSize;
+    final int euroSize;
 
     Size(int euroSize) {
         this.euroSize = euroSize;
