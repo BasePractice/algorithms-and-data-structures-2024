@@ -1,4 +1,4 @@
-package ru.mirea.practice.s0000001.task4;
+package ru.mirea.practice.s0000001.task4and5;
 
 import java.util.Random;
 import java.util.Scanner;
