@@ -1,5 +1,4 @@
 package ru.mirea.practice.s23k0350;
-
 import java.util.Arrays;
 
 public abstract class Lab1task1 {
