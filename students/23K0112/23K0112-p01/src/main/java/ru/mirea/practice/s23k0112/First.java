@@ -13,7 +13,7 @@ public final class First {
     }
 
     public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in)) { // Try-with-resources for automatic resource management
+        try (Scanner scanner = new Scanner(System.in)) {
             int length = 4;
             int sum = 0;
 
@@ -68,7 +68,7 @@ public final class First {
             System.out.print("Введите число: ");
             int num = scanner.nextInt();
             System.out.printf("factorial(%d) = %d%n", num, factorial(num));
-        } // The scanner is automatically closed here
+        }
     }
 
     private First() {
