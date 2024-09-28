@@ -38,6 +38,14 @@ public class Cart {
         this.price = price;
     }
 
+    public void finishShopping() {
+        System.out.println();
+        for (Goods x : arr) {
+            x.print();
+        }
+        System.out.println("Ur total is " + this.price);
+    }
+
     @Override
     public String toString() {
     }
