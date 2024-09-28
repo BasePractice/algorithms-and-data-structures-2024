@@ -1,7 +1,7 @@
 package ru.mirea.practice.s0000001.task33;
 
 public class Report {
-    private Employee[] arr;
+    private final Employee[] arr;
 
     public Report(Employee[] arr) {
         this.arr = arr;

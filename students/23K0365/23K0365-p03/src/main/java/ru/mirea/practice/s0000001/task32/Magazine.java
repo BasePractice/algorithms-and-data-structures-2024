@@ -74,18 +74,22 @@ public class Magazine {
     public void convertCurrency(double price) {
         System.out.println("Choose currency:\n1.USD(default)\t2.EURO\t3.YUAN");
         int choose = sc.nextInt();
+
         switch (choose) {
             case 1:
                 NumberFormat format1 = NumberFormat.getCurrencyInstance(Locale.US);
-                System.out.println("\nU need to pay " + format1.format((float)(price / 99.9)));
+                System.out.println("\nU need to pay "
+                        + format1.format((float)(price / 99.9)));
                 break;
             case 2:
                 NumberFormat format2 = NumberFormat.getCurrencyInstance(Locale.FRANCE);
-                System.out.println("\nU need to pay " + format2.format((float)(price / 97.8)));
+                System.out.println("\nU need to pay "
+                        + format2.format((float)(price / 97.8)));
                 break;
             case 3:
                 NumberFormat format3 = NumberFormat.getCurrencyInstance(Locale.CHINA);
-                System.out.println("\nU need to pay " + format3.format((float)(price / 12.4)));
+                System.out.println("\nU need to pay "
+                        + format3.format((float)(price / 12.4)));
                 break;
             default:
                 System.out.println("!TRY AGAIN!");
