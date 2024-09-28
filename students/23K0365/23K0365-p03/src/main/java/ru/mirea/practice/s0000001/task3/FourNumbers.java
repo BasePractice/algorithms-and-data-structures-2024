@@ -8,7 +8,7 @@ public abstract class FourNumbers {
         int[] arr = new int[4];
         boolean flag = true;
         for (int i = 0; i < 4; i++) {
-            arr[i] = rand.nextInt(9, 100);
+            arr[i] = rand.nextInt(100);
             System.out.print(arr[i] + "\t");
         }
         for (int i = 0; i < 4; i++) {

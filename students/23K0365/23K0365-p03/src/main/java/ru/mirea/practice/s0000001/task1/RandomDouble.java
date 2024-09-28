@@ -6,12 +6,12 @@ public abstract class RandomDouble {
     public static void main(String[] args) {
         Random rand = new Random();
         System.out.println("First: ");
-        int lenAr = rand.nextInt(1, 11);
+        int lenAr = rand.nextInt( 11);
         System.out.println("Lenght of array is " + lenAr);
 
         double[] arr1 = new double[lenAr];
         for (int i = 0; i < lenAr; i++) {
-            arr1[i] = rand.nextDouble(10, 20);
+            arr1[i] = rand.nextDouble(20);
             System.out.print(arr1[i] + "; ");
         }
         System.out.println();
