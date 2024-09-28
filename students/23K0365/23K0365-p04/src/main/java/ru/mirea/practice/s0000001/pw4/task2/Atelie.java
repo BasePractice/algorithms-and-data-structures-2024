@@ -13,7 +13,7 @@ public class Atelie implements WomenClothing, MenClothing {
     public void dressMen(Clothes[] arr) {
         for (Clothes x: arr) {
             if (x instanceof MenClothing) {
-                ((MenClothing) x).MenClothing(arr);
+                ((MenClothing) x).dressMen(arr);
             }
         }
     }
