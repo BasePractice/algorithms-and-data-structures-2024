@@ -1,4 +1,5 @@
 package ru.mirea.practice.s23k0350;
+
 import java.util.Scanner;
 
 public abstract class Lab1Task2 {
