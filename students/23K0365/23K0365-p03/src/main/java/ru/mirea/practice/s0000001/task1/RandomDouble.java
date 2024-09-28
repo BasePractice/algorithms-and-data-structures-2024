@@ -11,7 +11,7 @@ public abstract class RandomDouble {
 
         double[] arr1 = new double[lenAr];
         for (int i = 0; i < lenAr; i++) {
-            arr1[i] = rand.nextDouble(20);
+            arr1[i] = (rand.nextInt(11) * 10) / rand.nextInt(11); //rand.nextDouble(20);т.к.: не удается использовать nextDouble}
             System.out.print(arr1[i] + "; ");
         }
         System.out.println();
