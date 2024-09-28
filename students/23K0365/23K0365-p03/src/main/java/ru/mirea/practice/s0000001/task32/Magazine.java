@@ -42,7 +42,7 @@ public class Magazine {
         return fantePrice;
     }
 
-    public double addToU(Magazine arr) {
+    public double addToU() {
         try (Scanner sc = new Scanner(System.in)) {
             double price = .0;
             System.out.println("Next step:\n1.Add eggs\t2.Add Fanta\t3.Add Milk\t0.Exit");
