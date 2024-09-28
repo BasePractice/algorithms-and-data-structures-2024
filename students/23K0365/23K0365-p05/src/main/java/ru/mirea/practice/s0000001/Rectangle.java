@@ -1,0 +1,15 @@
+public class Rectangle extends Shape implements Shapes {
+    private int x2;
+    private int y2;
+
+    @Override
+    public void getShape() {
+        System.out.println("Recatngle, " + this);
+    }
+
+    public Rectangle(Color color, double x, double y, int x2, int y2) {
+        super(color, x, y);
+        this.x2 = x2;
+        this.y2 = y2;
+    }
+}
