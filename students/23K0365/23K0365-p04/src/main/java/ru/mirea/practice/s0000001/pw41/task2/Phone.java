@@ -15,7 +15,9 @@ public class Phone {
         this.model = model;
     }
 
-    public Phone() {}
+    public Phone() {
+        //Default constructor
+    }
 
     public void recieveCall(String callerName) {
         System.out.println("Call from " + callerName);
