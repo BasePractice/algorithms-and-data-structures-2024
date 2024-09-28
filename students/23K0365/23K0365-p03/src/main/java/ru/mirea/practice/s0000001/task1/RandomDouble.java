@@ -6,7 +6,7 @@ public abstract class RandomDouble {
     public static void main(String[] args) {
         Random rand = new Random();
         System.out.println("First: ");
-        int lenAr = rand.nextInt( 11);
+        int lenAr = rand.nextInt(11);
         System.out.println("Lenght of array is " + lenAr);
 
         double[] arr1 = new double[lenAr];

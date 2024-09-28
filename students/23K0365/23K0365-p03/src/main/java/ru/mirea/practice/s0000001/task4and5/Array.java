@@ -24,7 +24,7 @@ public abstract class Array {
             int[] arr2;
             int cnt = 0;
             for (int i = 0; i < n; i++) {
-                arr1[i] = rand.nextInt( n);
+                arr1[i] = rand.nextInt(n);
                 if (arr1[i] % 2 == 0 && arr1[i] > 0) {
                     cnt++;
                 }
