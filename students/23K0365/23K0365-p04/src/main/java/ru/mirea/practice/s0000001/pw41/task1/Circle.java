@@ -1,6 +1,6 @@
 package ru.mirea.practice.s0000001.pw41.task1;
 
-public class Circle extends Shape{
+public class Circle extends Shape {
     private double r;
 
     public Circle(String name, double x, double y, double r) {
@@ -10,16 +10,11 @@ public class Circle extends Shape{
 
     @Override
     public double getArea() {
-        return Math.round(Math.PI) * (r*r);
+        return Math.round(Math.PI) * (r * r);
     }
 
     @Override
     public double getPerimetr() {
         return 2 * Math.round(Math.PI) * r;
-    }
-
-    @Override
-    public String toString() {
-        return super.toString();
     }
 }

@@ -24,6 +24,7 @@ public abstract class Shape {
     }
 
     public abstract double getArea();
+
     public abstract double getPerimetr();
 
     public String getType() {

@@ -1,6 +1,6 @@
 package ru.mirea.practice.s0000001.pw41.task1;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
     private double x2;
     private double y2;
 
@@ -12,16 +12,11 @@ public class Rectangle extends Shape{
 
     @Override
     public double getArea() {
-        return Math.abs((super.getX() - this.x2)*(super.getY() - this.y2));
+        return Math.abs((super.getX() - this.x2) * (super.getY() - this.y2));
     }
 
     @Override
     public double getPerimetr() {
-        return 2 * Math.abs((super.getX() - this.x2)+(super.getY() - this.y2));
-    }
-
-    @Override
-    public String toString() {
-        return super.toString();
+        return 2 * Math.abs((super.getX() - this.x2) + (super.getY() - this.y2));
     }
 }
