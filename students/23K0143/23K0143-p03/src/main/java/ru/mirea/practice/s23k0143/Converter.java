@@ -1,12 +1,26 @@
 package ru.mirea.practice.s23k0143;
 
 public class Converter {
-    private String[] currencies;
-    private double[] rates;
+    private final String[] currencies;
+    private final double[] rates;
 
     public Converter(String[] currencies, double[] rates) {
         this.currencies = currencies;
         this.rates = rates;
+    }
+
+    public static void main(String[] args) {
+        String[] currencies = {"USD", "EUR", "RUB"};
+        double[] rates = {1.0, 0.90, 92.80};
+
+        Converter converter = new Converter(currencies, rates);
+
+        double sumToConvert = 80;
+        String fromCurrency = "USD";
+        String toCurrency = "EUR";
+
+        double convertedSum = converter.convert(sumToConvert, fromCurrency, toCurrency);
+        System.out.println(sumToConvert + " " + fromCurrency + " = " + convertedSum + " " + toCurrency);
     }
 
     public double convert(double amount, String fromCurrency, String toCurrency) {
@@ -23,20 +37,6 @@ public class Converter {
         }
 
         double baseSumCurrency = amount / rates[fromIndex];
-        return  baseSumCurrency * rates[toIndex];
-    }
-
-    public static void main(String[] args) {
-        String[] currencies = {"USD", "EUR", "RUB"};
-        double[] rates = {1.0, 0.90, 92.80};
-
-        Converter converter = new Converter(currencies, rates);
-
-        double sumToConvert = 80;
-        String fromCurrency = "USD";
-        String toCurrency = "EUR";
-
-        double convertedSum = converter.convert(sumToConvert, fromCurrency, toCurrency);
-        System.out.println(sumToConvert + " " + fromCurrency + " = " + convertedSum + " " + toCurrency);
+        return baseSumCurrency * rates[toIndex];
     }
 }

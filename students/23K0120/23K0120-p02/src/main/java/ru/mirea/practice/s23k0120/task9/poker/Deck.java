@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Deck extends ArrayList<Card> {
     public Deck() {
-        for (Card.Suits suit: Card.Suits.values()) {
-            for (Card.Ranks rank: Card.Ranks.values()) {
+        for (Card.Suits suit : Card.Suits.values()) {
+            for (Card.Ranks rank : Card.Ranks.values()) {
                 this.add(new Card(suit, rank));
             }
         }

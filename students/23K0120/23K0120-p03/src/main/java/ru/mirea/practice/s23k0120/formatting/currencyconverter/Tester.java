@@ -1,4 +1,5 @@
 package ru.mirea.practice.s23k0120.formatting.currencyconverter;
+
 import java.util.Locale;
 
 public abstract class Tester {

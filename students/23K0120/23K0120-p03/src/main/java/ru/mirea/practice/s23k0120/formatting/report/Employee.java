@@ -4,8 +4,9 @@ import java.text.NumberFormat;
 import java.util.Locale;
 
 public class Employee {
-    private String fullName;
+    private final String fullName;
     private float salary;
+
     public Employee(String fullName, float salary) {
         this.fullName = fullName;
         this.salary = salary;

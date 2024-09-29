@@ -14,7 +14,9 @@ public abstract class RandimTask5 {
                     n = scanner.nextInt();
                     if (n > 0) {
                         break;
-                    } else {System.out.println("Число должно быть больше 0. Попробуйте снова.");}
+                    } else {
+                        System.out.println("Число должно быть больше 0. Попробуйте снова.");
+                    }
                 } else {
                     System.out.println("Ошибка ввода. Пожалуйста, введите целое число.");
                     scanner.next();
@@ -26,7 +28,9 @@ public abstract class RandimTask5 {
             for (int i = 0; i < 10; i++) {
                 int num = random.nextInt(n + 1);
                 arr[i] = num;
-                if (num % 2 == 0) {cnt++;}
+                if (num % 2 == 0) {
+                    cnt++;
+                }
             }
             System.out.println("\nМассив, заполненный с использованием Random:");
             System.out.println(Arrays.toString(arr));
