@@ -14,9 +14,9 @@
 
     <modules>
         <module>23K0341-p01</module>
-        <module>23K0341-p02</module>
+<!--        <module>23K0341-p02</module>-->
         <module>23K0341-p03</module>
         <module>23K0341-p04</module>
-<!--        <module>23K0341-p04_1</module>-->
+        <module>23K0341-p04_1</module>
     </modules>
 </project>

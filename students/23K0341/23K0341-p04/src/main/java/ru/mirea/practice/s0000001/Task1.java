@@ -18,7 +18,7 @@ package ru.mirea.practice.s0000001;
  * описание времени года
  */
 
-public class Task1 {
+public abstract class Task1 {
     public static void main(String[] args) {
         Season favourite = Season.Summer;
         System.out.println("Тепло, лениво.");
@@ -36,12 +36,17 @@ public class Task1 {
     }
 
     static void newMethod(Season season) {
-        switch (season) {
-            case Autumn -> System.out.println("Скоро зима.");
-            case Spring -> System.out.println("Скоро лето!");
-            case Summer -> System.out.println("Люблю лето!");
-            case Winter -> System.out.println("Холодновато, но скоро осень.");
-            default -> System.out.println("Я не знаю... :(");
+        if (season == Season.Autumn) {
+            System.out.println("Скоро зима.");
+        }
+        if (season == Season.Spring) {
+            System.out.println("Скоро лето!");
+        }
+        if (season == Season.Summer) {
+            System.out.println("Люблю лето!");
+        }
+        if (season == Season.Winter) {
+            System.out.println("Холодновато, но скоро осень.");
         }
     }
 }

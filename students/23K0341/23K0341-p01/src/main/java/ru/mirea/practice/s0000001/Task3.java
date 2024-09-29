@@ -14,19 +14,20 @@ public abstract class Task3 {
     public static void main(String[] args) {
         int[] arr = new int[10];
         int sum = 0;
-        Scanner sc = new Scanner(System.in);
+
 
         System.out.println("Практическая работа №1\nЗадание №3");
         System.out.println("Введите 10 целых числовых значений.");
 
         for (int i = 0; i < arr.length; ++i) {
-            System.out.print("Введите целое число №" + (1 + i) + ": ");
-            int numba = sc.nextInt();
-            arr[i] = numba;
+            try (Scanner sc = new Scanner(System.in)) {
+                System.out.print("Введите целое число №" + (1 + i) + ": ");
+                int numba = sc.nextInt();
+                arr[i] = numba;
 
-            sum += numba;
+                sum += numba;
+            }
         }
-        sc.close();
 
         System.out.println("Массив:\n" + Arrays.toString(arr));
         System.out.println("Сумма элементов массива: " + sum);

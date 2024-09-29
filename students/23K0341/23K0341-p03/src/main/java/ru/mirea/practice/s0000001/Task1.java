@@ -19,13 +19,15 @@ public abstract class Task1 {
             arr[i] = Math.random() * 10000;
             arr[i] -= arr[i] - Math.floor(arr[i]);
             arr[i] /= 100;
-            System.out.print(arr[i] + (((i + 1) % 15 == 0) || i + 1 == arr.length) ? "\n" : " | ");
+            String val = (i + 1) % 15 == 0 || i + 1 == arr.length ? "\n" : " | ";
+            System.out.print(arr[i] + val);
         }
         for (int i = arr.length / 2; i < arr.length; ++i) {
             arr[i] = rng.nextDouble(0, 100) * 100;
             arr[i] -= arr[i] - Math.floor(arr[i]);
             arr[i] /= 100;
-            System.out.print(arr[i] + (((i + 1) % 15 == 0) || i + 1 == arr.length) ? "\n" : " | ");
+            String val = (i + 1) % 15 == 0 || i + 1 == arr.length ? "\n" : " | ";
+            System.out.print(arr[i] + val);
         }
 
         for (int i = 0; i < arr.length - 1; ++i) {
@@ -40,7 +42,8 @@ public abstract class Task1 {
 
         System.out.println();
         for (int i = 0; i < arr.length; ++i) {
-            System.out.print(arr[i] + (((i + 1) % 15 == 0) || i + 1 == arr.length) ? "\n" : " | ");
+            String val = (i + 1) % 15 == 0 || i + 1 == arr.length ? "\n" : " | ";
+            System.out.print(arr[i] + val);
         }
     }
 }

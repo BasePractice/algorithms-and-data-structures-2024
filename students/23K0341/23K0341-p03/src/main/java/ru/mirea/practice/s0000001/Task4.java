@@ -16,36 +16,36 @@ import java.util.Scanner;
 
 public abstract class Task4 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
         System.out.print("Введите n (n > 1): ");
-        int n = sc.nextInt();
-        while (n < 2) {
-            System.out.print("Попробуйте снова (n > 1): ");
-            n = sc.nextInt();
-        }
-        int[] arr = new int[n];
-        int ch = 0;
-
-        for (int i = 0; i < n; ++i) {
-            arr[i] = new Random().nextInt(0, n);
-            if (arr[i] % 2 == 0) {
-                ch++;
+        try (Scanner sc = new Scanner(System.in)) {
+            int n = sc.nextInt();
+            while (n < 2) {
+                System.out.print("Попробуйте снова (n > 1): ");
+                n = sc.nextInt();
             }
-        }
-        sc.close();
+            int[] arr = new int[n];
+            int ch = 0;
 
-        int[] chet = new int[ch];
-
-        for (int i = 0, j = 0; i < n; ++i) {
-            if (arr[i] % 2 == 0) {
-                chet[j++] = arr[i];
+            for (int i = 0; i < n; ++i) {
+                arr[i] = new Random().nextInt(0, n);
+                if (arr[i] % 2 == 0) {
+                    ch++;
+                }
             }
-        }
 
-        System.out.println(Arrays.toString(arr));
-        if (ch > 0) {
-            System.out.println(Arrays.toString(chet));
+            int[] chet = new int[ch];
+
+            for (int i = 0, j = 0; i < n; ++i) {
+                if (arr[i] % 2 == 0) {
+                    chet[j++] = arr[i];
+                }
+            }
+
+            System.out.println(Arrays.toString(arr));
+            if (ch > 0) {
+                System.out.println(Arrays.toString(chet));
+            }
         }
     }
 }
