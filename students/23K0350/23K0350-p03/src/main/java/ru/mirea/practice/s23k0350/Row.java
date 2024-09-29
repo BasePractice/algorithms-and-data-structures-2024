@@ -1,14 +1,13 @@
 package ru.mirea.practice.s23k0350;
 
 import java.util.Arrays;
-import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 public abstract class Row {
     public static void main(String[] args) {
-        Random ranin = new Random();
         int[] a = new int[4];
         for (int i = 0; i < 4; i++) {
-            a[i] = ranin.nextInt(90) + 10;
+            a[i] = ThreadLocalRandom.current().nextInt(10,100);
         }
         System.out.println(Arrays.toString(a));
         if (a[0] < a[1] && a[1] < a[2] && a[2] < a[3]) {
