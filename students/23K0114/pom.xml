@@ -8,16 +8,11 @@
         <version>2024.1</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
-    <artifactId>23K0120</artifactId>
+    <artifactId>23K0114</artifactId>
     <packaging>pom</packaging>
-    <description>Практическая работа Дмитрия</description>
+    <description>Практическая работа Давид Гобеджишвили</description>
 
     <modules>
-        <module>23K0120-p02</module>
-        <module>23K0120-p01</module>
-        <module>23K0120-p03</module>
-        <module>23K0120-p04</module>
-        <module>23K0120-p04_1</module>
-        <module>23K0120-p05</module>
+        <module>23K0114-p01</module>
     </modules>
 </project>
