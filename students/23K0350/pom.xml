@@ -13,6 +13,8 @@
     <description>Практическая работа Ксении Кобловой</description>
 
     <modules>
+        <module>23K0350-p01</module>
         <module>23K0350-p02</module>
+        <module>23K0350-p03</module>
     </modules>
 </project>
