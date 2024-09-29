@@ -3,6 +3,7 @@ package ru.mirea.practice.s23k0120.task3.circle;
 public class Circle {
     private Point center;
     private double r;
+
     public Circle(Point center, double r) {
         this.center = center;
         this.r = r;
@@ -26,9 +27,6 @@ public class Circle {
 
     @Override
     public String toString() {
-        return "\nCircle{" +
-                "center=" + center +
-                ", r=" + r +
-                "}";
+        return "\nCircle{" + "center=" + center + ", r=" + r + "}";
     }
 }

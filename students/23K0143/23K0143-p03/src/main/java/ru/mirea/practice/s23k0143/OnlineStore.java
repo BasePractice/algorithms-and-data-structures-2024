@@ -8,18 +8,17 @@ public abstract class OnlineStore {
 
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
-            Converter converter = new Converter(currencies, rates);
 
             System.out.print("Введите название товара: ");
-            String productName = sc.nextLine();
+            final String productName = sc.nextLine();
             System.out.print("Введите стоимость товара в USD: ");
-            double priceUSD = sc.nextDouble();
+            final double price = sc.nextDouble();
 
             System.out.print("Выберите валюту для оплаты (USD, EUR, RUB): ");
             sc.nextLine();
             String newCurrency = sc.nextLine();
 
-            double convertedPrice = converter.convert(priceUSD, "USD", newCurrency);
+            double convertedPrice = new Converter(currencies, rates).convert(price, "USD", newCurrency);
             System.out.println("Стоимость товара «" + productName + "» в " + newCurrency + ": " + String.format("%.2f", convertedPrice));
         } catch (RuntimeException e) {
             throw new RuntimeException(e);

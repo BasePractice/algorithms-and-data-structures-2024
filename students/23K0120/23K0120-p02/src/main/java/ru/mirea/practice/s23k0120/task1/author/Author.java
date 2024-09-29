@@ -1,9 +1,9 @@
 package ru.mirea.practice.s23k0120.task1.author;
 
 public class Author {
-    private String name;
+    private final String name;
+    private final char gender;
     private String email;
-    private char gender;
 
     public Author(String name, String email, char gender) {
         this.name = name;
@@ -29,9 +29,9 @@ public class Author {
 
     @Override
     public String toString() {
-        return "---------Автор---------\n" +
-                "Имя: " + name + '\n' +
-                "Почта: " + email + '\n' +
-                "Пол: " + gender + "\n-----------------------";
+        return "---------Автор---------\n"
+                + "Имя: " + name + '\n'
+                + "Почта: " + email + '\n'
+                + "Пол: " + gender + "\n-----------------------";
     }
 }
