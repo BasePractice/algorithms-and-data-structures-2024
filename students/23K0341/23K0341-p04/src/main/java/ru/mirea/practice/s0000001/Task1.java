@@ -28,7 +28,7 @@ public class Task1 {
         System.out.println(Season.Spring.getDescription());
         System.out.println();
 
-        for (Season season: Season.values()) {
+        for (Season season : Season.values()) {
             System.out.println(season);
             System.out.println(season.getDescription());
             System.out.println(season.getAvgTemp());
