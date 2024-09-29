@@ -2,7 +2,7 @@ package ru.mirea.practice.s0000001;
 
 import java.util.Scanner;
 
-public class Task7 {
+abstract class Task7 {
     public static int fact(int toNumb) {
         if (toNumb < 2) {
             return 1;
@@ -16,13 +16,14 @@ public class Task7 {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Введите число, для которого найдётся факториал");
-        int numb = sc.nextInt();
-        if (numb < 1) {
-            System.out.println("Число должно быть натуральным (>0)");
-        } else {
-            System.out.format("Факториал числа %s: %s", numb, fact(numb));
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Введите число, для которого найдётся факториал");
+            int numb = sc.nextInt();
+            if (numb < 1) {
+                System.out.println("Число должно быть натуральным (>0)");
+            } else {
+                System.out.format("Факториал числа %s: %s", numb, fact(numb));
+            }
         }
     }
 }
