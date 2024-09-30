@@ -29,15 +29,13 @@ public abstract class Task4 {
         String model;
 
         public Computer() {
-            Scanner sc = new Scanner(System.in);
+            try (Scanner sc = new Scanner(System.in)) {
+                System.out.print("Введите модель компьютера: ");
+                this.model = sc.nextLine();
 
-            System.out.print("Введите модель компьютера: ");
-            this.model = sc.nextLine();
-
-            System.out.print("Введите цену для компьютера" + this.model + ": ");
-            this.price = sc.nextDouble();
-
-            sc.close();
+                System.out.print("Введите цену для компьютера" + this.model + ": ");
+                this.price = sc.nextDouble();
+            }
         }
 
         @Override

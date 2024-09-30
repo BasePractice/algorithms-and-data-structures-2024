@@ -14,23 +14,22 @@ public abstract class Task8 {
         String[] arr = new String[10];
 
         System.out.println("Введите 10 строк.");
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+            for (int i = 0; i < 10; ++i) {
+                System.out.println("Введите строку №" + (i + 1) + ": ");
 
-        for (int i = 0; i < 10; ++i) {
-            System.out.println("Введите строку №" + (i + 1) + ": ");
+                arr[i] = sc.nextLine();
+            }
 
-            arr[i] = sc.nextLine();
+            System.out.println("Изначальный массив: " + Arrays.toString(arr));
+
+            for (int i = 0; i < 5; ++i) {
+                String tmp = arr[i];
+                arr[i] = arr[9 - i];
+                arr[9 - i] = tmp;
+            }
+
+            System.out.println("Изменённый массив: " + Arrays.toString(arr));
         }
-        sc.close();
-
-        System.out.println("Изначальный массив: " + Arrays.toString(arr));
-
-        for (int i = 0; i < 5; ++i) {
-            String tmp = arr[i];
-            arr[i] = arr[9 - i];
-            arr[9 - i] = tmp;
-        }
-
-        System.out.println("Изменённый массив: " + Arrays.toString(arr));
     }
 }

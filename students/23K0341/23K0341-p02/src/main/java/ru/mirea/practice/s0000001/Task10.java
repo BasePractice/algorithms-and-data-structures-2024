@@ -11,16 +11,17 @@ import java.util.Scanner;
 public abstract class Task10 { // Данная программа нызывается HowMany.java
     public static void main(String[] args) {
         int c = 0;
-        Scanner sc = new Scanner(System.in);
-        String input = " ";
-        while (!Objects.equals(input, "")) {
-            input = sc.nextLine();
-            if (!Objects.equals(input, "")) {
-                ++c;
+        try (Scanner sc = new Scanner(System.in)) {
+            String input = " ";
+            while (!Objects.equals(input, "")) {
+                input = sc.nextLine();
+                if (!Objects.equals(input, "")) {
+                    ++c;
+                }
             }
-        }
-        sc.close();
+            sc.close();
 
-        System.out.println("Было введено строк в количестве " + c + ".");
+            System.out.println("Было введено строк в количестве " + c + ".");
+        }
     }
 }

@@ -72,16 +72,17 @@ public abstract class Task5 {
             }
             for (int i = this.am; i < dogs.length; ++i) {
 
-                Scanner sc = new Scanner(System.in);
-                String name = sc.nextLine();
-                int age = sc.nextInt();
-                sc.close();
+                try (Scanner sc = new Scanner(System.in)) {
+                    String name = sc.nextLine();
+                    int age = sc.nextInt();
+                    sc.close();
 
-                Dog doggy = new Dog(name, age);
+                    Dog doggy = new Dog(name, age);
 
-                this.dogs[i] = doggy;
-                System.out.println(new Dog(name, age) + " теперь часть огромной семьи.");
-                System.out.println("По человеческим меркам " + doggy.getName() + " сейчас " + doggy.toHumanAge() + " годиков.");
+                    this.dogs[i] = doggy;
+                    System.out.println(new Dog(name, age) + " теперь часть огромной семьи.");
+                    System.out.println("По человеческим меркам " + doggy.getName() + " сейчас " + doggy.toHumanAge() + " годиков.");
+                }
             }
         }
     }
