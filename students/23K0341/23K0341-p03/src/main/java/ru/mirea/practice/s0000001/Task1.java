@@ -23,7 +23,7 @@ public abstract class Task1 {
             System.out.print(arr[i] + val);
         }
         for (int i = arr.length / 2; i < arr.length; ++i) {
-            arr[i] = rng.nextDouble(0, 100) * 100;
+            arr[i] = rng.nextDouble(100) * 100;
             arr[i] -= arr[i] - Math.floor(arr[i]);
             arr[i] /= 100;
             String val = (i + 1) % 15 == 0 || i + 1 == arr.length ? "\n" : " | ";

@@ -32,7 +32,6 @@ public abstract class Task5 {
                     ch++;
                 }
             }
-            sc.close();
 
             int[] chet = new int[ch];
 
