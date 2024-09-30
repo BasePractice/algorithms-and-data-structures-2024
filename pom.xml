@@ -13,8 +13,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-        <version.junit>1.11.0</version.junit>
-        <version.jupiter>5.11.0</version.jupiter>
+        <version.junit>1.11.1</version.junit>
+        <version.jupiter>5.11.1</version.jupiter>
         <version.pmd>6.52.0</version.pmd>
     </properties>
 
@@ -45,12 +45,17 @@
         <module>students/23K0364</module>
         <module>students/23K0155</module>
         <module>students/23K0114</module>
+        <module>students/23K0341</module>
         <module>students/23K0823</module>
         <module>students/23K0087</module>
         <module>students/23K0112</module>
         <module>students/23K0351</module>
         <module>students/23K0563</module>
         <module>students/23K0116</module>
+        <module>students/23K0339</module>
+        <module>students/23K0691</module>
+        <module>students/23K0815</module>
+        <module>students/23K0089</module>
     </modules>
 
     <dependencies>
@@ -118,7 +123,7 @@
                     <dependency>
                         <groupId>com.puppycrawl.tools</groupId>
                         <artifactId>checkstyle</artifactId>
-                        <version>10.18.1</version>
+                        <version>10.18.2</version>
                     </dependency>
                 </dependencies>
                 <configuration>
