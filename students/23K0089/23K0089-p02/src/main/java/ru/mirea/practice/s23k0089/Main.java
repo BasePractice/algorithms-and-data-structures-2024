@@ -1,4 +1,4 @@
-package ru.mirea.practice.s0000001;
+package ru.mirea.practice.s23k0089;
 
 public final class Main {
 
