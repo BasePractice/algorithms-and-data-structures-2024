@@ -1,4 +1,4 @@
-package ru.mirea.practice.s0000001.pw4.task3;
+package ru.mirea.practice.s23k0362.pw4.task3;
 
 public enum Gadjets implements ViewList {
     SMARTPHONE("Iphone 16", 100, 2),

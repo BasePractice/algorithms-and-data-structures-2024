@@ -1,4 +1,4 @@
-package ru.mirea.practice.s0000001.pw4.task3;
+package ru.mirea.practice.s23k0362.pw4.task3;
 
 public class List {
     private String name;
