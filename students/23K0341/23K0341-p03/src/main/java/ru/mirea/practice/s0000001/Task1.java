@@ -13,7 +13,7 @@ public abstract class Task1 {
 
         Random rng = new Random();
 
-        double[] arr = new double[rng.nextInt(10, 100)];
+        double[] arr = new double[rng.nextInt(90) + 10];
 
         for (int i = 0; i < arr.length / 2; ++i) {
             arr[i] = Math.random() * 10000;

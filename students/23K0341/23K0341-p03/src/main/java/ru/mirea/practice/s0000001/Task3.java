@@ -13,7 +13,7 @@ public abstract class Task3 {
     public static void main(String[] args) {
         int[] arr = new int[4];
         for (int i = 0; i < 4; ++i) {
-            arr[i] = new Random().nextInt(10, 99);
+            arr[i] = 10 + new Random().nextInt(89);
         }
 
         System.out.println(Arrays.toString(arr));

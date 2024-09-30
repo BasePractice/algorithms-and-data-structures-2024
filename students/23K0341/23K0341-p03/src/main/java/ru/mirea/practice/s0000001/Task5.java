@@ -27,7 +27,7 @@ public abstract class Task5 {
             int ch = 0;
 
             for (int i = 0; i < n; ++i) {
-                arr[i] = new Random().nextInt(0, n);
+                arr[i] = new Random().nextInt(n);
                 if (arr[i] % 2 == 0) {
                     ch++;
                 }
