@@ -19,7 +19,7 @@ public abstract  class Tester {
         System.out.printf("%.2f %.2f %.2f\n", circles.get(0).getPoint().getX(),
                 circles.get(0).getPoint().getY(), circles.get(0).getRadius());
 
-        System.out.printf(" %s\n\n%s", circles.get(1).toString(), circles.get(1).getPoint().toString());
+        System.out.printf("%s\n\n%s", circles.get(1).toString(), circles.get(1).getPoint().toString());
 
     }
 }

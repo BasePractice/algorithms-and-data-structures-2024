@@ -42,6 +42,6 @@ public class Ball {
 
     @Override
     public String toString() {
-        return "Ball {x = " + x + ", y = " + y + "}";
+        return "Ball {x=" + x + ", y=" + y + "}";
     }
 }
