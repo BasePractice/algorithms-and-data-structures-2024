@@ -1,7 +1,6 @@
 package ru.mirea.practice.s230k754.lab5.task2;
 
-import javax.swing.*;
-import java.awt.*;
+import java.awt.Color;
 import java.util.Random;
 
 public abstract class Shape {

@@ -5,7 +5,6 @@ public class Tie extends Clothes implements MenClothing {
         super(price, size, color);
     }
 
-    @Override
     public void dressMan() {
         System.out.printf("Мужской галстук: цена: %f,цвет: %s,размер: %d\n", this.getPrice(), this.getColor(), this.getSize());
     }

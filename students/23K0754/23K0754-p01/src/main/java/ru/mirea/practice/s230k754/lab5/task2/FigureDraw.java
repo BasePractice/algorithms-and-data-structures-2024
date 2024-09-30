@@ -1,7 +1,9 @@
 package ru.mirea.practice.s230k754.lab5.task2;
 
-import javax.swing.*;
-import java.awt.*;
+
+import javax.swing.JPanel;
+import java.awt.Dimension;
+import java.awt.Graphics;
 
 public class FigureDraw extends JPanel {
     private Figure[] figures;

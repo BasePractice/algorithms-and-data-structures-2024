@@ -39,8 +39,8 @@ public class Score {
 
     private void setWinner() {
         if (scoreMilan > scoreReal) {
-           winner = "Winner: Milan";
-        } else if (scoreMilan < scoreReal){
+            winner = "Winner: Milan";
+        } else if (scoreMilan < scoreReal) {
             winner = "Winner: Real";
         } else {
             this.winner = "Winner: DRAW";

@@ -1,7 +1,15 @@
 package ru.mirea.practice.s230k754.lab5.task1;
 
-import javax.swing.*;
-import java.awt.*;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+
+
+import java.awt.Color;
+import java.awt.Dimension;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -10,7 +18,6 @@ public final class Task1 {
 
 
     public static void main(String[] args) {
-        Score score = new Score();
         JFrame frame = new JFrame("Task1");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(200, 200);
@@ -28,6 +35,7 @@ public final class Task1 {
         JLabel lastScore = new JLabel("Last Scorer: N/A");
         JLabel winner = new JLabel("Winner: DRAW");
 
+        Score score = new Score();
         button1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

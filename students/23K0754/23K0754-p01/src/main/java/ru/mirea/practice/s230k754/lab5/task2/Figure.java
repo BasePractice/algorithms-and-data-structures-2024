@@ -1,15 +1,11 @@
 package ru.mirea.practice.s230k754.lab5.task2;
 
-import java.awt.*;
+
+import java.awt.Graphics;
 
 public class Figure extends Shape {
-
-    public Figure() {
-        super();
-    }
-
     public void draw(Graphics g) {
-        switch (getR().nextInt(3)){
+        switch (getR().nextInt(3)) {
             case 0:
                 g.setColor(getColor());
                 g.drawRect(getX(), getY(), getR().nextInt(200), getR().nextInt(200));

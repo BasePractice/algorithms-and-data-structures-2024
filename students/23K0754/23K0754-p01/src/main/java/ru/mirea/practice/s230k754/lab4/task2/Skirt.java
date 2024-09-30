@@ -5,7 +5,7 @@ public class Skirt extends Clothes implements WomenClothing {
         super(price, size, color);
     }
 
-    @Override
+
     public void dressWomen() {
         System.out.printf("Женская юбка: цена: %f,цвет: %s,размер: %d\n", this.getPrice(), this.getColor(), this.getSize());
     }
