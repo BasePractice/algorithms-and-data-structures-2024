@@ -16,6 +16,7 @@ public class Monitor {
     public double getSize() {
         return size;
     }
+
     @Override
     public String toString() {
         return String.format("Разрешение: %s, Размер: %.2f дюймов", resolution, size);

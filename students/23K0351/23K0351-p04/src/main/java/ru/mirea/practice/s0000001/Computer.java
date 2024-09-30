@@ -16,6 +16,7 @@ public class Computer {
     public Brand getBrand() {
         return brand;
     }
+
     public Memory getMemory() {
         return memory;
     }

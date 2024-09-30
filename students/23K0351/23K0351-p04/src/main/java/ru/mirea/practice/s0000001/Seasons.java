@@ -1,6 +1,6 @@
 package ru.mirea.practice.s0000001;
 
-enum Seasons {
+public enum Seasons {
     WINTER(-25) {
         @Override
         public String getDescription() {
