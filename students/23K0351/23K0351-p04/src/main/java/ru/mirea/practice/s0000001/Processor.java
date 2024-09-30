@@ -25,6 +25,6 @@ public class Processor {
 
     @Override
     public String toString() {
-        return String.format("Процессор: %s, Ядер: %d, Частота: %.2f ГГц", model, cores, frequency);
+        return String.format("Процессор:  %s, Ядер: %d, Частота: %.2f ГГц", model, cores, frequency);
     }
 }
