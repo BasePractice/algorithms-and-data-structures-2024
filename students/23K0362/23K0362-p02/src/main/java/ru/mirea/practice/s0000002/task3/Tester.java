@@ -11,6 +11,7 @@ abstract class Tester {
             double dopX;
             double dopY;
             double dopRad;
+
             for (int i = 0; i < lenArr; i++) {
                 System.out.println("Inter X:");
                 dopX = sc.nextDouble();
