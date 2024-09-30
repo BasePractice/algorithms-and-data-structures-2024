@@ -21,7 +21,7 @@ public abstract class TestAuthor {
             System.out.printf("Гендер - %s\n", author.getGender());
 
 
-            System.out.print("Введите новую почту: ");
+            System.out.print("Введите новую почту:  ");
             email = scan.next();
             author.setEmail(email);
             System.out.println(author.toString());

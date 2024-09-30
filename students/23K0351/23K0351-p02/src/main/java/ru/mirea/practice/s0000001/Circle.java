@@ -27,6 +27,6 @@ public class Circle {
 
     @Override
     public String toString() {
-        return "Circle{point=" + point + ", radius=" + radius + "}";
+        return "Circle{point = " + point + ", radius = " + radius + "}";
     }
 }

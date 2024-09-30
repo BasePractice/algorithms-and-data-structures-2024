@@ -9,7 +9,7 @@ public abstract  class TestBall {
             ball.move(10, 10);
             System.out.printf("X = %.2f, Y = %.2f\n", ball.getX(), ball.getY());
 
-            System.out.print("Введите два числа, для X и Y: ");
+            System.out.print("Введите два числа, для X и Y:  ");
             Ball ball1 = new Ball(scan.nextDouble(), scan.nextDouble());
             System.out.println(ball1.toString());
 
