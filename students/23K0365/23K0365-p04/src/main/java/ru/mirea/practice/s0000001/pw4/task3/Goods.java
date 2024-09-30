@@ -9,6 +9,7 @@ public enum Goods {
     CHARGER("Iphone's charger", 5, 3, "gadjet");
 
     private String description;
+    private int price;
     private int count;
     private String category;
 
@@ -19,7 +20,13 @@ public enum Goods {
         this.category = category;
     }
 
+    public String getDescription() {
+        return description;
+    }
 
+    public int getPrice() {
+        return price;
+    }
 
     public String getCategory() {
         return category;
@@ -33,6 +40,21 @@ public enum Goods {
         return count;
     }
 
-
-
+    public String seeDescription() {
+        return this.description;
     }
+
+    public void minusOne() {
+        this.count -= 1;
+    }
+
+    public int viewPrice() {
+        return getPrice();
+    }
+
+    public void print() {
+        System.out.println("Name: " + name() + "\t"
+                + getDescription() + "\tPrice: "
+                + getPrice() + "\n");
+    }
+}
