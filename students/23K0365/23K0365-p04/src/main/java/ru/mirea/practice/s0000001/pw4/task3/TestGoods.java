@@ -2,26 +2,18 @@ package ru.mirea.practice.s0000001.pw4.task3;
 
 import java.util.Scanner;
 
-public abstract class Test {
+public abstract class TestGoods {
     public static void main(String[] args) {
         User u = new User(1, 1);
         try (Scanner sc = new Scanner(System.in)) {
             Cart cart = new Cart(new Goods[0], 0);
             if (u.tryEnter()) {
-                Goods[] a = {
-                    Goods.PLATES,
-                    Goods.SPOONS,
-                    Goods.FORKS,
-                    Goods.TV,
-                    Goods.CHARGER,
-                    Goods.SMARTPHONE
-                };
                 System.out.println("Type ur action:\n1.See gadjets\t2.See dishes\t3.See all\n");
 
                 switch (sc.nextInt()) {
                     case 1:
                         for (Goods x: Goods.values()) {
-                            if (x.getCategory() == "gadjet") {
+                            if (x.getCategory().equals("gadjet")) {
                                 x.print();
                             }
                         }
@@ -31,7 +23,7 @@ public abstract class Test {
                         break;
                     case 2:
                         for (Goods x: Goods.values()) {
-                            if (x.getCategory() == "dish") {
+                            if (x.getCategory().equals("dish")) {
                                 x.print();
                             }
                         }
