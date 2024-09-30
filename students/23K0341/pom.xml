@@ -8,14 +8,15 @@
         <version>2024.1</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
-    <artifactId>23K0351</artifactId>
+    <artifactId>23K0341</artifactId>
     <packaging>pom</packaging>
-    <description>Практическая работа Коновалова Александра</description>
+    <description>Практическая работа борисенко Константина</description>
 
     <modules>
-        <module>23K0351-p01</module>
-        <module>23K0351-p02</module>
-        <module>23K0351-p03</module>
-
+        <module>23K0341-p01</module>
+        <module>23K0341-p02</module>
+        <module>23K0341-p03</module>
+        <module>23K0341-p04</module>
+        <module>23K0341-p04_1</module>
     </modules>
 </project>
