@@ -16,7 +16,7 @@ public abstract class Prac3p1p4 {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             Random rand = new Random();
-            int n = 0;
+            int n;
             while (true) {
                 System.out.print("\nВведите размер массива n: ");
                 n = sc.nextInt();
@@ -29,7 +29,7 @@ public abstract class Prac3p1p4 {
             int[] a = new int[n];
             int ch = 0;
             for (int i = 0; i < n; i++) {
-                a[i] = rand.nextInt(0, n + 1);
+                a[i] = rand.nextInt(n + 1);
                 if (a[i] % 2 == 0) {
                     ch++;
                 }
