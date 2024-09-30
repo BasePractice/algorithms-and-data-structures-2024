@@ -7,6 +7,7 @@ public class Person implements Nameable {
         this.name = name;
     }
 
+    @Override
     public String getName() {
         return name;
     }

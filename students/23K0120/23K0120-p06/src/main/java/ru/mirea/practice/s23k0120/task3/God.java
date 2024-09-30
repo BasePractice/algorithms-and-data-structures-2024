@@ -7,6 +7,7 @@ public class God implements Nameable {
         this.name = name;
     }
 
+    @Override
     public String getName() {
         return name;
     }
