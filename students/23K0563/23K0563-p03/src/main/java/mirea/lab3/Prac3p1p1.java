@@ -16,9 +16,9 @@ public abstract class Prac3p1p1 {
             float[] a = new float[sc.nextInt()];
             for (int i = 0; i < a.length; i++) {
                 if (i % 2 == 0) {
-                    a[i] = rand.nextFloat(100);
+                    a[i] = rand.nextFloat();
                 } else {
-                    a[i] = (float) Math.random() * 100;
+                    a[i] = (float) Math.random();
                 }
             }
             System.out.println(Arrays.toString(a));
