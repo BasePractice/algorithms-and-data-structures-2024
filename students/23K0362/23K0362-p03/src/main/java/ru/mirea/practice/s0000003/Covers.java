@@ -1,8 +1,6 @@
 package ru.mirea.practice.s0000003;
 
-public final class Covers {
-    private Covers() {}
-
+abstract class Covers {
     public static void main(String[] args) {
         /*
         1. Создайте объекты класса Double, используя методы valueOf().

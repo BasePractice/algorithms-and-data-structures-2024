@@ -3,9 +3,7 @@ package ru.mirea.practice.s0000003;
 import java.util.Arrays;
 import java.util.Random;
 
-public final class MathRandom {
-    private MathRandom() {}
-
+abstract class MathRandom {
     public static void main(String[] args) {
         Random rnd = new Random();
         int lenArr = 5;
