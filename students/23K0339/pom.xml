@@ -6,7 +6,7 @@
         <artifactId>algorithms-and-data-structures</artifactId>
         <groupId>ru.mirea.practice</groupId>
         <version>2024.1</version>
-        <relativePath>../../../aads/pom.xml</relativePath>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
     <artifactId>23K0339</artifactId>
     <packaging>pom</packaging>
