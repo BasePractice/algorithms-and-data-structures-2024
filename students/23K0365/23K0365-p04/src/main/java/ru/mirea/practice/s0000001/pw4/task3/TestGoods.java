@@ -13,7 +13,7 @@ public abstract class TestGoods {
                 switch (sc.nextInt()) {
                     case 1:
                         for (Goods x: Goods.values()) {
-                            if (x.getCategory().equals("gadjet")) {
+                            if (x.getCategory() == "gadjet") {
                                 x.print();
                             }
                         }
@@ -23,7 +23,7 @@ public abstract class TestGoods {
                         break;
                     case 2:
                         for (Goods x: Goods.values()) {
-                            if (x.getCategory().equals("dish")) {
+                            if (x.getCategory() == "dish") {
                                 x.print();
                             }
                         }
