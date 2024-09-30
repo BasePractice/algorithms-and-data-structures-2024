@@ -10,9 +10,11 @@
     </parent>
     <artifactId>23K1302</artifactId>
     <packaging>pom</packaging>
-    <description>Практическая работа Тимофея</description>
+    <description>Практическая работа Мясникова</description>
 
     <modules>
         <module>23K1302-p01</module>
+        <module>23K1302-p02</module>
+        <module>23K1302-p03</module>
     </modules>
 </project>
