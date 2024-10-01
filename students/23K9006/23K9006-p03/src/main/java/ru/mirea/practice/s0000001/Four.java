@@ -1,4 +1,6 @@
-public class Four {
+package ru.mirea.practice.s0000001;
+
+public abstract class Four {
 
     public static void main(String[] args) {
 
@@ -32,4 +34,3 @@ public class Four {
         System.out.println("Преобразованный литерал double к строке: " + d);
     }
 }
-

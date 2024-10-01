@@ -1,3 +1,5 @@
+package ru.mirea.practice.s0000001;
+
 public class Atelier {
 
     public void dressWomen(Clothes[] clothes) {
@@ -31,4 +33,3 @@ public class Atelier {
         atelier.dressMan(clothesArray);
     }
 }
-

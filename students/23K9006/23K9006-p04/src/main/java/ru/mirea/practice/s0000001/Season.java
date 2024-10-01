@@ -1,3 +1,5 @@
+package ru.mirea.practice.s0000001;
+
 public enum Season {
     WINTER(-5),
     SPRING(10),
@@ -23,4 +25,3 @@ public enum Season {
         return "Холодное время года";
     }
 }
-

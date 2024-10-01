@@ -1,3 +1,5 @@
+package ru.mirea.practice.s0000001;
+
 public abstract class Clothes {
     private Size size;
     private double price;
@@ -21,4 +23,3 @@ public abstract class Clothes {
         return color;
     }
 }
-

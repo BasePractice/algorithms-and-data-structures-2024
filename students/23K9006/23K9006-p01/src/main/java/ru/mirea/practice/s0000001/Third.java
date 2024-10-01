@@ -1,13 +1,14 @@
 package ru.mirea.practice.s0000001;
 
-public class Third {
+public abstract class Third {
     public static void main(String[] args) {
         int[] numbers = {1, 2, 3, 4, 5};
 
         int sum = 0;
-        for (int i = 0; i < numbers.length; i++) {
-            sum += numbers[i];
+        for (int number : numbers) {
+            sum += number;
         }
+
 
         double average = (double) sum / numbers.length;
 

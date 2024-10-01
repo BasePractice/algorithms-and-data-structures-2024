@@ -1,6 +1,6 @@
-package ru.mirea.practice.s0000001
+package ru.mirea.practice.s0000001;
 
-public class TestAuthor {
+public abstract class TestAuthor {
     public static void main(String[] args) {
         Author author = new Author("John Doe", "john.doe@example.com", 'M');
 

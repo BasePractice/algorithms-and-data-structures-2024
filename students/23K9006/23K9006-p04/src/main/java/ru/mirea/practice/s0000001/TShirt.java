@@ -1,3 +1,5 @@
+package ru.mirea.practice.s0000001;
+
 public class TShirt extends Clothes implements MenClothing, WomenClothing {
     public TShirt(Size size, double price, String color) {
         super(size, price, color);

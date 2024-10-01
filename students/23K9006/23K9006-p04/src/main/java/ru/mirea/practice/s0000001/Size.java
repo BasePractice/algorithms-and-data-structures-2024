@@ -1,3 +1,5 @@
+package ru.mirea.practice.s0000001;
+
 public enum Size {
     XXS(32) {
         @Override
@@ -24,4 +26,3 @@ public enum Size {
         return "Взрослый размер";
     }
 }
-

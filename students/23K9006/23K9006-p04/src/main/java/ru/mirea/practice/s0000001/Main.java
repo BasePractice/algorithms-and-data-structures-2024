@@ -1,4 +1,6 @@
-public class Main {
+package ru.mirea.practice.s0000001;
+
+public abstract class Main {
 
     public static void main(String[] args) {
         Season myFavoriteSeason = Season.SUMMER;
@@ -9,8 +11,8 @@ public class Main {
         printSeasonDescription(myFavoriteSeason);
 
         for (Season season : Season.values()) {
-            System.out.println(season + " имеет среднюю температуру " + season.getAverageTemperature() +
-                    " градусов. " + season.getDescription());
+            System.out.println(season + " имеет среднюю температуру " + season.getAverageTemperature()
+                    + " градусов. " + season.getDescription());
         }
     }
 
@@ -30,7 +32,7 @@ public class Main {
                 break;
             default:
                 System.out.println("Неизвестное время года");
+                break;
         }
     }
 }
-

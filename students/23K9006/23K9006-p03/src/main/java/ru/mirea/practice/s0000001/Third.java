@@ -1,13 +1,15 @@
+package ru.mirea.practice.s0000001;
+
 import java.util.Random;
 
-public class  Third{
+public abstract class Third {
 
     public static void main(String[] args) {
         int[] numbers = new int[4];
         Random random = new Random();
 
         for (int i = 0; i < numbers.length; i++) {
-numbers[i] = 10 + random.nextInt(90);
+            numbers[i] = 10 + random.nextInt(90);
         }
 
         System.out.print("Массив: ");
@@ -31,4 +33,3 @@ numbers[i] = 10 + random.nextInt(90);
         }
     }
 }
-

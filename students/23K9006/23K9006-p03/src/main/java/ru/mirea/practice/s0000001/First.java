@@ -1,7 +1,9 @@
+package ru.mirea.practice.s0000001;
+
 import java.util.Arrays;
 import java.util.Random;
 
-public class First {
+public abstract class First {
 
     public static void main(String[] args) {
         int arraySize = 10;
@@ -9,7 +11,7 @@ public class First {
         double[] mathRandomArray = new double[arraySize];
 
         for (int i = 0; i < arraySize; i++) {
-mathRandomArray[i] = Math.random();
+            mathRandomArray[i] = Math.random();
         }
 
         System.out.println("Массив, сгенерированный с использованием Math.random():");
@@ -24,7 +26,7 @@ mathRandomArray[i] = Math.random();
         Random random = new Random();
 
         for (int i = 0; i < arraySize; i++) {
-randomArray[i] = random.nextDouble();
+            randomArray[i] = random.nextDouble();
         }
 
         System.out.println("\nМассив, сгенерированный с использованием Random:");
@@ -36,4 +38,3 @@ randomArray[i] = random.nextDouble();
         System.out.println(Arrays.toString(randomArray));
     }
 }
-
