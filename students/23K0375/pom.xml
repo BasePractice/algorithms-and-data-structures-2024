@@ -12,7 +12,6 @@
     <version>2024.1</version>
     <packaging>pom</packaging>
     <description>Практическая работа Севы</description>
-
     <modules>
         <module>23K0375-p01</module>
         <module>23K0375-p02</module>
