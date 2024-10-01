@@ -1,4 +1,4 @@
-package ru.mirea.practice.s23k0342;
+package ru.mirea.practice.s0000001;
 
 public abstract class First {
     public static void main(String[] args) {
