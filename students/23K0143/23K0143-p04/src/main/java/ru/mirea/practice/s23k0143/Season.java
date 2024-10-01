@@ -17,14 +17,6 @@ public enum Season {
         this.averageTemperature = averageTemperature;
     }
 
-    public int getAverageTemperature() {
-        return averageTemperature;
-    }
-
-    public String getDescription() {
-        return "Холодное время года";
-    }
-
     public static void main(String[] args) {
         Season favoriteSeason = Season.ЛЕТО;
         System.out.println("Любимое время года: " + favoriteSeason);
@@ -56,5 +48,13 @@ public enum Season {
                 System.out.println("Я не люблю это");
                 break;
         }
+    }
+
+    public int getAverageTemperature() {
+        return averageTemperature;
+    }
+
+    public String getDescription() {
+        return "Холодное время года";
     }
 }
