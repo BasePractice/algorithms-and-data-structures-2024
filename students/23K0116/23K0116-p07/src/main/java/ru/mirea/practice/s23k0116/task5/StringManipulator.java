@@ -1,10 +1,10 @@
 package ru.mirea.practice.s23k0116.task5;
 
-public class StringManipulator implements StringManipulation{
+public class StringManipulator implements StringManipulation {
 
     @Override
     public int countCharacters(String s) {
-        if (s == null){
+        if (s == null) {
             return 0;
         }
         return s.length();
@@ -24,7 +24,7 @@ public class StringManipulator implements StringManipulation{
 
     @Override
     public String reverseString(String s) {
-        if (s== null){
+        if (s == null) {
             return "";
         }
         return new StringBuilder(s).reverse().toString();
