@@ -42,7 +42,7 @@ public class Cart {
     }
 
     public void finishShopping() {
-        System.out.println();
+        System.out.println("\nCart:");
         for (String x : arr) {
             Goods.valueOf(x).print();
         }

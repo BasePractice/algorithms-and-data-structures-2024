@@ -11,12 +11,12 @@ public abstract class TestGoods {
             int loginNew = sc.nextInt();
             System.out.println("Type ur password:");
             int passwordNew = sc.nextInt();
-            if (u.tryEnter(loginNew, passwordNew) == "true") {
+            if (u.tryEnter(loginNew, passwordNew)) {
                 System.out.println("Type ur action:\n1.See gadjets\t2.See dishes\t3.See all");
                 switch (sc.nextInt()) {
                     case 1:
                         for (Goods x: Goods.values()) {
-                            if (x.getCategory() == "gadjet") {
+                            if ("gadjet".equals(x.getCategory())) {
                                 x.print();
                             }
                         }
@@ -26,7 +26,7 @@ public abstract class TestGoods {
                         break;
                     case 2:
                         for (Goods x: Goods.values()) {
-                            if (x.getCategory() == "dish") {
+                            if ("dish".equals(x.getCategory())) {
                                 x.print();
                             }
                         }

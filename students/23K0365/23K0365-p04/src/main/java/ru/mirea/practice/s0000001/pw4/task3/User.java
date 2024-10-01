@@ -9,10 +9,11 @@ public class User {
         this.password = password;
     }
 
-    public String  tryEnter(int loginNew, int passwordNew) {
+    public boolean tryEnter(int loginNew, int passwordNew) {
+        boolean temp = false;
         if (loginNew == this.login && passwordNew == this.password) {
-            return "true";
+            temp = true;
         }
-        return "false";
+        return temp;
     }
 }
