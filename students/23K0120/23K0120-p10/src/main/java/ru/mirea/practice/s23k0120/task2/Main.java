@@ -3,12 +3,11 @@ package ru.mirea.practice.s23k0120.task2;
 import ru.mirea.practice.s23k0120.task1.Student;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 import java.util.Random;
 
 public abstract class Main {
-    final static List<Student> students = new ArrayList<>();
+    static List<Student> students = new ArrayList<>();
 
     public static void setArray(int size) {
         Random random = new Random();
@@ -20,7 +19,7 @@ public abstract class Main {
             groupNum = random.nextInt(8);
             students.add(new Student(names[random.nextInt(names.length - 1)], "-", 17 + random.nextInt(3),
                     String.format("23K%04d", i + 100), specialties[groupNum / 2],
-                    String.format("КВБО-%02d-23", groupNum+1)));
+                    String.format("КВБО-%02d-23", groupNum + 1)));
         }
     }
 
@@ -28,7 +27,7 @@ public abstract class Main {
         setArray(100);
 
         for (Student student : students) {
-            student.setGpa(Math.random()*3f+2);
+            student.setGpa(Math.random() * 3f + 2);
         }
         System.out.println(Sort.quicksort(students, Sort.compareAll));
     }

@@ -7,11 +7,12 @@ import java.util.Comparator;
 import java.util.List;
 
 public abstract class Sort {
-    public final static Comparator<Student> compareGpa = Comparator.comparingDouble(Student::getGpa);
-    public final static Comparator<Student> compareName = Comparator.comparing(Student::getFirstName);
-    public final static Comparator<Student> compareID = Comparator.comparing(Student::getIdNumber);
-    public final static Comparator<Student> compareGroup = Comparator.comparing(Student::getGroup);
-    public final static Comparator<Student> compareAll = compareGpa.reversed().thenComparing(compareID.thenComparing(compareGroup.thenComparing(compareName.thenComparing(compareID))));
+    public static Comparator<Student> compareGpa = Comparator.comparingDouble(Student::getGpa);
+    public static Comparator<Student> compareName = Comparator.comparing(Student::getFirstName);
+    public static Comparator<Student> compareID = Comparator.comparing(Student::getIdNumber);
+    public static Comparator<Student> compareGroup = Comparator.comparing(Student::getGroup);
+    public static Comparator<Student> compareAll = compareGpa.reversed().thenComparing(compareID
+            .thenComparing(compareGroup.thenComparing(compareName.thenComparing(compareID))));
 
     public static <T> List<T> quicksort(List<T> array, Comparator<? super T> comparator) {
         if (array.size() <= 1) {
