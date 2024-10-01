@@ -1,4 +1,4 @@
-package ru.mirea.practice3;
+package ru.mirea.practice.practice2;
 
 public class Circle {
     private Point center;
@@ -17,12 +17,8 @@ public class Circle {
         return radius;
     }
 
-    public double getArea() {
-        return Math.PI * radius * radius;
-    }
-
-    public double getCircumference() {
-        return 2 * Math.PI * radius;
+    public void setRadius(double radius) {
+        this.radius = radius;
     }
 
     @Override

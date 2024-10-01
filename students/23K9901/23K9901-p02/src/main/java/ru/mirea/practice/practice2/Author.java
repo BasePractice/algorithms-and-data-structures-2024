@@ -1,4 +1,6 @@
-public class Author {
+package ru.mirea.practice.practice2;
+
+class Author {
     private String name;
     private String email;
     private char gender;
@@ -30,6 +32,5 @@ public class Author {
         return "Author[name=" + name + ", email=" + email + ", gender=" + gender + "]";
     }
 }
-
 
 
