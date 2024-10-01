@@ -56,6 +56,7 @@
         <module>students/23K0815</module>
         <module>students/23K0089</module>
         <module>students/23K0354</module>
+        <module>students/23K0362</module>
     </modules>
 
     <dependencies>
@@ -111,8 +112,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.13.0</version>
                 <configuration>
-                    <target>${maven.compiler.target}</target>
-                    <source>${maven.compiler.source}</source>
+                    <target>14</target>
+                    <source>14</source>
                 </configuration>
             </plugin>
             <plugin>
