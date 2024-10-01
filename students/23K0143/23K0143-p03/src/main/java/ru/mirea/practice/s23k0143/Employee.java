@@ -1,8 +1,8 @@
 package ru.mirea.practice.s23k0143;
 
 class Employee {
-    private String fullname;
-    private double salary;
+    private final String fullname;
+    private final double salary;
 
     public Employee(String fullname, double salary) {
         this.fullname = fullname;

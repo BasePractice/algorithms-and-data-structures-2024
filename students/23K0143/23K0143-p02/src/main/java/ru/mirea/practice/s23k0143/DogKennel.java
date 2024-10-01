@@ -3,18 +3,7 @@ package ru.mirea.practice.s23k0143;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class DogKennel extends ArrayList<Dog>{
-
-    public void addDog(Dog dog) {
-        this.add(dog);
-    }
-
-    public void displayDogs() {
-        for (Object obj : this) {
-            Dog dog = (Dog) obj;
-            System.out.println(dog);
-        }
-    }
+public class DogKennel extends ArrayList<Dog> {
 
     public static void main(String[] args) {
         DogKennel kennel = new DogKennel();
@@ -32,8 +21,19 @@ public class DogKennel extends ArrayList<Dog>{
             System.out.println("\nСписок собак в приюте:");
             kennel.displayDogs();
 
-        }  catch (RuntimeException e) {
+        } catch (RuntimeException e) {
             throw new RuntimeException(e);
+        }
+    }
+
+    public void addDog(Dog dog) {
+        this.add(dog);
+    }
+
+    public void displayDogs() {
+        for (Object obj : this) {
+            Dog dog = (Dog) obj;
+            System.out.println(dog);
         }
     }
 }
