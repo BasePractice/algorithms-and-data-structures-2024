@@ -3,7 +3,8 @@ package ru.mirea.practice.s0000001.task2;
 import java.util.Scanner;
 
 public final class ArrayUtils {
-    private ArrayUtils() {}
+    private ArrayUtils() {
+    }
 
     public static void reverseArray(String[] array) {
         int left = 0;
