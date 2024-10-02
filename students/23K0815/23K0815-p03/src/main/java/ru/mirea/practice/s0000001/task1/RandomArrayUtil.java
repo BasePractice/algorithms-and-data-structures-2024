@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class RandomArrayUtil {
 
-    private int size;
+    private final int size;
 
     public RandomArrayUtil(int size) {
         this.size = size;
@@ -37,7 +37,7 @@ public class RandomArrayUtil {
         int size = 10;
         RandomArrayUtil util = new RandomArrayUtil(size);
 
-        System.out.println("Массив, сгенерированный с использованием Math.random():");
+        System.out.println("Массив, сгенерированный Math.random():");
         double[] mathRandomArray = util.generateArrayWithMathRandom();
         System.out.println(Arrays.toString(mathRandomArray));
 
@@ -45,7 +45,7 @@ public class RandomArrayUtil {
         System.out.println("Отсортированный массив:");
         System.out.println(Arrays.toString(mathRandomArray));
 
-        System.out.println("nМассив, сгенерированный с использованием класса Random:");
+        System.out.println("Массив, сгенерированный с использованием класса Random:");
         double[] randomArray = util.generateArrayWithRandom();
         System.out.println(Arrays.toString(randomArray));
 
