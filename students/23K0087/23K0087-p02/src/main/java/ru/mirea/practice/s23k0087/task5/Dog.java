@@ -9,7 +9,9 @@ public class Dog {
         this.age = age;
     }
 
-    public float getAge() { return age; }
+    public float getAge() {
+        return age;
+    }
 
     public String getName() {
         return name;
