@@ -8,8 +8,8 @@ import java.util.Scanner;
 public final class CardGame1 {
     private static final String[] SUITS = {"♠", "♥", "♦", "♣"};
     private static final String[] RANKS = {
-            "2", "3", "4", "5", "6", "7", "8", "9", "10",
-            "J", "Q", "K", "A"
+        "2", "3", "4", "5", "6", "7", "8", "9", "10",
+        "J", "Q", "K", "A"
     };
     private static final int MAX_PLAYERS = 52 / 5;
     private static final int CARDS_PER_PLAYER = 5;
@@ -29,7 +29,7 @@ public final class CardGame1 {
     }
 
     private static int getPlayerCount(Scanner scanner) {
-        System.out.print("Введите количество игроков: ");
+        System.out.print("Введите количество игроков:");
         if (!scanner.hasNextInt()) {
             throw new IllegalArgumentException("Введите целое число.");
         }

@@ -24,7 +24,7 @@ public final class ArrayUtils1 {
 
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
-            System.out.print("Введите количество элементов в массиве: ");
+            System.out.print("Введите количество элементов в массиве:");
             int n = scanner.nextInt();
             scanner.nextLine();
 
