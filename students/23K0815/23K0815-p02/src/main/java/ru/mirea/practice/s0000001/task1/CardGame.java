@@ -34,7 +34,7 @@ public abstract class CardGame {
 
     // Метод для создания колоды карт
     public static List<String> createDeck() {
-        String[] suits = {"Черви", "Бубны", "Крести", "Пики"};
+        String[] suits = {"Бубны", "Черви", "Крести", "Пики"};
         String[] ranks = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "Валет", "Дама", "Король", "Туз"};
         List<String> deck = new ArrayList<>();
 
