@@ -9,17 +9,21 @@ public class Dog {
         this.age = age;
     }
 
+
     public float getAge() {
         return age;
     }
+
 
     public String getName() {
         return name;
     }
 
+
     public float toHumanAge() {
         return age * 7;
     }
+
 
     public String toString() {
         return "Dog[name = " + name + ", age = " + age + "]";
