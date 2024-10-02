@@ -3,6 +3,7 @@ package ru.mirea.practice.s0000001.task2;
 import java.util.Scanner;
 
 public final class ArrayUtils1 {
+
     private ArrayUtils1() {
     }
 
@@ -10,6 +11,7 @@ public final class ArrayUtils1 {
         int left = 0;
         int right = array.length - 1;
 
+        // Базовый алгоритм разворота массива
         while (left < right) {
             String temp = array[left];
             array[left] = array[right];
@@ -26,9 +28,14 @@ public final class ArrayUtils1 {
             int n = scanner.nextInt();
             scanner.nextLine();
 
-            String[] array = new String[n];
+            if (n <= 0) {
+                System.out.println("Количество элементов должно быть положительным числом.");
+                return;
+            }
 
+            String[] array = new String[n];
             System.out.println("Введите элементы массива:");
+
             for (int i = 0; i < n; i++) {
                 array[i] = scanner.nextLine();
             }
@@ -39,6 +46,8 @@ public final class ArrayUtils1 {
             for (String str : array) {
                 System.out.println(str);
             }
+        } catch (Exception e) {
+            System.out.println("Произошла ошибка: " + e.getMessage());
         }
     }
 }
