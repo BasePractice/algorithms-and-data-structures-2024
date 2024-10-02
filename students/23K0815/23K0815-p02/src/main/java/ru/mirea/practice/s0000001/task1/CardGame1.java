@@ -52,7 +52,7 @@ public final class CardGame1 {
 
     private static void dealCards(List<String> deck, int playerCount) {
         for (int i = 0; i < playerCount; i++) {
-            System.out.println("Игрок " + (i + 1) + ":");
+            System.out.println("Игрок" + (i + 1) + ":");
             for (int j = 0; j < CARDS_PER_PLAYER; j++) {
                 System.out.print(deck.remove(deck.size() - 1) + " ");
             }
