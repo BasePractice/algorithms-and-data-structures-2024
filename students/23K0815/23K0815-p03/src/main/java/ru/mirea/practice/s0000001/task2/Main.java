@@ -27,6 +27,6 @@ public final class Main {
         System.out.println("Примитивный byte из Double: " + byteValue);
 
         String d = Double.toString(3.14);
-        System.out.println("Литерал типа double в строке: " + d);
+        System.out.println("Литерал типа double в строке:  " + d);
     }
 }

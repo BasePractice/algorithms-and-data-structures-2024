@@ -37,7 +37,7 @@ public class RandomArrayUtil {
         int size = 10;
         RandomArrayUtil util = new RandomArrayUtil(size);
 
-        System.out.println("Массив, сгенерированный с использованием Math.random():");
+        System.out.println("Массив, сгенерированный с использованием Math.random(): ");
         double[] mathRandomArray = util.generateArrayWithMathRandom();
         System.out.println(Arrays.toString(mathRandomArray));
 
