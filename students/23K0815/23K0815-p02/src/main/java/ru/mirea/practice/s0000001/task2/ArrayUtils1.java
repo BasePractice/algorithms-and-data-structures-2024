@@ -46,7 +46,7 @@ public final class ArrayUtils1 {
                 System.out.println(str);
             }
         } catch (Exception e) {
-            System.out.println("Произошла ошибка:" + e.getMessage());
+            System.out.println("Ошибка:" + e.getMessage());
         }
     }
 }
