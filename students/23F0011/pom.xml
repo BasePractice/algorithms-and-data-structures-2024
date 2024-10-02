@@ -14,5 +14,8 @@
 
     <modules>
         <module>23F0011-p01</module>
+        <module>23F0011-p02</module>
+        <module>23F0011-p03</module>
+        <module>23F0011-p04</module>
     </modules>
 </project>
