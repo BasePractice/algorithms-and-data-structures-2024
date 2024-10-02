@@ -17,7 +17,7 @@ public class Task1 {
         void moveDown();
 
         void moveRight();
-        
+
         void moveLeft();
     }
 
