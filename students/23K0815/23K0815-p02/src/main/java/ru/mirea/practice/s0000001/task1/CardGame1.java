@@ -31,7 +31,7 @@ public final class CardGame1 {
     private static int getPlayerCount(Scanner scanner) {
         System.out.print("Введите количество игроков: ");
         if (!scanner.hasNextInt()) {
-            throw new IllegalArgumentException("Введите корректное целое число.");
+            throw new IllegalArgumentException("Введите целое число.");
         }
         int n = scanner.nextInt();
         if (n < 1 || n > MAX_PLAYERS) {

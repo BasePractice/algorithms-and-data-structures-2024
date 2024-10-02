@@ -29,7 +29,7 @@ public final class ArrayUtils1 {
             scanner.nextLine();
 
             if (n <= 0) {
-                System.out.println("Количество элементов должно быть положительным числом.");
+                System.out.println("Количество элементов может быть только положительным числом.");
                 return;
             }
 
