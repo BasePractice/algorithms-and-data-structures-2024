@@ -18,8 +18,8 @@ public final class Main {
         float floatValue = doubleObject1.floatValue();
         byte byteValue = doubleObject1.byteValue();
 
-        System.out.println("Объект Double 1: " + doubleObject1);
-        System.out.println("Объект Double 2: " + doubleObject2);
+        System.out.println("Объект Double 1:" + doubleObject1);
+        System.out.println("Объект Double 2:" + doubleObject2);
         System.out.println("Преобразованное значение типа String к double: " + primitiveDouble);
         System.out.println("Примитивный int из Double: " + intValue);
         System.out.println("Примитивный long из Double: " + longValue);
