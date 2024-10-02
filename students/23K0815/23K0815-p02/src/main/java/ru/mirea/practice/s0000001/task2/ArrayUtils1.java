@@ -11,7 +11,6 @@ public final class ArrayUtils1 {
         int left = 0;
         int right = array.length - 1;
 
-        // Базовый алгоритм разворота массива
         while (left < right) {
             String temp = array[left];
             array[left] = array[right];

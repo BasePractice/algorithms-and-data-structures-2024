@@ -24,7 +24,7 @@ public final class CardGame1 {
             Collections.shuffle(deck);
             dealCards(deck, playerCount);
         } catch (Exception e) {
-            System.err.println("Произошла ошибка: " + e.getMessage());
+            System.err.println("Ошибка: " + e.getMessage());
         }
     }
 
