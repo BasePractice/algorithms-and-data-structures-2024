@@ -3,7 +3,7 @@ package ru.mirea.practice.s0000001.task1;
 public final class MatrixOperationsTest {
 
     private MatrixOperationsTest() {
-        throw new AssertionError("Utility class cannot be instantiated");
+        throw new AssertionError(" Utility class cannot be instantiated ");
     }
 
     public static void main(String[] args) {

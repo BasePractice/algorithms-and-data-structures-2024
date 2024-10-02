@@ -21,7 +21,7 @@ public class MatrixOperations {
 
     public MatrixOperations add(MatrixOperations other) {
         if (this.rows != other.rows || this.cols != other.cols) {
-            throw new IllegalArgumentException("Matrices must have the same dimensions for addition.");
+            throw new IllegalArgumentException(" Matrices must have the same dimensions for addition.");
         }
         MatrixOperations result = new MatrixOperations(this.rows, this.cols);
         for (int i = 0; i < this.rows; i++) {

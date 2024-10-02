@@ -9,7 +9,7 @@ public abstract class EmployeeTest {
         employees[2] = new Employee("Андрей", "Кузнецов", 4000);
 
         for (Employee employee : employees) {
-            System.out.println(employee.getFirstName() + " " + employee.getLastName() + " доход: " + employee.getIncome());
+            System.out.println(employee.getFirstName() + "  " + employee.getLastName() + " доход: " + employee.getIncome());
         }
     }
 }
