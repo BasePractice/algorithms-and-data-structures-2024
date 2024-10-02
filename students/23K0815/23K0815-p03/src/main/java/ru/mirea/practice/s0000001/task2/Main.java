@@ -25,6 +25,6 @@ public abstract class Main {
         System.out.println("Значение объекта Double: " + doubleObject1);
 
         String d = Double.toString(3.14);
-        System.out.println("Преобразованный литерал double к строке: " + d);
+        System.out.println("Преобразованный литерал double к строке:" + d);
     }
 }

@@ -20,9 +20,9 @@ public abstract class RandomArrayUtil {
             randomArray2[index] = randomGenerator.nextDouble();
         }
 
-        System.out.println("Массив, созданный с помощью Math.random():");
+        System.out.println("Массив, созданный с помощью Math.random(): ");
         System.out.println(Arrays.toString(randomArray1));
-        System.out.println("nМассив, созданный с использованием Random:");
+        System.out.println("nМассив, созданный с использованием Random: ");
         System.out.println(Arrays.toString(randomArray2));
 
         Arrays.sort(randomArray1);
