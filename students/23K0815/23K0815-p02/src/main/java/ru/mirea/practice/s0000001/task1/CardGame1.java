@@ -5,14 +5,14 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public final class CardGame {
+public final class CardGame1 {
     private static final String[] SUITS = {"♠", "♥", "♦", "♣"};
     private static final String[] RANKS = {
             "2", "3", "4", "5", "6", "7", "8", "9", "10",
             "J", "Q", "K", "A"
     };
 
-    private CardGame() {
+    private CardGame1() {
     }
 
     public static void main(String[] args) {

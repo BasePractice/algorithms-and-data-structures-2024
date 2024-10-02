@@ -2,8 +2,8 @@ package ru.mirea.practice.s0000001.task2;
 
 import java.util.Scanner;
 
-public final class ArrayUtils {
-    private ArrayUtils() {
+public final class ArrayUtils1 {
+    private ArrayUtils1() {
     }
 
     public static void reverseArray(String[] array) {
