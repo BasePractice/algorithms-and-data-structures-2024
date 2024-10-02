@@ -28,7 +28,7 @@ class Cpu {
         return "CPU{"
                 + "cpuModel='" + cpuModel + '\''
                 + ", cpuCores=" + cpuCores
-                + ", cpuFrequency=" + cpuFrequency + " GHz"
+                + ", cpuFrequency=" + cpuFrequency + " GHz "
                 + '}';
     }
 }

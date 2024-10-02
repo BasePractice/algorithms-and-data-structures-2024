@@ -32,7 +32,7 @@ class PC {
     @Override
     public String toString() {
         return "Computer{"
-                + "brand=" + brand
+                + ", brand=" + brand
                 + ", processor=" + processor
                 + ", memory=" + memory
                 + ", monitor=" + monitor

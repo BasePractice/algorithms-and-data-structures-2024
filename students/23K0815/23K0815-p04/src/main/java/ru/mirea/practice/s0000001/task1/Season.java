@@ -36,16 +36,16 @@ public class Season {
         public static void printFavoriteSeason(Seasons seasons) {
             switch (seasons) {
                 case SUMMER:
-                    System.out.println("Я люблю лето");
+                    System.out.println("Я люблю Лето");
                     break;
                 case WINTER:
-                    System.out.println("Я люблю зиму");
+                    System.out.println("Я люблю Зиму");
                     break;
                 case SPRING:
-                    System.out.println("Я люблю весну");
+                    System.out.println("Я люблю Весну");
                     break;
                 case AUTUMN:
-                    System.out.println("Я люблю осень");
+                    System.out.println("Я люблю Осень");
                     break;
                 default:
                     System.out.println("Я ничего не люблю...");

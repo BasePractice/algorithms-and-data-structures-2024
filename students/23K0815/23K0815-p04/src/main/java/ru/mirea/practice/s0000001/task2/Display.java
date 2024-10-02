@@ -21,7 +21,7 @@ class Display {
     public String toString() {
         return "Display{"
                 + "displayResolution='" + displayResolution + '\''
-                + ", displaySize=" + displaySize + " inches"
+                + ", displaySize=" + displaySize + " inches "
                 + '}';
     }
 }

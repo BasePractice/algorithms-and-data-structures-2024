@@ -1,6 +1,6 @@
 package ru.mirea.practice.s0000001.task1;
 
-public abstract class SeasonsEnumTest {
+public abstract class SeasonsEnumTest1 {
     public static void main(String[] args) {
         Season.Seasons myFavoriteSeasons = Season.Seasons.SPRING;
         Season.Seasons.printFavoriteSeason(myFavoriteSeasons);

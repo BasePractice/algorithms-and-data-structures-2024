@@ -21,7 +21,7 @@ class Ram {
     public String toString() {
         return "Ram{"
                 + "memoryType='" + memoryType + '\''
-                + ", memorySize=" + memorySize + " GB"
+                + ", memorySize=" + memorySize + " GB "
                 + '}';
     }
 }
