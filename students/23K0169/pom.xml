@@ -14,7 +14,6 @@
 
     <modules>
         <module>23K0169-p01</module>
-        <module>23K0169-p02</module>
         <module>23K0169-p03</module>
         <module>23K0169-p04</module>
         <module>23K0169-p041</module>
@@ -24,5 +23,6 @@
         <module>23K0169-p08</module>
         <module>23K0169-p09</module>
         <module>23K0169-p10</module>
+        <module>23K0169-p002</module>
     </modules>
 </project>
