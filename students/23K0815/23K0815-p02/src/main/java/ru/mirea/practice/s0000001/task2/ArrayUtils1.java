@@ -2,51 +2,29 @@ package ru.mirea.practice.s0000001.task2;
 
 import java.util.Scanner;
 
-public final class ArrayUtils1 {
-
-    private ArrayUtils1() {
-    }
-
-    public static void reverseArray(String[] array) {
-        int left = 0;
-        int right = array.length - 1;
-
-        while (left < right) {
-            String temp = array[left];
-            array[left] = array[right];
-            array[right] = temp;
-
-            left++;
-            right--;
-        }
-    }
-
+public abstract class ArrayUtils1 {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
-            System.out.print("Введите количество элементов в массиве:");
+            System.out.println("Enter the number of elements in the array:");
             int n = scanner.nextInt();
             scanner.nextLine();
 
-            if (n <= 0) {
-                System.out.println("Количество элементов может быть только положительным числом.");
-                return;
-            }
-
             String[] array = new String[n];
-            System.out.println("Введите элементы массива:");
-
+            System.out.println("Enter the elements of the array:");
             for (int i = 0; i < n; i++) {
                 array[i] = scanner.nextLine();
             }
 
-            reverseArray(array);
-
-            System.out.println("Массив в обратном порядке:");
-            for (String str : array) {
-                System.out.println(str);
+            for (int i = 0; i < n / 2; i++) {
+                String temp = array[i];
+                array[i] = array[n - 1 - i];
+                array[n - 1 - i] = temp;
             }
-        } catch (Exception e) {
-            System.out.println("Ошибка:" + e.getMessage());
+
+            System.out.println("Reversed array:");
+            for (String element : array) {
+                System.out.println(element);
+            }
         }
     }
 }
