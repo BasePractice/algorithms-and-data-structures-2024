@@ -1,55 +1,55 @@
 package ru.mirea.practice.s0000001.task3;
 
 public enum Wares {
-    salt(1) {
+    SALT(1) {
         @Override
         public String toString() {
             return "salt";
         }
     },
-    pepper(2) {
+    PEPPER(2) {
         @Override
         public String toString() {
             return "pepper";
         }
     },
-    cinnamon(3) {
+    CINNAMON(3) {
         @Override
         public String toString() {
             return "cinnamon";
         }
     },
-    cucumber(4) {
+    CUCUMBER(4) {
         @Override
         public String toString() {
             return "cucumber";
         }
     },
-    potato(5) {
+    POTATO(5) {
         @Override
         public String toString() {
             return "potato";
         }
     },
-    tomato(6) {
+    TOMATO(6) {
         @Override
         public String toString() {
             return "tomato";
         }
     },
-    apple(7) {
+    APPLE(7) {
         @Override
         public String toString() {
             return "apple";
         }
     },
-    pear(8) {
+    PEAR(8) {
         @Override
         public String toString() {
             return "pear";
         }
     },
-    plum(9) {
+    PLUM(9) {
         @Override
         public String toString() {
             return "plum";
