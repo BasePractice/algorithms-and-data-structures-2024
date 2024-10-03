@@ -6,7 +6,7 @@ import java.util.List;
 
 public abstract class CardGame {
     public static void main(String[] args) {
-        String[] type = {"Пикbи", "Черви", "Крести", "Бубны"};
+        String[] type = {"Пикlи", "Черви", "Крести", "Бубны"};
         String[] level = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "Валет", "Королева", "Король", "Туз"};
 
         int n = 5;
