@@ -1,4 +1,4 @@
-package ru.mirea.practice.s23f0011.task2;
+package ru.mirea.practice.s23f0011;
 
 import javax.swing.JFrame;
 

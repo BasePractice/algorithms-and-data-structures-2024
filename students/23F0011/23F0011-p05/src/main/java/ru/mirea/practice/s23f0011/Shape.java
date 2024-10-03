@@ -1,4 +1,4 @@
-package ru.mirea.practice.s23f0011.task2;
+package ru.mirea.practice.s23f0011;
 
 import java.awt.Color;
 import java.awt.Graphics2D;
