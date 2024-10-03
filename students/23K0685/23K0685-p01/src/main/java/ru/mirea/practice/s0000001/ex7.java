@@ -1,4 +1,4 @@
-package ru.mirea.task1;
+package ru.mirea.practice.s0000001;
 
 public class ex7 {
     public int Factorial(int strt) {

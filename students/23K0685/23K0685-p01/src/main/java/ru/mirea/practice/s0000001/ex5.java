@@ -1,4 +1,4 @@
-package ru.mirea.task1;
+package ru.mirea.practice.s0000001;
 
 public class ex5 {
     public static void main(String[] args) {
