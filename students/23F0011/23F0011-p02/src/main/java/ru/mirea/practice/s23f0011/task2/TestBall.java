@@ -1,4 +1,4 @@
-package ru.mirea.practice.s23f0011;
+package ru.mirea.practice.s23f0011.task2;
 
 public abstract class TestBall {
     public static void main(String[] args) {
