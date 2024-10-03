@@ -1,19 +1,19 @@
 package ru.mirea.practice.s0000001.task3;
 
 public enum Catalogue {
-    Spices(Wares.salt,Wares.pepper,Wares.cinnamon) {
+    SPICES(Wares.SALT,Wares.PEPPER,Wares.CINNAMON) {
         @Override
         public String toString() {
             return "Spices";
         }
     },
-    Vegetables(Wares.cucumber,Wares.potato,Wares.tomato) {
+    VEGETABLES(Wares.CUCUMBER,Wares.POTATO,Wares.TOMATO) {
         @Override
         public String toString() {
             return "Vegetables";
         }
     },
-    Fruits(Wares.apple,Wares.pear,Wares.plum) {
+    FRUITS(Wares.APPLE,Wares.PEAR,Wares.PLUM) {
         @Override
         public String toString() {
             return "Fruits";

@@ -1,10 +1,8 @@
 package ru.mirea.practice.s0000001.task4;
 
 import java.util.Objects;
-import java.util.Scanner;
 
 public class Shop {
-    private Scanner sc = new Scanner(System.in);
 
     public void tutorial() {
         System.out.println("available actions:1-list all computers, 2-add computer, 3-delete computer");
@@ -21,22 +19,16 @@ public class Shop {
         }
     }
 
-    public Pc[] setPc(Pc[] pc) {
+    public Pc[] setPc(Pc[] pc,String gpu,String cpu,String os,String origin,String ram) {
         for (int i = 0;i < pc.length;i++) {
             if (pc[i] == null) {
                 Pc pc1 = new Pc("","","","","");
-                System.out.println("input gpu:");
-                pc1.setGpu(sc.nextLine());
-                System.out.println("input cpu:");
-                pc1.setCpu(sc.nextLine());
-                System.out.println("input ram:");
-                pc1.setRam(sc.nextLine());
-                System.out.println("input os:");
-                pc1.setOs(sc.nextLine());
-                System.out.println("input origin:");
-                pc1.setOrigin(sc.nextLine());
+                pc1.setGpu(gpu);
+                pc1.setCpu(cpu);
+                pc1.setRam(ram);
+                pc1.setOs(os);
+                pc1.setOrigin(origin);
                 pc[i] = pc1;
-                System.out.println(pc1 + " added successfully");
                 break;
             } else if (i == pc.length - 1) {
                 System.out.println("no available space");
@@ -45,16 +37,13 @@ public class Shop {
         return pc;
     }
 
-    public Pc[] delPc(Pc[] pc) {
-        System.out.println("number of computer to delete:");
-        pc[sc.nextInt() - 1] = null;
+    public Pc[] delPc(Pc[] pc,int num) {
+        pc[num - 1] = null;
         System.out.println("computer deleted successfully:");
         return pc;
     }
 
-    public void search(Pc[] pc) {
-        System.out.println("input criteria:");
-        String criteria = sc.nextLine();
+    public void search(Pc[] pc,String criteria) {
         System.out.println("computers found with " + criteria + ":");
         for (int i = 0,cnt = 0;i < pc.length;i++) {
             if (pc[i] == null) {
@@ -81,8 +70,7 @@ public class Shop {
         }
     }
 
-    public Pc getPc(Pc[] p1) {
-        System.out.println("input pc number:");
-        return p1[sc.nextInt() - 1];
+    public Pc getPc(Pc[] p1,int num) {
+        return p1[num - 1];
     }
 }
