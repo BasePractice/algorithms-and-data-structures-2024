@@ -18,7 +18,7 @@ public class RandomShapes extends JPanel {
             int x = random.nextInt(400);
             int y = random.nextInt(400);
 
-            // Случайный выбор фигуры
+            // Случайный выбор фигур
             if (random.nextBoolean()) {
                 if (random.nextBoolean()) {
                     // Создаем звезду
