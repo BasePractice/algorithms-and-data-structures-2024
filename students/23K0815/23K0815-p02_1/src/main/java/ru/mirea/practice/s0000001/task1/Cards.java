@@ -21,6 +21,7 @@ public class Cards {    private String type;
         return level;
     }
 
+
     public void setRanks(String rank) {
         this.level = rank;
     }
