@@ -11,10 +11,10 @@ public abstract class CardGame {
 
         int n = 5;
 
-        List<Cards> deck = new ArrayList<>();
+        List<Cardss> deck = new ArrayList<>();
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 13; j++) {
-                deck.add(new Cards(type[i], level[j]));
+                deck.add(new Cardss(type[i], level[j]));
             }
         }
 

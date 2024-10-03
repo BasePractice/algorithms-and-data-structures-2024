@@ -1,10 +1,10 @@
 package ru.mirea.practice.s0000001.task1;
 
-public class Cards {    private String type;
+public class Cardss {    private String type;
     private String level;
 
 
-    public Cards(String type, String level) {
+    public Cardss(String type, String level) {
         this.type = type;
         this.level = level;
     }

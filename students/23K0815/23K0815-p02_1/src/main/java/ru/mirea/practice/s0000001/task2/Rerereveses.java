@@ -1,6 +1,6 @@
 package ru.mirea.practice.s0000001.task2;
 
-public abstract class Rererevese {
+public abstract class Rerereveses {
     public static void main(String[] args) {
         String[] arrStart = {"Группа", "Крови", "yа", "рукове", "порядковый", "Номер", "на", "рукове", "Пожелай", "мне", "удачи", "в", "бою"};
         System.out.println("START:");
