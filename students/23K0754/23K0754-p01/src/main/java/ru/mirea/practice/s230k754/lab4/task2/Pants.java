@@ -6,12 +6,11 @@ public class Pants extends Clothes implements MenClothing,WomenClothing  {
 
     }
 
-    @Override
     public void dressMan() {
         System.out.printf("Мужские штаны: цена: %f,цвет: %s,размер: %d\n", this.getPrice(), this.getColor(), this.getSize());
     }
 
-    @Override
+
     public void dressWomen() {
         System.out.printf("Женские штаны: цена: %f,цвет: %s,размер: %d\n", this.getPrice(), this.getColor(), this.getSize());
     }
