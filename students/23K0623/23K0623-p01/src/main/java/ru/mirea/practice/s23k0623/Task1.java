@@ -5,6 +5,16 @@ public final class Task1 {
 
 
     public static void main(String[] args) {
-        System.out.println();
+        int[] numbers = {1, 2, 3, 4, 5};
+        int sum = 0;
+
+        for (int number : numbers) {
+            sum += number;
+        }
+
+        double average = (double) sum / numbers.length;
+
+        System.out.println("Сумма элементов массива: " + sum);
+        System.out.println("Среднее арифметическое: " + average);
     }
 }
