@@ -1,9 +1,4 @@
-package ru.mirea.practice.s0000001.n1;
-
-import ru.mirea.practice.s0000001.n3.Animal;
-import ru.mirea.practice.s0000001.n3.Car;
-import ru.mirea.practice.s0000001.n3.Nameable;
-import ru.mirea.practice.s0000001.n3.Planet;
+package ru.mirea.practice.s0000001.n3;
 
 public abstract class Test {
     public static void main(String[] args) {
