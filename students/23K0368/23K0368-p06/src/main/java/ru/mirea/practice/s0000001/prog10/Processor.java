@@ -3,8 +3,8 @@ package ru.mirea.practice.s0000001.prog10;
 import java.util.Objects;
 
 public class Processor {
-    private String nameProcessor;
-    private int countCores;
+    private final String nameProcessor;
+    private final int countCores;
 
     public Processor(String nameProcessor, Integer countCores) {
         this.nameProcessor = nameProcessor;
@@ -15,16 +15,8 @@ public class Processor {
         return nameProcessor;
     }
 
-    public void setNameProcessor(String nameProcessor) {
-        this.nameProcessor = nameProcessor;
-    }
-
     public Integer getCountCores() {
         return countCores;
-    }
-
-    public void setCountCores(Integer countCores) {
-        this.countCores = countCores;
     }
 
     @Override

@@ -15,17 +15,10 @@ public class Memory {
         return memoryName;
     }
 
-    public void setMemoryName(String memoryName) {
-        this.memoryName = memoryName;
-    }
-
     public int getMemorySize() {
         return memorySize;
     }
 
-    public void setMemorySize(int memorySize) {
-        this.memorySize = memorySize;
-    }
 
     @Override
     public String toString() {

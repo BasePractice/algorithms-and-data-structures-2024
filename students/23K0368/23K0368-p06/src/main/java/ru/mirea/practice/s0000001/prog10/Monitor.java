@@ -3,8 +3,8 @@ package ru.mirea.practice.s0000001.prog10;
 import java.util.Objects;
 
 public class Monitor {
-    private String monitopreName;
-    private String monitoreSize;
+    private final String monitopreName;
+    private final String monitoreSize;
 
     public Monitor(String monitopreName, String monitoreSize) {
         this.monitopreName = monitopreName;
@@ -15,16 +15,8 @@ public class Monitor {
         return monitopreName;
     }
 
-    public void setMonitopreName(String monitopreName) {
-        this.monitopreName = monitopreName;
-    }
-
     public String getMonitoreSize() {
         return monitoreSize;
-    }
-
-    public void setMonitoreSize(String monitoreSize) {
-        this.monitoreSize = monitoreSize;
     }
 
     @Override

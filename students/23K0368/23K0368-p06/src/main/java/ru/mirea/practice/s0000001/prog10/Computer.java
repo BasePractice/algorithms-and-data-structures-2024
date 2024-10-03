@@ -3,10 +3,10 @@ package ru.mirea.practice.s0000001.prog10;
 import java.util.Objects;
 
 class Computer {
-    private ComputerBrand brand;
-    private Processor processor;
-    private Memory memory;
-    private Monitor monitor;
+    private final ComputerBrand brand;
+    private final Processor processor;
+    private final Memory memory;
+    private final Monitor monitor;
 
     public Computer(ComputerBrand brand, Processor processor, Memory memory, Monitor monitor) {
         this.brand = brand;
@@ -18,18 +18,6 @@ class Computer {
     // Getters
     public ComputerBrand getBrand() {
         return brand;
-    }
-
-    public Processor getProcessor() {
-        return processor;
-    }
-
-    public Memory getMemory() {
-        return memory;
-    }
-
-    public Monitor getMonitor() {
-        return monitor;
     }
 
     // Метод для вывода информации о компьютере
