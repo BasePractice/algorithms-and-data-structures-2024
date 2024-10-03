@@ -1,31 +1,18 @@
-package ru.mirea.practice.s0000001.n3;
+package ru.mirea.practice.s0000001.n1;
 
-public final class Main {
+import ru.mirea.practice.s0000001.n3.Animal;
+import ru.mirea.practice.s0000001.n3.Car;
+import ru.mirea.practice.s0000001.n3.Nameable;
+import ru.mirea.practice.s0000001.n3.Planet;
 
-    private Main() {
-        throw new UnsupportedOperationException("Utility class");
-    }
-
+public abstract class Main {
     public static void main(String[] args) {
-        double[][] data1 = {{1, 2, 3}, {4, 5, 6}};
-        double[][] data2 = {{7, 8, 9}, {10, 11, 12}};
-        Matrix matrix1 = new Matrix(data1);
-        Matrix matrix2 = new Matrix(data2);
+        Nameable planet = new Planet("Earth");
+        Nameable car = new Car("Tesla");
+        Nameable animal = new Animal("Lion");
 
-        matrix1.print();
-        System.out.println();
-
-        Matrix sum = matrix1.add(matrix2);
-        sum.print();
-        System.out.println();
-
-        Matrix multipliedByNumber = matrix1.multiplyByNumber(2);
-        multipliedByNumber.print();
-        System.out.println();
-
-        double[][] data3 = {{1, 2}, {3, 4}, {5, 6}};
-        Matrix matrix3 = new Matrix(data3);
-        Matrix product = matrix1.multiply(matrix3);
-        product.print();
+        System.out.println(planet.getName());
+        System.out.println(car.getName());
+        System.out.println(animal.getName());
     }
 }
