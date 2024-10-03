@@ -10,7 +10,7 @@ public abstract class Main {
 
             int[] nums = new int[n];
 
-            System.out.println("Введите элементы y массива:");
+            System.out.println("Введите элементы yfi массива:");
             for (int i = 0; i < n; i++) {
                 nums[i] = sc.nextInt();
             }
