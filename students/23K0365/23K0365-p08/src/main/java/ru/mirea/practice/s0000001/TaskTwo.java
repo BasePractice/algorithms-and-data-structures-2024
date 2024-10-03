@@ -3,7 +3,7 @@ package ru.mirea.practice.s0000001;
 public abstract class TaskTwo {
     public static void nnums(int n, int r) {
         if (n != r) {
-            System.out.print(r + "\t");
+            System.out.println(r);
             nnums(n,r + 1);
         }
     }
