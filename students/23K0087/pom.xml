@@ -15,5 +15,9 @@
     <modules>
         <module>23K0087-p01</module>
         <module>23K0087-p02</module>
+        <module>23K0087-p03</module>
+        <module>23K0087-p04</module>
+        <module>23K0087-p04_1</module>
+        <module>23K0087-p05</module>
     </modules>
 </project>
