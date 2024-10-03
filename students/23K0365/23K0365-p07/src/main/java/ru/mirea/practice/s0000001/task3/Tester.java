@@ -6,7 +6,7 @@ public abstract class Tester {
         MovableRectangle b = new MovableRectangle(14., 734.9, 125.2, 125.6, 12.63, 236.4);
         a.moveRight(15);
         b.moveDown(1251);
-        System.out.println(a + "\t" + b);
+        System.out.println(a + "\n" + b);
         System.out.println(b.speedTest());
         System.out.println(b.numberToString(b.xspeed));
     }
