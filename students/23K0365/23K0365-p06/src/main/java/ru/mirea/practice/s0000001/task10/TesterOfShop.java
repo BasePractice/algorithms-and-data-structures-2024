@@ -12,7 +12,6 @@ public abstract class TesterOfShop {
         System.out.println();
         test.findUr(Brands.ASUS, 15).toString();
         System.out.println();
-        //test.delUr(Brands.ASUS,15);
         test.toString();
     }
 }
