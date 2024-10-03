@@ -9,7 +9,7 @@ public abstract class SortingStudentsByGpA {
         if (students.size() <= 1) {
             return students;
         }
-        T tmp = students.getFirst();
+        T tmp = students.get(0);
         List<T> prList = new ArrayList<>();
         List<T> lvList = new ArrayList<>();
         for (int i = 1; i < students.size(); i++) {
