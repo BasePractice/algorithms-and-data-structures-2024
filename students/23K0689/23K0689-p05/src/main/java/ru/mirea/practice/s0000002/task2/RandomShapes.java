@@ -11,7 +11,7 @@ public class RandomShapes extends JPanel {
 
     public RandomShapes() {
         shapes = new Shape[20];
-        Random random = new Random(); // Declare random as a local variable
+        Random random = new Random();
 
         for (int i = 0; i < shapes.length; i++) {
             Color color = new Color(random.nextInt(256), random.nextInt(256), random.nextInt(256));
