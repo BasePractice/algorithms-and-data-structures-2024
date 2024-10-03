@@ -8,6 +8,6 @@
         <version>2024.1</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>23K0339-p041</artifactId>
-    <description>Практическая работа №4.1</description>
+    <artifactId>23K0339-p08</artifactId>
+    <description>Практическая работа №8</description>
 </project>
