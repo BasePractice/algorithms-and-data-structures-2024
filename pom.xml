@@ -68,6 +68,7 @@
         <module>students/23K0164</module>
         <module>students/23K0140</module>
         <module>students/23K0359</module>
+        <module>students/23K0688</module>
     </modules>
     <dependencies>
         <dependency>

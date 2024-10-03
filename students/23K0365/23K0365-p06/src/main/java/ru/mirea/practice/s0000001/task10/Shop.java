@@ -24,18 +24,6 @@ public class Shop {
         return a;
     }
 
-    //    public void delUr(Brands brandFinding){
-    //        for(Computer x : this.comps) {
-    //
-    //            if(brandFinding == )
-    //                Computer[] temp = new Computer[len - 1];
-    //                for(int i = 0; i < len-1; i++) {
-    //                    temp[i] = this.comps[i];
-    //                }
-    //                this.comps = temp;
-    //            }
-    //    }
-    //}
     @Override
     public String toString() {
         System.out.println("Shop:\n");
