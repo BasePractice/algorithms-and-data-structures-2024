@@ -8,21 +8,21 @@
         <version>2024.1</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
-    <artifactId>23F0011</artifactId>
+    <artifactId>23K0145</artifactId>
     <packaging>pom</packaging>
-    <description>Практическая работа Наиля</description>
+    <description>Практическая работа Кости</description>
 
     <modules>
-        <module>23F0011-p01</module>
-        <module>23F0011-p02</module>
-        <module>23F0011-p03</module>
-        <module>23F0011-p04</module>
-        <module>23F0011-p04_1</module>
-        <module>23F0011-p05</module>
-        <module>23F0011-p06</module>
-        <module>23F0011-p07</module>
-        <module>23F0011-p08</module>
-        <module>23F0011-p09</module>
-        <module>23F0011-p10</module>
+        <module>23K0145-p01</module>
+        <module>23K0145-p02</module>
+        <module>23K0145-p03</module>
+        <module>23K0145-p04</module>
+        <module>23K0145-p04_1</module>
+        <module>23K0145-p05</module>
+        <module>23K0145-p06</module>
+        <module>23K0145-p07</module>
+        <module>23K0145-p08</module>
+        <module>23K0145-p09</module>
+        <module>23K0145-p10</module>
     </modules>
 </project>
