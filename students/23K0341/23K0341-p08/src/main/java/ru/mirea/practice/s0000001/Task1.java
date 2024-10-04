@@ -16,10 +16,16 @@ public abstract class Task1 {
             int n = scanner.nextInt();
 
             for (int i = 1; i <= n; i++) {
-                for (int j = 0; j < i; j++) {
-                    System.out.print(i + ", ");
-                }
+                printer(i, i);
             }
         }
+    }
+
+    public static void printer(int numba, int am) {
+        if (0 == am) {
+            return;
+        }
+        System.out.println(numba);
+        printer(numba, am - 1);
     }
 }

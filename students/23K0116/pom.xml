@@ -10,7 +10,7 @@
     </parent>
     <artifactId>23K0116</artifactId>
     <packaging>pom</packaging>
-    <description>Практическая работа Пети</description>
+    <description>Практическая работа Ивана</description>
 
     <modules>
         <module>23K0116-p01</module>
@@ -21,5 +21,8 @@
         <module>23K0116-p05</module>
         <module>23K0116-p06</module>
         <module>23K0116-p07</module>
+        <module>23K0116-p08</module>
+        <module>23K0116-p09</module>
+        <module>23K0116-p10</module>
     </modules>
 </project>
