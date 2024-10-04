@@ -10,10 +10,19 @@
     </parent>
     <artifactId>23K0355</artifactId>
     <packaging>pom</packaging>
-    <description>Практическая работа Дмитрия</description>
+    <description>Практическая работа Дмитрия Лаврищева</description>
 
     <modules>
         <module>23K0355-p01</module>
         <module>23K0355-p02</module>
+        <module>23K0355-p03</module>
+        <module>23K0355-p04</module>
+        <module>23K0355-p04.1</module>
+        <module>23K0355-p05</module>
+        <module>23K0355-p06</module>
+        <module>23K0355-p07</module>
+        <module>23K0355-p08</module>
+        <module>23K0355-p09</module>
+        <module>23K0355-p10</module>
     </modules>
 </project>
