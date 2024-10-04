@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.mirea.practice</groupId>
@@ -71,6 +71,7 @@
         <module>students/23K0505</module>
         <module>students/23K0359</module>
         <module>students/23K0688</module>
+        <module>students/23K0215</module>
         <module>students/23K1226</module>
         <module>students/23K9901</module>
         <module>students/23K0145</module>
