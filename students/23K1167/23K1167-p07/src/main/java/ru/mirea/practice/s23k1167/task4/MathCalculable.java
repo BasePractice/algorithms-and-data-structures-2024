@@ -1,4 +1,4 @@
-package ru.mirea.practice.s23k1167;
+package ru.mirea.practice.s23k1167.task4;
 
 public interface MathCalculable {
     double pow(double base, double exponent);
