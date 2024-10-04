@@ -7,12 +7,8 @@ public abstract class Shape {
 
     public abstract double getPerimeter();
 
-
     @Override
     public String toString() {
-        return "Shape: " + getType()
-                + ", Area: " + getArea()
-                + ", Perimeter: " + getPerimeter();
-
+        return "Тип: " + getType() + ", Площадь: " + getArea() + ", Периметр: " + getPerimeter();
     }
 }
