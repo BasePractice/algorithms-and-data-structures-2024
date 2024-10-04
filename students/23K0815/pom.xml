@@ -10,10 +10,10 @@
     </parent>
     <artifactId>23K0815</artifactId>
     <packaging>pom</packaging>
-    <description>Практическая работа Пети</description>
+    <description>Практическая работа Егора</description>
 
     <modules>
         <module>23K0815-p01</module>
-        <module>23K0815-p02</module>
+        <module>23K0815-p02_1</module>
     </modules>
 </project>
