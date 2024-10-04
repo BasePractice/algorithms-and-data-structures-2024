@@ -9,5 +9,5 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>23K0375-p06</artifactId>
-    <description>Интерфейсы</description>
+    <description>интерфейс</description>
 </project>
