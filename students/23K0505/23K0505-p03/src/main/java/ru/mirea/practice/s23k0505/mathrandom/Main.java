@@ -1,4 +1,4 @@
-package ru.mirea.practice.s23k0120.math0and0random;
+package ru.mirea.practice.s23k0505.mathrandom;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -25,3 +25,4 @@ public abstract class Main {
         System.out.printf("Sorted random array: %s\n", Arrays.toString(nums2));
     }
 }
+

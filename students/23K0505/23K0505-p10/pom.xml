@@ -3,11 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>23K0143</artifactId>
+        <artifactId>23K0505</artifactId>
         <groupId>ru.mirea.practice</groupId>
         <version>2024.1</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>23K0143-p03</artifactId>
-    <description>Третье задание</description>
+    <artifactId>23K0505-p10</artifactId>
+    <description>Десятое задание</description>
 </project>
