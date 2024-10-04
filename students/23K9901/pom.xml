@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>algorithms-and-data-structures</artifactId>
+        <groupId>ru.mirea.practice</groupId>
+        <version>2024.1</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+    <artifactId>23K9901</artifactId>
+    <packaging>pom</packaging>
+    <description>Практическая работа Михайловой Марии</description>
+
+    <modules>
+        <module>23K9901-p01</module>
+        <module>23K9901-p02</module>
+        <module>23K9901-p03</module>
+        <module>23K9901-p04</module>
+        <module>23K9901-p05</module>
+        <module>23K9901-p06</module>
+        <module>23K9901-p07</module>
+        <module>23K9901-p08</module>
+        <module>23K9901-p09</module>
+        <module>23K9901-p10</module>
+    </modules>
+</project>
