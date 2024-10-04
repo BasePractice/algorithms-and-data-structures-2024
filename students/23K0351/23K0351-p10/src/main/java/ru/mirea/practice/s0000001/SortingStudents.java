@@ -3,7 +3,7 @@ package ru.mirea.practice.s0000001;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class SortingStudentsByGPA implements Comparator<Student> {
+public class SortingStudents implements Comparator<Student> {
     private Student[] students;
 
     public void setArray(Student[] studentsArray) {
@@ -66,7 +66,8 @@ public class SortingStudentsByGPA implements Comparator<Student> {
         System.arraycopy(array, left, leftArray, 0, n1);
         System.arraycopy(array, middle + 1, rightArray, 0, n2);
 
-        int i = 0, j = 0;
+        int i = 0;
+        int j = 0;
         int k = left;
         while (i < n1 && j < n2) {
             if (compare(leftArray[i], rightArray[j]) <= 0) {
@@ -97,12 +98,9 @@ public class SortingStudentsByGPA implements Comparator<Student> {
     }
 
     public static void main(String[] args) {
-        Student[] studentsArray = {
-                new Student("Anna", "Valko", "Math", 5, "A", 3.9),
-                new Student("Mariya", "Chapaeva", "Physics", 4, "B", 3.7),
-        };
+        Student[] studentsArray = {new Student("Anna", "Valko", "Math", 5, "A", 3.9), new Student("Mariya", "Chapaeva", "Physics", 4, "B", 3.7),};
 
-        SortingStudentsByGPA sorter = new SortingStudentsByGPA();
+        SortingStudents sorter = new SortingStudents();
         sorter.setArray(studentsArray);
 
         System.out.println("Before sorting by GPA:");
