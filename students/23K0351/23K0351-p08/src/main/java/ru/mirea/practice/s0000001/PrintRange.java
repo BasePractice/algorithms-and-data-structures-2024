@@ -10,11 +10,11 @@ public abstract class PrintRange {
     public static void printRange(int a, int b) {
         if (a < b) {
             for (int i = a; i <= b; i++) {
-                System.out.print(i + " ");
+                System.out.print(i + "  ");
             }
         } else {
             for (int i = a; i >= b; i--) {
-                System.out.print(i + " ");
+                System.out.print(i + "  ");
             }
         }
     }

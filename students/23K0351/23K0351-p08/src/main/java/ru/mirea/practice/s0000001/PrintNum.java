@@ -10,7 +10,7 @@ public abstract class PrintNum {
         if (current > n) {
             return;
         }
-        System.out.print(current + " ");
+        System.out.print(current + "  ");
         printNumbers(current + 1, n);
     }
 }
