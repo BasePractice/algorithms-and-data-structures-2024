@@ -29,7 +29,7 @@ public class Vehicle {
         this.cargoCapacity = cargoCapacity;
     }
 
-    public double getSpeed() {
+    public double getspeed() {
         return speed;
     }
 

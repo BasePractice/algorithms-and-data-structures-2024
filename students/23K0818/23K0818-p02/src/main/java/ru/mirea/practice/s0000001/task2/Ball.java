@@ -1,14 +1,17 @@
 package ru.mirea.practice.s0000001.task2;
 
 public class Ball {
-    private double x = 0.0;
-    private double y = 0.0;
+    private double x;
+    private double y;
+    private double xdelta;
+    private double ydelta;
 
-    public Ball() {
+    public Ball(double x, double y, double xdelta, double ydelta) {
         this.x = x;
         this.y = y;
+        this.xdelta = xdelta;
+        this.ydelta = ydelta;
     }
-
 
     public double getX() {
         return x;
@@ -26,18 +29,37 @@ public class Ball {
         this.y = y;
     }
 
-    public void setXY(double x, double y) {
-        this.x = x;
-        this.y = y;
+    public double getxdelta() {
+        return xdelta;
     }
 
-    public void move(double xdisp, double ydisp) {
-        x += xdisp;
-        y += ydisp;
+    public void setxdelta(double xdelta) {
+        this.xdelta = xdelta;
+    }
+
+    public double getydelta() {
+        return ydelta;
+    }
+
+    public void setydelta(double ydelta) {
+        this.ydelta = ydelta;
+    }
+
+    public void move() {
+        x += xdelta;
+        y += ydelta;
+    }
+
+    public void reflectHorizontal() {
+        xdelta = -xdelta;
+    }
+
+    public void reflectVertical() {
+        ydelta = -ydelta;
     }
 
     @Override
     public String toString() {
-        return "Ball[x=" + x + ", y=" + y + "]";
+        return "Ball[(" + x + ", " + y + "), speed=(" + xdelta + ", " + ydelta + ")]";
     }
 }

@@ -9,7 +9,7 @@ public class Circle extends Shape {
 
     @Override
     public String getType() {
-        return "Circle";
+        return "Круг";
     }
 
     @Override
@@ -21,14 +21,4 @@ public class Circle extends Shape {
     public double getPerimeter() {
         return 2 * Math.PI * radius;
     }
-
-    @Override
-    public String toString() {
-        return "Shape: " + getType()
-                + ", Radius: " + radius
-                + ", Area: " + String.format("%.2f", getArea())
-                + ", Perimeter: " + String.format("%.2f", getPerimeter());
-
-    }
 }
-
