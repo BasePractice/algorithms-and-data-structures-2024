@@ -1,6 +1,5 @@
 package ru.mirea.practice.s0000001;
 
-
 import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
