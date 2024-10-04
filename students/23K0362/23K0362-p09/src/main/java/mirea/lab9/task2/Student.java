@@ -1,4 +1,4 @@
-package mirea.lab1.task2;
+package mirea.lab9.task2;
 
 public class Student {
     String name;

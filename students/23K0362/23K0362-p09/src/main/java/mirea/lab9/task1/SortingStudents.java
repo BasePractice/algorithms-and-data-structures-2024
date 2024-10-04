@@ -1,4 +1,4 @@
-package mirea.lab1.task1;
+package mirea.lab9.task1;
 
 public class SortingStudents {
     private final Student[] arrayStudents;
