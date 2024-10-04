@@ -13,7 +13,7 @@ import java.io.IOException;
  * аргументах командной строки.
  */
 
-public abstract class Task3 {
+public abstract class Task2 {
     public static void main(String[] args) throws IOException {
         System.out.println(args[0]);
 
