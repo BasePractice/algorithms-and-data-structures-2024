@@ -9,7 +9,7 @@ public final class WordCountUtil {
     private static final Logger logger = Logger.getLogger(WordCountUtil.class.getName());
 
     private WordCountUtil() {
-        throw new UnsupportedOperationException("Utility class should not be instantiated");
+        throw new UnsupportedOperationException("Utility class shouldd not be instantiated");
     }
 
     public static int countWords(String sentence) {
