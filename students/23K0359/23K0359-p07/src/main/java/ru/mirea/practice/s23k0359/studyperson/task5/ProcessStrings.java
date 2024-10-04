@@ -3,7 +3,7 @@ package ru.mirea.practice.s23k0359.studyperson.task5;
 public class ProcessStrings implements Processable {
 
     public int counter(String string) {
-        count = string.length();
+        int count = string.length();
         return count;
     }
 
