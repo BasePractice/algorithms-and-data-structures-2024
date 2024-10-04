@@ -2,7 +2,7 @@ package ru.mirea.practice.s23k0120.task5and6;
 
 public abstract class Main {
     public static void main(String[] args) {
-        StringProcessable processer = new ProcessString();
+        Processable processer = new ProcessString();
         String s = "Hello, world!";
         System.out.println(processer.countChars(s, 'o'));
         System.out.println(processer.oddPlaces(s));
