@@ -18,19 +18,16 @@ public class RandomShapes extends JPanel {
             int x = random.nextInt(400);
             int y = random.nextInt(400);
 
-            // Случайный выбор фигур
+
             if (random.nextBoolean()) {
                 if (random.nextBoolean()) {
-                    // Создаем звезду
                     int size = random.nextInt(40) + 10; // Размер от 10 до 50
                     shapes[i] = new Star(color, x, y, size);
                 } else {
-                    // Создаем круг
                     int radius = random.nextInt(50) + 10; // Радиус от 10 до 60
                     shapes[i] = new Circle(color, x, y, radius);
                 }
             } else {
-                // Создаем прямоугольник
                 int width = random.nextInt(60) + 10; // Ширина от 10 до 70
                 int height = random.nextInt(60) + 10; // Высота от 10 до 70
                 shapes[i] = new RectangleShape(color, x, y, width, height);

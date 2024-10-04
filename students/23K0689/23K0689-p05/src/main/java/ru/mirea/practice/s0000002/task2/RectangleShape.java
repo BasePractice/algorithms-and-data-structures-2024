@@ -19,7 +19,6 @@ public class RectangleShape extends Shape {
         g.setColor(color);
         g.fillRect(a, b, width, height);
 
-        // Рисуем вырез
         g.setColor(Color.WHITE); // Цвет выреза
         g.fillRect(a + width / 4, b + height / 4, width / 2, height / 2);
     }
