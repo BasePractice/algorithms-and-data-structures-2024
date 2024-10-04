@@ -2,7 +2,7 @@ package ru.mirea.practice.pr2;
 
 public abstract class TestWriter {
     public static void main(String[] args) {
-        Writer writer = new Writer("Jane Smith", "jane.smith@example.com", 'F');
+        Writer writer = new Writer("Jane Gane", "jane.gane@example.com", 'F');
 
         System.out.println("Полное имя автора: " + writer.getFullName());
         System.out.println("Контактный email автора: " + writer.getContactEmail());
