@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public abstract class Main {
     public static void main(String[] args) {
-        int[] ar = new int[5];
+        int[] array = new int[5];
         int min = 10;
         int max = -10;
 
@@ -13,7 +13,7 @@ public abstract class Main {
         try (Scanner sc = new Scanner(System.in)) {
             do {
                 if (sc.hasNextInt()) {
-                    ar[i] = sc.nextInt();
+                    array[i] = sc.nextInt();
                     i++;
                 } else {
                     System.out.println("Нужно ввести целое число");
@@ -24,12 +24,12 @@ public abstract class Main {
         }
         i = 0;
         while (i < 5) {
-            System.out.print(ar[i] + " ");
-            if (ar[i] < min) {
-                min = ar[i];
+            System.out.print(array[i] + " ");
+            if (array[i] < min) {
+                min = array[i];
             }
-            if (ar[i] > max) {
-                max = ar[i];
+            if (array[i] > max) {
+                max = array[i];
             }
             i++;
         }
