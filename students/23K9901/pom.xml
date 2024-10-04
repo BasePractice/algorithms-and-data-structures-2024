@@ -8,19 +8,20 @@
         <version>2024.1</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
-    <artifactId>23K0350</artifactId>
+    <artifactId>23K9901</artifactId>
     <packaging>pom</packaging>
-    <description>Практическая работа Ксении Кобловой</description>
+    <description>Практическая работа Михайловой Марии</description>
 
     <modules>
-        <module>23K0350-p01</module>
-        <module>23K0350-p02</module>
-        <module>23K0350-p03</module>
-        <module>23K0350-p04-and-p04-1</module>
-        <module>23K0350-p07</module>
-        <module>23K0350-p06-backup</module>
-        <module>23K0350-p08</module>
-        <module>23K0350-p09</module>
-        <module>23K0350-p10</module>
-     </modules>
+        <module>23K9901-p01</module>
+        <module>23K9901-p02</module>
+        <module>23K9901-p03</module>
+        <module>23K9901-p04</module>
+        <module>23K9901-p05</module>
+        <module>23K9901-p06</module>
+        <module>23K9901-p07</module>
+        <module>23K9901-p08</module>
+        <module>23K9901-p09</module>
+        <module>23K9901-p10</module>
+    </modules>
 </project>
