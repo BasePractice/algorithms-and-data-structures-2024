@@ -1,4 +1,4 @@
-package ru.mirea.practice.s0000001.task9;
+package ru.mirea.practice.s0000001;
 
 public class Card {
     private String suite;
