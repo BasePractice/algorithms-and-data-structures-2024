@@ -1,6 +1,5 @@
 package ru.mirea.practice.s23k1167.task4;
 
-import ru.mirea.practice.s23k1167.MathCalculable;
 
 public class MathFunc implements MathCalculable {
     private static final double PI = 3.14159;
