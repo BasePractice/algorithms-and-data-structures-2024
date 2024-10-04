@@ -1,30 +1,15 @@
 package ru.mirea.practice.s0000001.task1;
 
-enum Season {
-    WINTER(-5) {
-        @Override
-        public String getDescription() {
-            return "Холодное время года";
-        }
-    },
-    SPRING(10) {
-        @Override
-        public String getDescription() {
-            return "Прохладное время года";
-        }
-    },
+public enum Season {
+    WINTER(-10),
+    SPRING(10),
     SUMMER(25) {
         @Override
         public String getDescription() {
             return "Теплое время года";
         }
     },
-    AUTUMN(15) {
-        @Override
-        public String getDescription() {
-            return "Прохладное время года";
-        }
-    };
+    AUTUMN(5);
 
     private final int averageTemperature;
 

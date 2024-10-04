@@ -8,8 +8,8 @@ public class MovableRectangle implements Movable {
     private MovablePoint bottomRight;
 
     public MovableRectangle(MovablePoint topLeft, MovablePoint bottomRight) {
-        if (topLeft.getxSpeed() != bottomRight.getxSpeed() || topLeft.getySpeed() != bottomRight.getySpeed()) {
-            throw new RuntimeException(String.format("Speed mismatch error: trying to define a rectangle with topLeft %s and bottomRight %s",
+        if (topLeft.getxspeed() != bottomRight.getxspeed() || topLeft.getyspeed() != bottomRight.getyspeed()) {
+            throw new RuntimeException(String.format("speed mismatch error: trying to define a rectangle with topLeft %s and bottomRight %s",
                     topLeft, bottomRight));
         }
         this.topLeft = topLeft;
