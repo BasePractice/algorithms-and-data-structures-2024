@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.mirea.practice</groupId>
@@ -27,6 +27,7 @@
     </scm>
 
     <modules>
+        <module>students/23K0623</module>
         <module>students/0000001</module>
         <module>students/23K0093</module>
         <module>students/23K0690</module>
@@ -44,21 +45,40 @@
         <module>students/23K0364</module>
         <module>students/23K0155</module>
         <module>students/23K0114</module>
+        <module>students/23K0815</module>
         <module>students/23K0341</module>
         <module>students/23K0823</module>
         <module>students/23K0087</module>
         <module>students/23K0112</module>
         <module>students/23K0351</module>
+        <module>students/23K0169</module>
         <module>students/23K0563</module>
         <module>students/23K0116</module>
         <module>students/23K0339</module>
         <module>students/23K0691</module>
-        <module>students/23K0815</module>
         <module>students/23K0089</module>
-        <module>students/23K0354</module>
+        <module>students/23K0375</module>
+        <module>students/23K0340</module>
         <module>students/23K0342</module>
+        <module>students/23K0354</module>
+        <module>students/23K0689</module>
+        <module>students/23F0011</module>
+        <module>students/23K1234</module>
+        <module>students/23K0818</module>
+        <module>students/23K0202</module>
+        <module>students/23K0130</module>
+        <module>students/23K0164</module>
+        <module>students/23K0140</module>
+        <module>students/23K0505</module>
+        <module>students/23K0359</module>
+        <module>students/23K0688</module>
+        <module>students/23K0215</module>
+        <module>students/23K1226</module>
+        <module>students/23K9901</module>
+        <module>students/23K0145</module>
+        <module>students/23K0186</module>
+        <module>students/23K0755</module>
     </modules>
-
     <dependencies>
         <dependency>
             <groupId>org.junit.platform</groupId>
