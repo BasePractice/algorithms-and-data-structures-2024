@@ -14,5 +14,10 @@
 
     <modules>
         <module>23K0565-p01</module>
+        <module>23K0565-p02_2</module>
+        <module>23K0565-p08</module>
+        <module>23K0565-p09</module>
+        <module>23K0565-p10</module>
+
     </modules>
 </project>
