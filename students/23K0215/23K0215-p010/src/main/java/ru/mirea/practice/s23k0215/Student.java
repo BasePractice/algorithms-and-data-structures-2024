@@ -1,75 +1,72 @@
 package ru.mirea.practice.s23k0215;
 
 public class Student {
-    String name;
-    String lname;
-    String spec;
-    char crs;
-    String group;
+    private String firstName;
+    private String lastName;
+    private String major;
+    private int year;
+    private String group;
+    private double gpa; // Средний балл студента
 
-    public Student(String name, String lname, String spec, char crs, String group) {
-        this.name = name;
-        this.lname = lname;
-        this.spec = spec;
-        this.crs = crs;
+    public Student(String firstName, String lastName, String major, int year, String group, double gpa) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.major = major;
+        this.year = year;
         this.group = group;
+        this.gpa = gpa;
     }
 
-    public String getName() {
-        return name;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public String getLname() {
-        return lname;
+    public String getLastName() {
+        return lastName;
     }
 
-    public String getSpec() {
-        return spec;
+    public String getMajor() {
+        return major;
     }
 
-    public char getCrs() {
-        return crs;
+    public int getYear() {
+        return year;
     }
 
     public String getGroup() {
         return group;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public double getGpa() { // Геттер для gpa
+        return gpa;
     }
 
-    public void setLname(String lname) {
-        this.lname = lname;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
-    public void setSpec(String spec) {
-        this.spec = spec;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
-    public void setCrs(char crs) {
-        this.crs = crs;
+    public void setMajor(String major) {
+        this.major = major;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
     }
 
     public void setGroup(String group) {
         this.group = group;
     }
 
+    public void setGpa(double gpa) { // Сеттер для gpa
+        this.gpa = gpa;
+    }
+
+    @Override
     public String toString() {
-        return "-Ваш студент-\nИмя:\n"
-                +
-                getName()
-                + "\n"
-                + "Фамилия:\n"
-                + getLname()
-                + "\n"
-                + "Специальность:\n"
-                + getSpec()
-                + "\n"
-                + "Курс:\n"
-                + getCrs()
-                + "\n"
-                + "Группа:\n"
-                + getGroup();
+        return firstName + " " + lastName + ", " + major + ", Year: " + year + ", Group: " + group + ", GPA: " + gpa;
     }
 }
