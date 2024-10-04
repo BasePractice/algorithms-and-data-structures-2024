@@ -27,7 +27,7 @@
     </scm>
 
     <modules>
-        <!--<module>students/0000001</module>
+        <module>students/0000001</module>
         <module>students/23K0093</module>
         <module>students/23K0690</module>
         <module>students/23K0120</module>
@@ -41,7 +41,7 @@
         <module>students/23K0346</module>
         <module>students/24K0459</module>
         <module>students/23K0364</module>
-        <module>students/23K0155</module>-->
+        <module>students/23K0155</module>
         <module>students/23K1167</module>
     </modules>
 
