@@ -8,6 +8,6 @@
         <version>2024.1</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>23K0355-p01</artifactId>
-    <description>Практика№1 Лаврищев Д.Н.</description>
+    <artifactId>23K0355-p03</artifactId>
+    <description>Практика№3 Лаврищев Д.Н.</description>
 </project>
