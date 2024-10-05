@@ -88,18 +88,18 @@ public abstract class Task4 {
 
     static class Processor {
         int cores;
-        double baseSpeed;
+        double basespeed;
         Manufacturer manufacturer;
 
-        public Processor(int cores, double baseSpeed, Manufacturer manufacturer) {
+        public Processor(int cores, double basespeed, Manufacturer manufacturer) {
             this.cores = cores;
-            this.baseSpeed = baseSpeed;
+            this.basespeed = basespeed;
             this.manufacturer = manufacturer;
         }
 
         @Override
         public String toString() {
-            return "Processor { " + "cores=" + cores + ", base speed=" + baseSpeed
+            return "Processor { " + "cores=" + cores + ", base speed=" + basespeed
                     + ", manufacturer=" + manufacturer + " }";
         }
     }
