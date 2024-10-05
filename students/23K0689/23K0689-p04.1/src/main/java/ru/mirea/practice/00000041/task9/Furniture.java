@@ -1,4 +1,4 @@
-package ru.mirea.practice.s0000001.task9;
+package ru.mirea.practice.s23L0908.task9;
 
 // Абстрактный класс Мебель
 public abstract class Furniture {

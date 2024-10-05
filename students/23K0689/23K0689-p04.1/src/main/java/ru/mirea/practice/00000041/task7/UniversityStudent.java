@@ -1,4 +1,4 @@
-package ru.mirea.practice.s0000001.task7;
+package ru.mirea.practice.s23L0908.task7;
 
 public class UniversityStudent extends Student {
     private String universityName;

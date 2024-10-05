@@ -1,4 +1,4 @@
-package ru.mirea.practice.s0000001.task4;
+package ru.mirea.practice.s23L0908.task4;
 
 public class Matrix {
     private double[][] data;
