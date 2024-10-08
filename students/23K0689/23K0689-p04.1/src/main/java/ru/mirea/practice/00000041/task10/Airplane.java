@@ -1,4 +1,4 @@
-package ru.mirea.practice.s0000001.task10;
+package ru.mirea.practice.s23K0135.task10;
 
 class Airplane extends Transport {
     public Airplane() {

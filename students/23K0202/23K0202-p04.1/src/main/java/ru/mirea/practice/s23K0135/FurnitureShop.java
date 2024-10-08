@@ -1,0 +1,26 @@
+package ru.mirea.practice.s23K0135;
+
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class FurnitureShop {
+    private final List<Furniture> furnitureList;
+
+    public FurnitureShop() {
+
+        this.furnitureList = new ArrayList<>();
+    }
+
+    public void addFurniture(Furniture furniture) {
+
+        furnitureList.add(furniture);
+    }
+
+    public void presentShop() {
+        for (Furniture furniture : furnitureList) {
+            furniture.furniture();
+            System.out.println();
+        }
+    }
+}

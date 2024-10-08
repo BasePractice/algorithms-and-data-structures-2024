@@ -1,4 +1,4 @@
-package ru.mirea.practice.s0000001.task1;
+package ru.mirea.practice.s23K0135.task1;
 
 public class Square extends Rectangle {
 

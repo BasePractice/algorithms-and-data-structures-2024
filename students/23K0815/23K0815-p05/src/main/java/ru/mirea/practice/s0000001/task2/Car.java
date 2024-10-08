@@ -1,4 +1,4 @@
-package ru.mirea.practice.s0000001.task2;
+package ru.mirea.practice.s23K0135.task2;
 
 class Car extends Transport {
     public Car(double speed, double costPerKm) {

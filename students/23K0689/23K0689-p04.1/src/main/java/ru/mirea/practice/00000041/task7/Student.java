@@ -1,4 +1,4 @@
-package ru.mirea.practice.s0000001.task7;
+package ru.mirea.practice.s23K0135.task7;
 
 public abstract class Student {
     private String name;

@@ -1,4 +1,4 @@
-package ru.mirea.practice.s0000001.task9;
+package ru.mirea.practice.s23K0135.task9;
 
 public final class Furnitureshoptester {
 

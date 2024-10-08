@@ -1,0 +1,31 @@
+package ru.mirea.practice.s23K0135.prog7;
+
+public class Book implements Printable {
+    private String title;
+    private String author;
+
+    Book(String title, String author) {
+        this.title = title;
+        this.author = author;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public void print() {
+        System.out.println("Title: " + title + " Author: " + author);
+    }
+}

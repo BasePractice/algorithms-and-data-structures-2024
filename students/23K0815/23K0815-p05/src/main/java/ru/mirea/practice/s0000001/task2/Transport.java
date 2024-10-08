@@ -1,4 +1,4 @@
-package ru.mirea.practice.s0000001.task2;
+package ru.mirea.practice.s23K0135.task2;
 
 abstract class Transport {
     protected double speed; // Скорость в км/ч

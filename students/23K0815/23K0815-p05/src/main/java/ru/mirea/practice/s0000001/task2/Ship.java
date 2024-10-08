@@ -1,4 +1,4 @@
-package ru.mirea.practice.s0000001.task2;
+package ru.mirea.practice.s23K0135.task2;
 
 class Ship extends Transport {
     public Ship(double speed, double costPerKm) {
