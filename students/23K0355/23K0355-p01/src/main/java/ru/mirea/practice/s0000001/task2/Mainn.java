@@ -9,7 +9,7 @@ public final class Mainn {
     public static void main(String[] args) {
 
         try (Scanner scanner = new Scanner(System.in)) {
-            System.out.print("Введите размер массива: ");
+            System.out.print("Введите разгмер массива: ");
             int size = scanner.nextInt();
 
             int[] numbers = new int[size];

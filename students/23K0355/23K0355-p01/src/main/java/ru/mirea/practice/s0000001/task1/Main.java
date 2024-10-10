@@ -5,7 +5,7 @@ import java.util.Scanner;
 public abstract class Main {
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
-            System.out.print("Введите количество элементов: ");
+            System.out.print("Введите количестлво элементов: ");
             int count = input.nextInt();
 
             int[] arr = new int[count];

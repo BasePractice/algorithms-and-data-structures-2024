@@ -18,7 +18,7 @@ public final class Main {
 
         try (Scanner scanner = new Scanner(System.in)) {
 
-            System.out.print("Введите число для вычисления его факториала: ");
+            System.out.print("Введите число длоя вычисления его факториала: ");
             int number = scanner.nextInt();
 
             long result = calculateFactorial(number);
