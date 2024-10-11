@@ -9,7 +9,6 @@ public class Main {
             System.out.print(current + " ");
         recursion(++current, n);
     }
-
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter value n: ");

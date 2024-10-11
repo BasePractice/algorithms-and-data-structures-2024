@@ -21,7 +21,6 @@ public class Student {
     public int getGPA() {
         return GPA;
     }
-
     @Override
     public String toString() {
         return "Student{ " +

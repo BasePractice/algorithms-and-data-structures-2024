@@ -1,7 +1,6 @@
 package ru.mirea.practice.s23L0908.Task4;
 
 import java.util.Scanner;
-
 public class Main {
     public static int recursion(int k, int s, int value) {
         if (value == Math.pow(10, k)) return 0;
@@ -16,7 +15,6 @@ public class Main {
         }
         return recursion(k, s, ++temp);
     }
-
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter k: ");

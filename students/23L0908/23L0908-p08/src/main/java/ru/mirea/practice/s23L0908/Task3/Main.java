@@ -1,7 +1,5 @@
 package ru.mirea.practice.s23L0908.Task3;
-
 import java.util.Scanner;
-
 public class Main {
     public static void recursion(int a, int b) {
         if (a > b) {
@@ -12,7 +10,6 @@ public class Main {
             System.out.print(b + " ");
         }
     }
-
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter value a,b: ");
