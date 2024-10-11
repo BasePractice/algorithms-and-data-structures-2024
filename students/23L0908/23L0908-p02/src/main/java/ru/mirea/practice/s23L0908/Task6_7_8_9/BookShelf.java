@@ -1,4 +1,4 @@
-package ru.mirea.practice.s23L0908.Task7;
+package ru.mirea.practice.s23L0908.Task6_7_8_9;
 import java.util.ArrayList;
 import java.util.Collections;
 public class BookShelf {

@@ -1,8 +1,5 @@
 package ru.mirea.practice.s23L0908.Task1;
 
-import java.util.Arrays;
-import java.util.Random;
-
 public class Main {
     enum Season {
         WINTER(-5) {

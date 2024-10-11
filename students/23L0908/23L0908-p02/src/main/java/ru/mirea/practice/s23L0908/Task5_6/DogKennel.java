@@ -1,4 +1,4 @@
-package ru.mirea.practice.s23L0908.Task5;
+package ru.mirea.practice.s23L0908.Task5_6;
 import java.util.ArrayList;
 public class DogKennel {
     private ArrayList<Dog> dogs;
