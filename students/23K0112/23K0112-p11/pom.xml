@@ -8,6 +8,6 @@
         <version>2024.1</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>23K0112-p010</artifactId>
-    <description>Стандартные интерфейсы Джава</description>
+    <artifactId>23K0112-p11</artifactId>
+    <description>Дата и время</description>
 </project>
