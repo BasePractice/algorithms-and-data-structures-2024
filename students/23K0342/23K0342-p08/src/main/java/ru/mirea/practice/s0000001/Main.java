@@ -17,7 +17,7 @@ public abstract class Main {
             System.out.print("Введите значение n: ");
             int n = scanner.nextInt();
             printNumbers(n);
-        } catch (Exception e) { // Обработка исключений
+        } catch (Exception e) {
             System.out.println("Ошибка ввода: " + e.getMessage());
         }
     }
