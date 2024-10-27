@@ -60,12 +60,21 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", major='" + major + '\'' +
-                ", year=" + year +
-                ", group='" + group + '\'' +
+        return "Student{"
+                +
+                "firstName='" + firstName
+                + '\''
+                +
+                ", lastName='" + lastName
+                + '\''
+                +
+                ", major='" + major
+                + '\''
+                +
+                ", year=" + year
+                +
+                ", group='" + group + '\''
+                +
                 '}';
     }
 }
