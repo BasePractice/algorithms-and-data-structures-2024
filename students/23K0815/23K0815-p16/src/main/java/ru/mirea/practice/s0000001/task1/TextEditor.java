@@ -41,7 +41,7 @@ public class TextEditor extends JFrame {
         colorMenu.add(blackItem);
 
         // Создание меню выбора шрифта
-        final JMenu fontMenu = new JMenu("Шрифт");
+        final JMenu fontMenu = new JMenu("ШШрифт");
         JMenuItem timesNewRomanItem = new JMenuItem("Times New Roman");
         JMenuItem msSansSerifItem = new JMenuItem("MS Sans Serif");
         JMenuItem courierNewItem = new JMenuItem("Courier New");

@@ -29,7 +29,7 @@ public class PasswordChecker extends JFrame {
         inputPanel.setLayout(new GridLayout(4, 2)); // 4 строки и 2 колонки
 
         // Создание компонентов ввода
-        final JLabel serviceLabel = new JLabel("Сервис:");
+        final JLabel serviceLabel = new JLabel("ССервис:");
         serviceField = new JTextField();
 
         final JLabel usernameLabel = new JLabel("Имя пользователя:");
