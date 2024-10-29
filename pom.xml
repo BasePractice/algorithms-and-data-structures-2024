@@ -59,7 +59,6 @@
         <module>students/23K0089</module>
         <module>students/23K0375</module>
         <module>students/23K0340</module>
-        <module>students/23K0342</module>
         <module>students/23K0354</module>
         <module>students/23K0689</module>
         <module>students/23F0011</module>
@@ -78,6 +77,7 @@
         <module>students/23K0145</module>
         <module>students/23K0186</module>
         <module>students/23K0755</module>
+        <module>students/23K0342</module>
     </modules>
     <dependencies>
         <dependency>
