@@ -11,3 +11,4 @@ public class Pepper implements Pricable {
         this.price = price;
     }
 }
+

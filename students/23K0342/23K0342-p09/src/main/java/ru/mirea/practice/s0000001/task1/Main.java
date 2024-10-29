@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public final class Main {
     private Main() {
-        // Приватный конструктор для предотвращения создания экземпляров класса
     }
 
     public static void main(String[] args) {
