@@ -1,4 +1,4 @@
-package mirea.lab9;
+package mirea.lab10;
 
 public class Student {
     String firstName;

@@ -1,6 +1,6 @@
-package mirea.lab9;
+package mirea.lab10;
 
-public class MergeStudentsArrays {
+public abstract class MergeStudentsArrays {
     public static void printArrayStudents(Student[] arrayStudents) {
         for (Student arrayStudent : arrayStudents) {
             System.out.println(arrayStudent.toString() + " ");

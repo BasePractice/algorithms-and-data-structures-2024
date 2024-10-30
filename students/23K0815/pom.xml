@@ -14,7 +14,15 @@
 
     <modules>
         <module>23K0815-p01</module>
+        <module>23K0815-p02</module>
         <module>23K0815-p02_1</module>
         <module>23K0815-p03</module>
+        <module>23K0815-p04</module>
+        <module>23K0815-p05</module>
+        <module>23K0815-p11</module>
+        <module>23K0815-p12</module>
+        <module>23K0815-p13</module>
+        <module>23K0815-p14</module>
+        <module>23K0815-p15</module>
     </modules>
 </project>

@@ -1,6 +1,6 @@
-package mirea.lab1.task1;
+package mirea.lab9.task1;
 
-public class Tester {
+public abstract class Tester {
     public static void printArrayStudents(Student[] array2Students) {
         for (Student array2Student : array2Students) {
             System.out.println(array2Student.toString() + " ");
