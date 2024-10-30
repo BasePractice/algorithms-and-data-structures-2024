@@ -1,6 +1,6 @@
 package ru.mirea.practice.s0000001.task5;
 
-public interface Hftf {
+public interface  Hftf {
 
     static int len(String text) {
         return text.length();

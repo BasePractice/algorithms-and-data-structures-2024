@@ -10,18 +10,11 @@
     </parent>
     <artifactId>23K0342</artifactId>
     <packaging>pom</packaging>
-    <description>Практическая работа Валеевой Юлии</description>
+    <description>Практическая работа Валеевой Юлии (КАБО-01-23)</description>
 
     <modules>
         <module>23K0342-p01</module>
-        <module>23K0342-p02</module>
-        <module>23K0342-p03</module>
-        <module>23K0342-pp4</module>
-        <module>23K0342-pp4.1</module>
-        <module>23K0342-pp06</module>
-        <module>23K0342-pp07</module>
         <module>23K0342-p08</module>
-        <module>23K0342-p09</module>
         <module>23K0342-p10</module>
     </modules>
 </project>
