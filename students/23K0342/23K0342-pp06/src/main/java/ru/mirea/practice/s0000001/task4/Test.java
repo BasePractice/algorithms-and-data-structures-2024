@@ -1,6 +1,6 @@
 package ru.mirea.practice.s0000001.task4;
 
-public abstract class Test {
+public abstract class  Test {
     public static void main(String[] args) {
         Pricable s = new Salt(1.0);
         Pricable c = new Cinnamon(2.0);
