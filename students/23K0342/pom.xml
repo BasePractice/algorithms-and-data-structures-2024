@@ -14,10 +14,14 @@
 
     <modules>
         <module>23K0342-p01</module>
+        <module>23K0342-p08</module>
+        <module>23K0342-p10</module>
         <module>23K0342-p02</module>
         <module>23K0342-p03</module>
         <module>23K0342-pp4</module>
         <module>23K0342-pp4.1</module>
-
+        <module>23K0342-pp06</module>
+        <module>23K0342-pp07</module>
+        <module>23K0342-p09</module>
     </modules>
 </project>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.mirea.practice</groupId>
@@ -13,8 +13,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-        <version.junit>1.11.1</version.junit>
-        <version.jupiter>5.11.1</version.jupiter>
+        <version.junit>1.11.3</version.junit>
+        <version.jupiter>5.11.3</version.jupiter>
         <version.pmd>6.52.0</version.pmd>
     </properties>
 
@@ -27,6 +27,8 @@
     </scm>
 
     <modules>
+        <module>students/23K0135</module>
+        <module>students/23K0623</module>
         <module>students/0000001</module>
         <module>students/23K0093</module>
         <module>students/23K0690</module>
@@ -44,6 +46,7 @@
         <module>students/23K0364</module>
         <module>students/23K0155</module>
         <module>students/23K0114</module>
+        <module>students/23K0815</module>
         <module>students/23K0341</module>
         <module>students/23K0823</module>
         <module>students/23K0087</module>
@@ -54,11 +57,9 @@
         <module>students/23K0116</module>
         <module>students/23K0339</module>
         <module>students/23K0691</module>
-        <module>students/23K0815</module>
         <module>students/23K0089</module>
         <module>students/23K0375</module>
         <module>students/23K0340</module>
-        <module>students/23K0342</module>
         <module>students/23K0354</module>
         <module>students/23K0689</module>
         <module>students/23F0011</module>
@@ -68,8 +69,18 @@
         <module>students/23K0130</module>
         <module>students/23K0164</module>
         <module>students/23K0140</module>
+        <module>students/23K0505</module>
         <module>students/23K0359</module>
         <module>students/23K0688</module>
+        <module>students/23K0355</module>
+        <module>students/23K0215</module>
+        <module>students/23K1167</module>
+        <module>students/23K1226</module>
+        <module>students/23K9901</module>
+        <module>students/23K0145</module>
+        <module>students/23K0186</module>
+        <module>students/23K0755</module>
+
     </modules>
     <dependencies>
         <dependency>
@@ -131,12 +142,12 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>3.5.0</version>
+                <version>3.6.0</version>
                 <dependencies>
                     <dependency>
                         <groupId>com.puppycrawl.tools</groupId>
                         <artifactId>checkstyle</artifactId>
-                        <version>10.18.2</version>
+                        <version>10.19.0</version>
                     </dependency>
                 </dependencies>
                 <configuration>

@@ -1,4 +1,4 @@
-package ru.mirea.practice.s0000001.task3;
+package ru.mirea.practice.s0000002.task3;
 
 // Класс, представляющий окружность
 public class Circle {

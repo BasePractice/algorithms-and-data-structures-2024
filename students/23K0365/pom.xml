@@ -15,7 +15,13 @@
     <modules>
         <module>23K0365-p01</module>
         <module>23K0365-p02</module>
+        <module>23K0365-p03</module>
         <module>23K0365-p04</module>
+        <module>23K0365-p05</module>
+        <module>23K0365-p06</module>
+        <module>23K0365-p10</module>
+        <module>23K0365-p09</module>
         <module>23K0365-p08</module>
+        <module>23K0365-p07</module>
     </modules>
 </project>
