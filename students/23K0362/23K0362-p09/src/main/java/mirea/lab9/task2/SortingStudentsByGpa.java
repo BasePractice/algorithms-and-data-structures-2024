@@ -1,4 +1,4 @@
-package mirea.lab1.task2;
+package mirea.lab9.task2;
 
 public class SortingStudentsByGpa {
     private final Student[] array;
@@ -18,7 +18,7 @@ public class SortingStudentsByGpa {
 
     private int partition(int low, int high) {
         Student pivot = array[high];
-        int i = (low - 1);
+        int i = low - 1;
         Student temp;
         for (int j = low; j < high; j++) {
             if (array[j].getGpa() < pivot.getGpa()) {

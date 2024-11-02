@@ -1,4 +1,4 @@
-package mirea.lab1.task1;
+package mirea.lab9.task1;
 
 public class Student {
     String name;
@@ -27,6 +27,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" + "name='" + name + ", iDNumber=" + iDNumber + '}';
+        return "Student{" + "name='" + name + ", iDNumber=" + idNumber + '}';
     }
 }
