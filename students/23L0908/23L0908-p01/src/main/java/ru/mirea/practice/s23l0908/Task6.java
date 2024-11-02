@@ -1,6 +1,11 @@
 package ru.mirea.practice.s23l0908;
 
-public class Task6 {
+public final class Task6 {
+
+    private Task6() {
+        // Private constructor to prevent instantiation
+    }
+
     public static void main(String[] args) {
         int n = 10;
         double sum = 0.0;
@@ -12,3 +17,4 @@ public class Task6 {
         System.out.println("Result: " + sum);
     }
 }
+

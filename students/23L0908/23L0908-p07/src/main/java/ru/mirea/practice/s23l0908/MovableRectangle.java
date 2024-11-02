@@ -1,51 +1,53 @@
 package ru.mirea.practice.s23l0908;
 
 public class MovableRectangle implements Movable {
-    private MovablePoint topLeft;
-    private MovablePoint bottomRight;
+    private final MovablePoint topLeft;
+    private final MovablePoint bottomRight;
 
-    public MovableRectangle(int x1, int y1, int x2, int y2, int xSpeed, int ySpeed) {
-        topLeft = new MovablePoint(x1, y1, xSpeed, ySpeed);
-        bottomRight = new MovablePoint(x2, y2, xSpeed, ySpeed);
+    public MovableRectangle(int x1, int y1, int x2, int y2, int xspeed, int yspeed) {
+        topLeft = new MovablePoint(x1, y1, xspeed, yspeed);
+        bottomRight = new MovablePoint(x2, y2, xspeed, yspeed);
     }
 
     @Override
     public String toString() {
-        return "MovableRectangle{" +
-            "topLeft=" + topLeft +
-            ", bottomRight=" + bottomRight +
-            '}';
+        return "MovableRectangle{"
+            + "topLeft="
+            + topLeft
+            + ", bottomRight="
+            + bottomRight
+            + '}';
     }
 
     @Override
     public void moveDown() {
         System.out.println("Rectangle move down!");
-        topLeft.y -= topLeft.ySpeed;
-        bottomRight.y -= bottomRight.ySpeed;
+        topLeft.y -= topLeft.yspeed;
+        bottomRight.y -= bottomRight.yspeed;
     }
 
     @Override
     public void moveRight() {
         System.out.println("Rectangle move right!");
-        topLeft.x += topLeft.xSpeed;
-        bottomRight.x += bottomRight.xSpeed;
+        topLeft.x += topLeft.xspeed;
+        bottomRight.x += bottomRight.xspeed;
     }
 
     @Override
     public void moveUp() {
         System.out.println("Rectangle move up!");
-        topLeft.y += topLeft.ySpeed;
-        bottomRight.y += bottomRight.ySpeed;
+        topLeft.y += topLeft.yspeed;
+        bottomRight.y += bottomRight.yspeed;
     }
 
     @Override
     public void moveLeft() {
         System.out.println("Rectangle move left!");
-        topLeft.x -= topLeft.xSpeed;
-        bottomRight.x -= bottomRight.xSpeed;
+        topLeft.x -= topLeft.xspeed;
+        bottomRight.x -= bottomRight.xspeed;
     }
 
-    public boolean SpeedTest() {
-        return ((topLeft.xSpeed == topLeft.ySpeed) & (bottomRight.xSpeed == bottomRight.ySpeed));
+    public boolean speedtest() {
+        return topLeft.xspeed == topLeft.yspeed & bottomRight.xspeed == bottomRight.yspeed;
     }
 }

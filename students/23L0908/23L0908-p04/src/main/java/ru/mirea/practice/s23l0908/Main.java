@@ -1,29 +1,35 @@
 package ru.mirea.practice.s23l0908;
 
-public class Main {
-    enum Season {
+public final class Main {
+
+    private Main() {
+
+    }
+
+    enum Season {  //Холодное время года
         WINTER(-5) {
             @Override
             public String getDescription() {
-                return "Холодное время года";
+                return "Winter- Cold season";
             }
         },
         SPRING(10) {
             @Override
             public String getDescription() {
-                return "Холодное время года";
+                return "Spring - время обновления";
             }
         },
+
         SUMMER(25) {
             @Override
             public String getDescription() {
-                return "Теплое время года";
+                return "Summer- warm season";
             }
         },
         AUTUMN(10) {
             @Override
             public String getDescription() {
-                return "Холодное время года";
+                return "Autumn- cold season";
             }
         };
 
@@ -68,6 +74,9 @@ public class Main {
             case AUTUMN:
                 System.out.println("Я люблю осень");
                 break;
+            default:
+                throw new IllegalArgumentException("Unexpected season: " + season);
         }
     }
+
 }
