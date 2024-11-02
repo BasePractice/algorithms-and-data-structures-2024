@@ -1,4 +1,4 @@
-package ru.mirea.practice.s26k0112;
+package ru.mirea.practice.s27k0112;
 
 public class Student {
     private String name;
