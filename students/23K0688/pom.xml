@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>algorithms-and-data-structures</artifactId>
+        <groupId>ru.mirea.practice</groupId>
+        <version>2024.1</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+    <artifactId>23K0688</artifactId>
+    <packaging>pom</packaging>
+    <description>Практическая работа Александра</description>
+
+    <modules>
+        <module>23K0688-p01</module>
+        <module>23K0688-p02</module>
+        <module>23K0688-p03</module>
+        <module>23K0688-p04</module>
+        <module>23K0688-p04_1</module>
+        <module>23K0688-p05</module>
+        <module>23K0688-p06</module>
+        <module>23K0688-p07</module>
+        <module>23K0688-p08</module>
+        <module>23K0688-p09</module>
+        <module>23K0688-p10</module>
+        <module>23K0688-p11</module>
+        <module>23K0688-p12</module>
+        <module>23K0688-p13</module>
+        <module>23K0688-p14</module>
+        <module>23K0688-p15</module>
+        <module>23K0688-p16</module>
+        <module>23K0688-p17</module>
+        <module>23K0688-p18</module>
+        <module>23K0688-p19</module>
+        <module>23K0688-p20</module>
+    </modules>
+</project>
