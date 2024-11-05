@@ -1,0 +1,26 @@
+package ru.mirea.practice.s23k0155;
+
+import ru.mirea.practice.s23k0155.prac5.Point;
+
+class Circle extends Shape {
+    private double rad;
+
+    public Circle(String colour, Point position, double rad) {
+        super(colour, position);
+        this.rad = rad;
+    }
+
+    @Override
+    public double getArea() {
+        return Math.PI * rad * rad;
+    }
+
+    @Override
+    public double getPerimeter() {
+        return 2 * Math.PI * rad;
+    }
+
+    public double getRadius() {
+        return rad;
+    }
+}
