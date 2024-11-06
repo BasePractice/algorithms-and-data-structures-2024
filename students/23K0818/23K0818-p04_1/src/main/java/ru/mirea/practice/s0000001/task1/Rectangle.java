@@ -11,7 +11,7 @@ public class Rectangle extends Shape {
 
     @Override
     public String getType() {
-        return "Rectangle";
+        return "Прямоугольник";
     }
 
     @Override
@@ -22,15 +22,5 @@ public class Rectangle extends Shape {
     @Override
     public double getPerimeter() {
         return 2 * (width + height);
-    }
-
-    @Override
-    public String toString() {
-        return "Shape: " + getType()
-                + ", Width: " + width
-                + ", Height: " + height
-                + ", Area: " + String.format("%.2f", getArea())
-                + ", Perimeter: " + String.format("%.2f", getPerimeter());
-
     }
 }
