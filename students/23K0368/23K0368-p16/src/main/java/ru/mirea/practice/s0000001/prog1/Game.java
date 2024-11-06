@@ -76,6 +76,7 @@ public class Game extends JFrame implements ActionListener, MouseListener {
         setVisible(true);
     }
 
+    @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource().equals(button)) {
             try {
