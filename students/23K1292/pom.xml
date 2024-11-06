@@ -10,12 +10,12 @@
     </parent>
     <artifactId>23K1292</artifactId>
     <packaging>pom</packaging>
-    <description>Практическая работа Пети</description>
+    <description>Практическая работа Шарапов Максима</description>
 
     <modules>
         <module>23K1292-p11</module>
         <module>23K1292-p12</module>
+        <module>23K1292-p14</module>
         <module>23K1292-p13</module>
-        <module>23K1292-p15</module>
     </modules>
 </project>
