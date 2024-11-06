@@ -77,7 +77,7 @@ public class Game extends JFrame implements ActionListener, MouseListener {
     }
 
     public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == button) {
+        if (e.getSource().equals(button)) {
             try {
                 int guess = Integer.parseInt(textField.getText());
                 attemptsLeft--;
@@ -126,17 +126,21 @@ public class Game extends JFrame implements ActionListener, MouseListener {
 
     @Override
     public void mouseEntered(MouseEvent e) {
-        if (e.getSource() instanceof JPanel panel) {
-            // Проверка на соответствие области BorderLayout
-            if (panel == northPanel) {
+        Object source = e.getSource();
+
+        // Проверка на соответствие областям BorderLayout с использованием обычного instanceof
+        if (source instanceof JPanel) {
+            JPanel panel = (JPanel) source;
+
+            if (panel.equals(northPanel)) {
                 JOptionPane.showMessageDialog(this, "Добро пожаловать в САО");
-            } else if (panel == eastPanel) {
+            } else if (panel.equals(eastPanel)) {
                 JOptionPane.showMessageDialog(this, "Добро пожаловать в ВАО");
-            } else if (panel == southPanel) {
+            } else if (panel.equals(southPanel)) {
                 JOptionPane.showMessageDialog(this, "Добро пожаловать в ЮАО");
-            } else if (panel == westPanel) {
+            } else if (panel.equals(westPanel)) {
                 JOptionPane.showMessageDialog(this, "Добро пожаловать в ЗАО");
-            } else if (panel == inputPanel) { // Вставка для центральной области
+            } else if (panel.equals(inputPanel)) {
                 JOptionPane.showMessageDialog(this, "Добро пожаловать в ЦАО");
             }
         }
