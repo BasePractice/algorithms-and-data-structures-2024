@@ -13,7 +13,9 @@
     <description>Практическая работа Пети</description>
 
     <modules>
-        <module>23K1292-p01</module>
-        <module>23K1292-p02</module>
+        <module>23K1292-p11</module>
+        <module>23K1292-p12</module>
+        <module>23K1292-p13</module>
+        <module>23K1292-p14</module>
     </modules>
 </project>
