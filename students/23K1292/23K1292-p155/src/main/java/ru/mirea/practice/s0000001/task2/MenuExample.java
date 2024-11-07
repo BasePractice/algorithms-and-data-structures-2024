@@ -84,10 +84,10 @@ public class MenuExample extends JFrame {
         cutItem.addActionListener(e -> textField.cut());
         pasteItem.addActionListener(e -> textField.paste());
 
-        // Обработчик для "О программе"
+
         aboutItem.addActionListener(e -> JOptionPane.showMessageDialog(this, "Программа для демонстрации меню на Java."));
 
-        // Делаем окно видимым
+
         setVisible(true);
     }
 

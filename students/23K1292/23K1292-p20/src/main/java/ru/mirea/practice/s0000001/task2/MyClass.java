@@ -5,14 +5,14 @@ public class MyClass<T, V, K> {
     private V secondVariable;
     private K thirdVariable;
 
-    // Конструктор
+
     public MyClass(T firstVariable, V secondVariable, K thirdVariable) {
         this.firstVariable = firstVariable;
         this.secondVariable = secondVariable;
         this.thirdVariable = thirdVariable;
     }
 
-    // Методы для получения значений переменных
+
     public T getFirstVariable() {
         return firstVariable;
     }
@@ -25,7 +25,7 @@ public class MyClass<T, V, K> {
         return thirdVariable;
     }
 
-    // Метод для вывода имен классов переменных
+
     public void printClassNames() {
         System.out.println("Class of first variable: " + firstVariable.getClass().getName());
         System.out.println("Class of second variable: " + secondVariable.getClass().getName());
