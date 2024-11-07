@@ -16,36 +16,35 @@ public class MenuExample extends JFrame {
     private JTextField textField;
 
     public MenuExample() {
-        // Устанавливаем заголовок окна
+
         setTitle("Пример меню на Java");
         setSize(400, 300);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new FlowLayout());
 
-        // Создаем текстовое поле
+
         textField = new JTextField(20);
         add(textField);
 
-        // Создаем кнопки
         JButton button1 = new JButton("Кнопка 1");
         JButton button2 = new JButton("Кнопка 2");
         add(button1);
         add(button2);
 
-        // Создаем и инициализируем меню
+
         final JMenuBar menuBar = new JMenuBar();
 
-        // Меню "Файл"
+
         JMenu fileMenu = new JMenu("Файл");
         JMenuItem saveItem = new JMenuItem("Сохранить");
         JMenuItem exitItem = new JMenuItem("Выйти");
         fileMenu.add(saveItem);
         fileMenu.add(exitItem);
 
-        // Обработчик для выхода
+
         exitItem.addActionListener(e -> System.exit(0));
 
-        // Меню "Правка"
+
         JMenu editMenu = new JMenu("Правка");
         JMenuItem copyItem = new JMenuItem("Копировать");
         JMenuItem cutItem = new JMenuItem("Вырезать");
@@ -54,18 +53,18 @@ public class MenuExample extends JFrame {
         editMenu.add(cutItem);
         editMenu.add(pasteItem);
 
-        // Меню "Справка"
+
         JMenu helpMenu = new JMenu("Справка");
         JMenuItem aboutItem = new JMenuItem("О программе");
         helpMenu.add(aboutItem);
 
-        // Добавляем меню в панель меню
+
         menuBar.add(fileMenu);
         menuBar.add(editMenu);
         menuBar.add(helpMenu);
         setJMenuBar(menuBar);
 
-        // Обработчики для кнопок
+
         button1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -80,7 +79,7 @@ public class MenuExample extends JFrame {
             }
         });
 
-        // Обработчики для меню "Правка"
+
         copyItem.addActionListener(e -> textField.copy());
         cutItem.addActionListener(e -> textField.cut());
         pasteItem.addActionListener(e -> textField.paste());

@@ -19,39 +19,39 @@ public class PasswordChecker extends JFrame {
     private JLabel resultLabel;
 
     public PasswordChecker() {
-        // Устанавливаем заголовок окна
+
         setTitle("Проверка пароля");
         setSize(300, 200);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
-        // Создаем панель для ввода имени пользователя и пароля
-        JPanel inputPanel = new JPanel();
-        inputPanel.setLayout(new GridLayout(3, 2)); // Используем GridLayout для удобного размещения
 
-        // Создаем текстовое поле для имени пользователя
+        JPanel inputPanel = new JPanel();
+        inputPanel.setLayout(new GridLayout(3, 2));
+
+
         usernameField = new JTextField(15);
         inputPanel.add(new JLabel("Имя пользователя:"));
         inputPanel.add(usernameField);
 
-        // Создаем текстовое поле для пароля
+
         passwordField = new JTextField(15);
         inputPanel.add(new JLabel("Введите пароль:"));
         inputPanel.add(passwordField);
 
-        // Создаем кнопку для проверки пароля
+
         JButton checkButton = new JButton("Проверить");
         inputPanel.add(checkButton);
 
-        // Создаем метку для отображения результата
+
         resultLabel = new JLabel("");
         resultLabel.setHorizontalAlignment(SwingConstants.CENTER);
 
-        // Добавляем панель ввода и метку результата в окно
+
         add(inputPanel, BorderLayout.NORTH);
         add(resultLabel, BorderLayout.CENTER);
 
-        // Обработчик события для кнопки проверки пароля
+
         checkButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -59,14 +59,14 @@ public class PasswordChecker extends JFrame {
             }
         });
 
-        // Делаем окно видимым
+
         setVisible(true);
     }
 
     private void checkCredentials() {
         String username = usernameField.getText();
         String password = passwordField.getText();
-        if ("user".equals(username) && "12345".equals(password)) { // Переместили литералы для сравнения
+        if ("user".equals(username) && "12345".equals(password)) {
             resultLabel.setText("Доступ разрешен!");
         } else {
             resultLabel.setText("Неверное имя пользователя или пароль!");

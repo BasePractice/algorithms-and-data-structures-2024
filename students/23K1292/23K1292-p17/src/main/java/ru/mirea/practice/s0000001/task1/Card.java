@@ -6,7 +6,7 @@ public class Card {
     private String name;
     private int age;
 
-    // Метод для считывания атрибутов с консоли
+
     public void readAttributes() {
         try (Scanner scanner = new Scanner(System.in)) { // Используем try-with-resources
             System.out.print("Введите имя: ");
@@ -16,7 +16,7 @@ public class Card {
         } // Scanner автоматически закроется здесь
     }
 
-    // Метод для вывода атрибутов на экран
+
     public void displayAttributes() {
         System.out.println("Имя: " + this.name);
         System.out.println("Возраст: " + this.age);

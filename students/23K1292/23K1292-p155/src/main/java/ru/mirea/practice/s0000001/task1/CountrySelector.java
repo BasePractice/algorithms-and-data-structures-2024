@@ -23,7 +23,7 @@ public abstract class CountrySelector {
         JPanel panel = new JPanel();
         panel.setLayout(new GridLayout(countries.length, 1));
 
-        // Создаем JCheckBox для каждой страны и добавляем в панель
+
         JCheckBox[] checkBoxes = new JCheckBox[countries.length];
         for (int i = 0; i < countries.length; i++) {
             checkBoxes[i] = new JCheckBox(countries[i]);
