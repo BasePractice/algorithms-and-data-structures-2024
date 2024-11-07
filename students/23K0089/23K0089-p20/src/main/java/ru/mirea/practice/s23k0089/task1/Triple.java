@@ -1,7 +1,6 @@
 package ru.mirea.practice.s23k0089.task1;
 
 public class Triple<T, V, K> {
-
     private T first;
     private V second;
     private K third;
@@ -13,9 +12,9 @@ public class Triple<T, V, K> {
     }
 
     public void printClassNames() {
-        System.out.println("Первый параметр: " + first.getClass().getName());
-        System.out.println("Вторая параметр: " + second.getClass().getName());
-        System.out.println("Третья параметр: " + third.getClass().getName());
+        System.out.println("Первая переменная: " + first.getClass().getName());
+        System.out.println("Вторая переменная: " + second.getClass().getName());
+        System.out.println("Третья переменная: " + third.getClass().getName());
     }
 
 
@@ -43,3 +42,4 @@ public class Triple<T, V, K> {
         this.third = third;
     }
 }
+
