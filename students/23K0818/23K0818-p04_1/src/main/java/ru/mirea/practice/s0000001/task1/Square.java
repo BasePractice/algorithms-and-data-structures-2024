@@ -1,23 +1,24 @@
 package ru.mirea.practice.s0000001.task1;
 
-public class Square extends Rectangle {
+public class Square extends Shape {
+    private double side;
 
     public Square(double side) {
-        super(side, side);
+        this.side = side;
     }
 
     @Override
     public String getType() {
-        return "Square";
+        return "Квадрат";
     }
 
     @Override
-    public String toString() {
-        return "Shape: " + getType()
-                + ", Side: " + super.getArea()
-                + ", Area: " + String.format("%.2f", getArea())
-                + ", Perimeter: " + String.format("%.2f", getPerimeter());
+    public double getArea() {
+        return side * side;
+    }
 
+    @Override
+    public double getPerimeter() {
+        return 4 * side;
     }
 }
-

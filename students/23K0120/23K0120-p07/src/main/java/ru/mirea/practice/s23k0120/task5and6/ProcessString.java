@@ -1,6 +1,6 @@
 package ru.mirea.practice.s23k0120.task5and6;
 
-public class ProcessString implements StringProcessable {
+public class ProcessString implements Processable {
 
     public int countChars(String string, char ch) {
         int count = 0;
