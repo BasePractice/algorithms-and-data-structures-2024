@@ -14,5 +14,17 @@
 
     <modules>
         <module>23K0114-p01</module>
+        <module>23K0114-p02</module>
+        <module>23K0114-p03</module>
+        <module>23K0114-p04</module>
+        <module>23K0114-p04.1</module>
+        <module>23K0114-p06</module>
+        <module>23K0114-p07</module>
+        <module>23K0114-p08</module>
+        <module>23K0114-p09</module>
+        <module>23K0114-p010</module>
+
+
+
     </modules>
 </project>
