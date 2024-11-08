@@ -9,5 +9,5 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>23K0375-p04</artifactId>
-    <description>Перечисления</description>
+    <description>Классы</description>
 </project>

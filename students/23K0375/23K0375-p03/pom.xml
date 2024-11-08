@@ -9,5 +9,5 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>23K0375-p03</artifactId>
-    <description>Массивы</description>
+    <description>Класс</description>
 </project>
