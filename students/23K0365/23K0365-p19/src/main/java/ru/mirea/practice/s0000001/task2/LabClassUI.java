@@ -5,21 +5,17 @@ public class LabClassUI {
 
     public void setArray(Student... a) throws EmptyStringException {
         this.idNumber = new Student[a.length];
-        try {
-            for (int i = 0; i < a.length; i++) {
-                idNumber[i] = a[i];
-                if (a[i].getFirstName().isEmpty() || a[i].getSecondName().isEmpty()) {
-                    throw new EmptyStringException("ERROR!" + " Student number "
-                            + i + 1 + " have got uncompleted name");
-                }
+        for (int i = 0; i < a.length; i++) {
+            idNumber[i] = a[i];
+            if (a[i].getFirstName().isEmpty() || a[i].getSecondName().isEmpty()) {
+                throw new EmptyStringException("ERROR!" + " Student number "
+                        + i + 1 + " have got uncompleted name");
             }
-        } catch (EmptyStringException er) {
-            throw er;
         }
     }
 
     public static Student[] sortByGPa(Student[] arr, int low, int high) {
-        if (arr.length == 0 || low >= high) {
+        if (arr.length == 0 | low >= high) {
             return arr;
         }
         int mid = low + (high - low) / 2;
@@ -56,7 +52,7 @@ public class LabClassUI {
                 return student;
             }
         }
-        throw new StudentNotFoundException("Student with this name doesn't exist");
+        throw new StudentNotFoundException("Student with name " + name + " doesn't exist");
     }
 
     public Student findByGpa(int gpa) throws StudentNotFoundException {
@@ -65,7 +61,7 @@ public class LabClassUI {
                 return student;
             }
         }
-        throw new StudentNotFoundException("Student with this GPA doesn't exist");
+        throw new StudentNotFoundException("Student with this GPA: " + gpa + ", doesn't exist");
     }
 
     public void outArray() {
