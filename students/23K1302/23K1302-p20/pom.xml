@@ -8,6 +8,6 @@
         <version>2024.1</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>23K1302-p17</artifactId>
-    <description>Задание 17</description>
+    <artifactId>23K1302-p20</artifactId>
+    <description>Задание 20</description>
 </project>
