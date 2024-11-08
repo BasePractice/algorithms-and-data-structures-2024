@@ -1,6 +1,6 @@
 package ru.mirea.practice.s0000001.task1;
 
-class Author {
+public class Author {
     private String name;
     private String email;
     private char gender;

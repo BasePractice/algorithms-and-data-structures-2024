@@ -9,8 +9,8 @@ public class MovableRectangle implements Movable {
         this.bottomRight = bottomRight;
     }
 
-    public boolean isEqualSpeed() {
-        return topLeft.getxSpeed() == bottomRight.getxSpeed() && topLeft.getySpeed() == bottomRight.getySpeed();
+    public boolean isEqualspeed() {
+        return topLeft.getxspeed() == bottomRight.getxspeed() && topLeft.getyspeed() == bottomRight.getyspeed();
     }
 
     public void moveUp() {

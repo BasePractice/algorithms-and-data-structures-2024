@@ -10,7 +10,7 @@
     </parent>
     <artifactId>23K0089</artifactId>
     <packaging>pom</packaging>
-    <description>Практическая работа Пети</description>
+    <description>Практическая работа Владика</description>
 
     <modules>
         <module>23K0089-p01</module>
@@ -23,5 +23,15 @@
         <module>23K0089-p08</module>
         <module>23K0089-p09</module>
         <module>23K0089-p10</module>
+        <module>23K0089-p11</module>
+        <module>23K0089-p12</module>
+        <module>23K0089-p13</module>
+        <module>23K0089-p14</module>
+        <module>23K0089-p15</module>
+        <module>23K0089-p16</module>
+        <module>23K0089-p17</module>
+        <module>23K0089-p18</module>
+        <module>23K0089-p19</module>
+        <module>23K0089-p20</module>
     </modules>
 </project>
