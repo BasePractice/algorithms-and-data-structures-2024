@@ -11,20 +11,15 @@ public abstract class DateComparisonApp {
         try {
             scanner = new Scanner(System.in);
 
-            // Формат даты и времени
             SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy HH:mm:ss");
 
-            // Получение текущей даты и времени
             Date currentDate = new Date();
 
-            // Ввод даты и времени пользователем
             System.out.println("Введите дату и время в формате dd.MM.yyyy HH:mm:ss:");
             String userInput = scanner.nextLine();
 
-            // Парсинг введенной даты и времени
             Date userDate = dateFormat.parse(userInput);
 
-            // Сравнение дат
             if (currentDate.after(userDate)) {
                 System.out.println("Текущая дата и время позже, чем введенные.");
             } else if (currentDate.before(userDate)) {
