@@ -8,6 +8,8 @@
         <version>2024.1</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>23K0354-p11</artifactId>
-    <description> Работа с датой и временем </description>
+    <artifactId>23K0354-p15</artifactId>
+    <description>  Вложенные и внутренние классы.
+        Обработка событий в Джава программах с графическим
+        интерфейсом пользователя </description>
 </project>
