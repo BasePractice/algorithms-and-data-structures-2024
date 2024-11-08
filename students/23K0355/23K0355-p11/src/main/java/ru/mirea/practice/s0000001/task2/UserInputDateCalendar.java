@@ -4,10 +4,8 @@ import java.util.Scanner;
 import java.util.Calendar;
 import java.util.Date;
 
-// Сделать класс абстрактным (или можно оставить приватный конструктор)
 public final class UserInputDateCalendar {
 
-    // Приватный конструктор, чтобы предотвратить создание экземпляров этого класса
     private UserInputDateCalendar() {
         throw new UnsupportedOperationException("Этот класс не должен быть инстанцирован");
     }
@@ -29,16 +27,15 @@ public final class UserInputDateCalendar {
             System.out.print("Введите минуты: ");
             final int min = sc.nextInt();
 
-            // Используем Calendar вместо устаревшего конструктора Date
             Calendar cal = Calendar.getInstance();
             cal.set(y, m - 1, d, h, min, 0);
-            Date dt = cal.getTime(); // Получаем Date из Calendar
+            Date dt = cal.getTime();
 
             System.out.println("Объект Date: " + dt);
             System.out.println("Объект Calendar: " + cal.getTime());
         } finally {
             if (sc != null) {
-                sc.close(); // Закрываем scanner в блоке finally для безопасного освобождения ресурсов
+                sc.close();
             }
         }
     }
