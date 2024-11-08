@@ -14,7 +14,7 @@ public class GuessNumberGame extends JFrame {
     private JLabel messageLabel;
     private JTextField guessField;
     private JButton guessButton;
-
+//1
     public GuessNumberGame() {
         setTitle("Игра 'Угадай число'");
         setSize(400, 200);

@@ -5,7 +5,7 @@ public final class Main {
         throw new UnsupportedOperationException("Utility class cannot be instantiated");
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {//1
         ItemList itemList = new ItemList();
 
         itemList.addItem(new Item("Item1", 1));

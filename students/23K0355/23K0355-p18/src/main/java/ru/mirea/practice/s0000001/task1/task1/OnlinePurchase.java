@@ -2,7 +2,7 @@ package ru.mirea.practice.s0000001.task1.task1;
 
 import java.util.Scanner;
 
-public final class OnlinePurchase {
+public final class OnlinePurchase {//1
 
     private OnlinePurchase() {
         throw new UnsupportedOperationException("This is a utility class and cannot be instantiated.");

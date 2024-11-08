@@ -10,7 +10,7 @@ import javax.imageio.ImageIO;
 public class ImageDisplayWindow extends JFrame {
 
     private Image image;
-
+//1
     public ImageDisplayWindow(String imagePath) {
         try {
             File imageFile = new File(imagePath);

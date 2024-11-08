@@ -9,7 +9,7 @@ public final class UserInputDateCalendar {
     private UserInputDateCalendar() {
         throw new UnsupportedOperationException("Этот класс не должен быть инстанцирован");
     }
-
+//1
     public static void main(String[] args) {
         Scanner sc = null;
         try {

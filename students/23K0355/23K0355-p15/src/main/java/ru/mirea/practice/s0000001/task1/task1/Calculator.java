@@ -17,7 +17,7 @@ public class Calculator extends JFrame {
     private String input = "";
 
     public Calculator() {
-
+//1
         setTitle("Калькулятор");
         setSize(400, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

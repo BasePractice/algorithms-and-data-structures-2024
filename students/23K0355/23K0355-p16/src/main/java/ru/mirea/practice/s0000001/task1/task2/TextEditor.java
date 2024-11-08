@@ -19,7 +19,7 @@ public class TextEditor extends JFrame {
         setSize(500, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
-
+//1
         textArea = new JTextArea();
         textArea.setFont(new Font("Times New Roman", Font.PLAIN, 14));
         textArea.setForeground(Color.BLACK);
