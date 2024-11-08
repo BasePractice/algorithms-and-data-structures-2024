@@ -1,4 +1,4 @@
-package ru.mirea.practice.s23k01235.task4;
+package ru.mirea.practice.s23k0135.task4;
 
 public final class ThrowsDemo {
 

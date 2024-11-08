@@ -1,4 +1,4 @@
-package ru.mirea.practice.s23k01235.task1;
+package ru.mirea.practice.s23k0135.task1;
 
 public final class Arithmetic {
     private Arithmetic() {
