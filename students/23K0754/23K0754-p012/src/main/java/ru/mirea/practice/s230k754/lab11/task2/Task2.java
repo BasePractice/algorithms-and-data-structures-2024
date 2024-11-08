@@ -1,10 +1,12 @@
 package ru.mirea.practice.s230k754.lab11.task2;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import java.awt.BorderLayout;
 
 public final class Task2 {
-    private Task2(){};
+    private Task2() {}
 
     public static void main(String[] args) {
         var url = "C:\\Users\\a_naz\\IdeaProjects\\argo\\students\\23K0754\\23K0754-p012"

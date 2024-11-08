@@ -1,6 +1,6 @@
 package ru.mirea.practice.s230k754.lab11.task1;
 
-import javax.swing.*;
+import javax.swing.JFrame;
 
 public final class Task1 {
     private Task1() {}

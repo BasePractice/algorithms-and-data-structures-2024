@@ -4,7 +4,8 @@ import java.awt.Color;
 import java.awt.Graphics;
 
 public class Rectangle extends Shape {
-    private int width, height;
+    private int width;
+    private int height;
 
     public Rectangle(Color color, int x, int y, int width, int height) {
         super(color, x, y);
