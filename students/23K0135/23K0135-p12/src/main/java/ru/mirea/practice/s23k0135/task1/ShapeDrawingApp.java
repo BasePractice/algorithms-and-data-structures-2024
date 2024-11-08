@@ -1,6 +1,5 @@
 package ru.mirea.practice.s23k0135.task1;
 
-
 import javax.swing.JFrame;
 
 public abstract class ShapeDrawingApp {
