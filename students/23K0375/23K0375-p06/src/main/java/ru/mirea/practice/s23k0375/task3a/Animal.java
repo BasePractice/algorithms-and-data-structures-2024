@@ -1,9 +1,9 @@
-package ru.mirea.practice.s23k0375.task3;
+package ru.mirea.practice.s23k0375.task3a;
 
-class Car implements Nameable {
+class Animal implements Nameable {
     private String name;
 
-    public Car(String name) {
+    public Animal(String name) {
         this.name = name;
     }
 

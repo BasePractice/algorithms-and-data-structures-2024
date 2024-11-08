@@ -1,4 +1,4 @@
-package ru.mirea.practice.s23k0375.task11;
+package ru.mirea.practice.s23k0375.task11a;
 
 public class FahrCon implements Convertable {
     @Override
