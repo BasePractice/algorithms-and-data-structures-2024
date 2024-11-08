@@ -10,7 +10,7 @@
     </parent>
     <artifactId>23K1158</artifactId>
     <packaging>pom</packaging>
-    <description>Практическая работа 1-10 Ооржак</description>
+    <description>Практическая работа 1-20 Ооржак</description>
 
     <modules>
         <module>23K1158-01</module>
@@ -24,5 +24,15 @@
         <module>23K1158-08</module>
         <module>23K1158-09</module>
         <module>23K1158-10</module>
+        <module>23K1158-11</module>
+        <module>23K1158-12</module>
+        <module>23K1158-13</module>
+        <module>23K1158-14</module>
+        <module>23K1158-15</module>
+        <module>23K1158-16</module>
+        <module>23K1158-17</module>
+        <module>23K1158-18</module>
+        <module>23K1158-19</module>
+        <module>23K1158-20</module>
     </modules>
 </project>
