@@ -1,6 +1,6 @@
 package ru.mirea.practice.s23k0087;
 
-public final class Main {
+public abstract class Main {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
 
