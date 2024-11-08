@@ -7,6 +7,6 @@ public final class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println("вторая практическая работа!");
+        System.out.println("Шестнадцатая практическая работа!");
     }
 }
