@@ -10,7 +10,7 @@ public final class Main {
 
         itemList.addItem(new Item("Item1", 1));
         itemList.addItem(new Item("Item2", 2));
-        itemList.addItem(new Item("Item3", 3));
+        itemList.addItem(new Item("Item3", 3));//2
 
         System.out.println("Вывод элементов списка:");
         itemList.displayItems();

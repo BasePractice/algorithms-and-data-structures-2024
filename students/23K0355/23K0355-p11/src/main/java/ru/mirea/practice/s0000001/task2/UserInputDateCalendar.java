@@ -6,10 +6,10 @@ import java.util.Date;
 
 public final class UserInputDateCalendar {
 
-    private UserInputDateCalendar() {
+    private UserInputDateCalendar() {//2
         throw new UnsupportedOperationException("Этот класс не должен быть инстанцирован");
     }
-//1
+
     public static void main(String[] args) {
         Scanner sc = null;
         try {

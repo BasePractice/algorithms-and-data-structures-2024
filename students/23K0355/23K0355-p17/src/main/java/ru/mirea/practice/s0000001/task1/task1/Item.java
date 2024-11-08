@@ -16,8 +16,8 @@ public class Item {
     public String getName() {
         return name;
     }
-//1
+
     public int getId() {
         return id;
-    }
+    }//2
 }

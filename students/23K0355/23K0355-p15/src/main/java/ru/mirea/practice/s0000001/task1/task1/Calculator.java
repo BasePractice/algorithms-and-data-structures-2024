@@ -12,12 +12,12 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Stack;
 
-public class Calculator extends JFrame {
+public class Calculator extends JFrame {//2
     private JTextField display;
     private String input = "";
 
     public Calculator() {
-//1
+
         setTitle("Калькулятор");
         setSize(400, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

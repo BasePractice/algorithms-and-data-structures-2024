@@ -16,7 +16,7 @@ public class ItemList {//1
 
     public void addItem(Item item) {
         items.add(item);
-    }
+    }//2
 
     public void removeItem(int id) {
         for (int i = 0; i < items.size(); i++) {
