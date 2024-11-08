@@ -15,13 +15,13 @@ public abstract class FileName {
             return res.toString();
         }
         boolean[] temp = new boolean[words.size()];
-        res.append(words.getFirst());
+        res.append(words.get(0));
         temp[0] = true;
         for (int i = 0; i < words.size();) {
             boolean flag = false;
             for (int j = 1; j < words.size();) {
                 if (!temp[j] && res.toString().toLowerCase(Locale.ENGLISH).charAt(res.length() - 1)
-                        == words.get(j).toLowerCase(Locale.ENGLISH).charAt(0)) {
+                    == words.get(j).toLowerCase(Locale.ENGLISH).charAt(0)) {
                     res.append(" ").append(words.get(j));
                     temp[j] = true;
                     flag = true;
@@ -29,10 +29,10 @@ public abstract class FileName {
                 }
                 j++;
             }
-            i++;
             if (!flag) {
                 break;
             }
+            i++;
         }
         return res.toString();
     }
