@@ -1,0 +1,6 @@
+ Написать регулярное выражение, определяющее является ли данная
+строка строкой "abcdefghijklmnopqrstuv18340" или нет. 
+a) пример правильных выражений: abcdefghijklmnopqrstuv18340 
+b) пример 
+неправильных 
+abcdefghijklmnoasdfasdpqrstuv18340. 
