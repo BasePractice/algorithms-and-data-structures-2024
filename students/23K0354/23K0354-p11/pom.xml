@@ -9,5 +9,5 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>23K0354-p11</artifactId>
-    <description>Стандартные интерфейсы</description>
+    <description> Работа с датой и временем </description>
 </project>
