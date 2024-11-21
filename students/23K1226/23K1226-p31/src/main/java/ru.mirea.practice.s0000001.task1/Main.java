@@ -3,11 +3,15 @@ package ru.mirea.practice.s0000001.task1;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Main {
-    private static Scanner scanner = new Scanner(System.in);
-    private TwoThreeTree tree = new TwoThreeTree();
+public final class Main {
 
-    public void run() {
+    private static Scanner scanner = new Scanner(System.in);
+    private static TwoThreeTree tree = new TwoThreeTree();
+
+    private Main() {
+    }
+
+    public static void run() {
         while (true) {
             System.out.println("Enter command (L, D, A, S, E):");
             String command = scanner.nextLine().trim().toUpperCase(Locale.ROOT);
@@ -51,7 +55,6 @@ public class Main {
 
                 case "S":
                     System.out.println("Saving to file...");
-                    // Здесь можно добавить код для сохранения данных в файл
                     break;
 
                 case "E":
@@ -67,7 +70,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main app = new Main();
-        app.run();
+        run();
     }
 }
