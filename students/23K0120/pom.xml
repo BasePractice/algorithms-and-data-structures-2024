@@ -13,8 +13,8 @@
     <description>Практическая работа Дмитрия</description>
 
     <modules>
-        <module>23K0120-p02</module>
         <module>23K0120-p01</module>
+        <module>23K0120-p02</module>
         <module>23K0120-p03</module>
         <module>23K0120-p04</module>
         <module>23K0120-p04_1</module>
@@ -22,5 +22,18 @@
         <module>23K0120-p06</module>
         <module>23K0120-p07</module>
         <module>23K0120-p08</module>
+        <module>23K0120-p09</module>
+        <module>23K0120-p10</module>
+        <module>23K0120-p11</module>
+        <module>23K0120-p12</module>
+        <module>23K0120-p13</module>
+        <module>23K0120-p14</module>
+        <module>23K0120-p15</module>
+        <module>23K0120-p16</module>
+        <module>23K0120-p17</module>
+        <module>23K0120-p18</module>
+        <module>23K0120-p19</module>
+        <module>23K0120-p20</module>
+        <module>23K0120-p21</module>
     </modules>
 </project>

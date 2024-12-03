@@ -14,5 +14,24 @@
 
     <modules>
         <module>23K0754-p01</module>
+        <module>23K0754-p02</module>
+        <module>23K0754-p03</module>
+        <module>23K0754-p04</module>
+        <module>23K0754-p04p1</module>
+        <module>23K0754-p05</module>
+        <module>23K0754-p06</module>
+        <module>23K0754-p07</module>
+        <module>23K0754-p08</module>
+        <module>23K0754-p09</module>
+        <module>23K0754-p010</module>
+        <module>23K0754-p011</module>
+        <module>23K0754-p012</module>
+        <module>23K0754-p013</module>
+        <module>23K0754-p014</module>
+        <module>23K0754-p015</module>
+        <module>23K0754-p016</module>
+        <module>23K0754-p018</module>
+        <module>23K0754-p019</module>
+        <module>23K0754-p020</module>
     </modules>
 </project>
