@@ -1,4 +1,4 @@
-package ru.mirea.practice.s0000001;
+package ru.mirea.practice.s00000020;
 
 /**
  * Создать обобщенный класс с тремя параметрами (T, V, K).
