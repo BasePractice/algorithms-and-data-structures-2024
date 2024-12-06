@@ -1,4 +1,4 @@
-package ru.mirea.practice.s0000001;
+package ru.mirea.practice.s00000020;
 
 import java.io.Serializable;
 
