@@ -32,8 +32,6 @@ public class Calculator {
         Number result = new Number();
         Number b;
         Number a;
-
-
         ComputingElement popped = stack.pop();
         if (popped instanceof Operation) {
             b = compute();
