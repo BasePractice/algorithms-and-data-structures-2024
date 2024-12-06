@@ -9,9 +9,9 @@ import java.util.List;
 
 public class CalculatorController {
     private final Calculator calculator;
+    private final List<ComputingElement> fakeStack;
     private int numbersCount;
     private int operationCount;
-    private final List<ComputingElement> fakeStack;
 
     public CalculatorController() {
         this.calculator = new Calculator();
