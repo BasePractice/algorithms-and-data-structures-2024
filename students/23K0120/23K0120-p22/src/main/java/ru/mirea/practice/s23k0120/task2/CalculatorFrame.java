@@ -103,9 +103,9 @@ public class CalculatorFrame extends JFrame {
                 if (!cachedNumber.isEmpty()) {
                     addCached();
                 }
-                if (controller.getStackSize() > 0) {
-                    controller.addNumber(controller.compute());
-                }
+//                if (controller.getStackSize() > 0) {
+//                    controller.addNumber(controller.compute());
+//                }
                 break;
             default:
                 cachedNumber = cachedNumber.concat(actionName);

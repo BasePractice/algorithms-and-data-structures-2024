@@ -17,6 +17,7 @@ public class CalculatorController {
         this.calculator = new Calculator();
         fakeStack = new LinkedList<>();
         numbersCount = 0;
+        operationCount = 0;
     }
 
     public void addNumber(double number) {
@@ -36,7 +37,16 @@ public class CalculatorController {
     }
 
     public ComputingElement delete() {
-        return fakeStack.remove(fakeStack.size() - 1);
+        ComputingElement element = null;
+        if (!fakeStack.isEmpty()) {
+            element = fakeStack.remove(fakeStack.size() - 1);
+            if (element instanceof Number) {
+                numbersCount -= 1;
+            } else {
+                operationCount -= 1;
+            }
+        }
+        return element;
     }
 
     public double compute() {
@@ -45,7 +55,7 @@ public class CalculatorController {
         final Number result = calculator.compute();
         fakeStack.addAll(calculator.getStack());
         calculator.clear();
-        numbersCount -= operationCount;
+        numbersCount -= operationCount + 1;
         operationCount = 0;
         return result.getValue();
     }
