@@ -1,50 +1,39 @@
 package ru.mirea.practice.s0000001;
 
-import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.Stack;
 
 public final class Ex1 {
 
     private Ex1() {
-        // Скоро новый год...
+        // Очень скоро ...
+    }
+
+    public static int[] invertArray(int[] array) {
+        Stack<Integer> stack = new Stack<>();
+
+        for (int num : array) {
+            stack.push(num);
+        }
+
+        for (int i = 0; i < array.length; i++) {
+            array[i] = stack.pop();
+        }
+
+        return array;
     }
 
     public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in)) {
-            System.out.println("Введите строку:");
-            String input = scanner.nextLine();
+        int[] array = {1, 2, 3, 4, 5};
+        System.out.println("Исходный массив:");
+        for (int num : array) {
+            System.out.print(num + " ");
+        }
 
-            System.out.println("Введите регулярное выражение для разбивки строки:");
-            String regex = scanner.nextLine();
+        invertArray(array);
 
-            try {
-                Pattern pattern = Pattern.compile(regex);
-                Matcher matcher = pattern.matcher(input);
-
-                System.out.println("Результат разбивки строки:");
-                while (matcher.find()) {
-                    System.out.println(matcher.group());
-                }
-
-                System.out.println("Введите регулярное выражение для поиска:");
-                regex = scanner.nextLine();
-                matcher = pattern.matcher(input);
-
-                boolean found = false;
-                while (matcher.find()) {
-                    System.out.println("Найдено совпадение: " + matcher.group());
-                    found = true;
-                }
-
-                if (!found) {
-                    System.out.println("Совпадений не найдено.");
-                }
-            } catch (Exception e) {
-                System.out.println("Ошибка в регулярном выражении: " + e.getMessage());
-            }
-        } catch (Exception e) {
-            System.out.println("Ошибка при работе со Scanner: " + e.getMessage());
+        System.out.println("\nИнвертированный массив:");
+        for (int num : array) {
+            System.out.print(num + " ");
         }
     }
 }
