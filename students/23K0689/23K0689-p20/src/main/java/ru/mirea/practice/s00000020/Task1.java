@@ -1,9 +1,5 @@
 package ru.mirea.practice.s00000020;
 
-/**
- * Создать обобщенный класс с тремя параметрами (T, V, K).
- */
-
 public abstract class Task1 {
     public static void main(String[] args) {
         SomeRandomClass<String, Integer, Double> randomClass = new SomeRandomClass<String, Integer, Double>("hello", 1, 1.0);
