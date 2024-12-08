@@ -10,16 +10,4 @@
     </parent>
     <artifactId>23K0368-p30</artifactId>
     <description>Бинарные деревья</description>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>14</source>
-                    <target>14</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 </project>
