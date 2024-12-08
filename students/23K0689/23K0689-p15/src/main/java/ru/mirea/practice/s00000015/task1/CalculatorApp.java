@@ -26,6 +26,7 @@ public abstract class CalculatorApp {
         JLabel resultLabel = new JLabel("Результат: ");
 
         addButton.addActionListener(new ActionListener() {
+            @Override
             public void actionPerformed(ActionEvent e) {
                 double num1 = Double.parseDouble(number1Field.getText());
                 double num2 = Double.parseDouble(number2Field.getText());
@@ -35,6 +36,7 @@ public abstract class CalculatorApp {
         });
 
         subtractButton.addActionListener(new ActionListener() {
+            @Override
             public void actionPerformed(ActionEvent e) {
                 double num1 = Double.parseDouble(number1Field.getText());
                 double num2 = Double.parseDouble(number2Field.getText());
@@ -44,6 +46,7 @@ public abstract class CalculatorApp {
         });
 
         multiplyButton.addActionListener(new ActionListener() {
+            @Override
             public void actionPerformed(ActionEvent e) {
                 double num1 = Double.parseDouble(number1Field.getText());
                 double num2 = Double.parseDouble(number2Field.getText());
@@ -53,6 +56,7 @@ public abstract class CalculatorApp {
         });
 
         divideButton.addActionListener(new ActionListener() {
+            @Override
             public void actionPerformed(ActionEvent e) {
                 double num1 = Double.parseDouble(number1Field.getText());
                 double num2 = Double.parseDouble(number2Field.getText());
@@ -78,4 +82,3 @@ public abstract class CalculatorApp {
         frame.setVisible(true);
     }
 }
-
