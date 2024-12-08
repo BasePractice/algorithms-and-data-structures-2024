@@ -1,4 +1,4 @@
-package ru.mirea.practice.s23k0368;
+package ru.mirea.practice.s23k0368.prog1;
 
 public abstract class Mian {
     public static void main(String[] args) {

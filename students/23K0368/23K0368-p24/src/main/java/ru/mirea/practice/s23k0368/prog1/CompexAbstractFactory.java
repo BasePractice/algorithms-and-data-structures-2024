@@ -1,4 +1,4 @@
-package ru.mirea.practice.s23k0368;
+package ru.mirea.practice.s23k0368.prog1;
 
 public interface CompexAbstractFactory {
     Complex createComplex();

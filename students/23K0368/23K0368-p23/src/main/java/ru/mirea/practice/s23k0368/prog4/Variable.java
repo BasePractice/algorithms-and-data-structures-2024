@@ -9,11 +9,20 @@ class Variable implements TripleExpression {
 
     @Override
     public int evaluate(int x, int y, int z) {
-        return switch (name) {
-            case "x" -> x;
-            case "y" -> y;
-            case "z" -> z;
-            default -> throw new IllegalArgumentException("Unknown variable: " + name);
-        };
+        int result;
+        switch (name) {
+            case "x":
+                result = x;
+                break;
+            case "y":
+                result = y;
+                break;
+            case "z":
+                result = z;
+                break;
+            default:
+                throw new IllegalArgumentException("Unknown variable: " + name);
+        }
+        return result;
     }
 }
