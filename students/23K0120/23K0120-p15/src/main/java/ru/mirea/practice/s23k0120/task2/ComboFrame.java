@@ -15,7 +15,6 @@ public class ComboFrame extends JFrame {
     JLabel description = new JLabel();
     JLabel label = new JLabel();
 
-
     ComboFrame(Country[] items) {
         label.setSize(50, 200);
         label.setLayout(new FlowLayout());
