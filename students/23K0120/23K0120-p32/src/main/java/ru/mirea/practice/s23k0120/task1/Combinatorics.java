@@ -47,7 +47,9 @@ public class Combinatorics {
                     }
                 }
             } else if (i == size - 1 && dirInt.getDirection() == Direction.LEFT && directedIntegers.get(i - 1).getValue() < dirInt.getValue()) {
-                maxInd = i;
+                if (maxInd == -1 || directedIntegers.get(maxInd).getValue() < dirInt.getValue()) {
+                    maxInd = i;
+                }
             } else if (i == 0 && dirInt.getDirection() == Direction.RIGHT && directedIntegers.get(1).getValue() < dirInt.getValue()) {
                 maxInd = i;
             }
@@ -112,7 +114,7 @@ public class Combinatorics {
 
         @Override
         public String toString() {
-            return direction + " " + value;
+            return direction == Direction.LEFT ? "<" + value : value + ">";
         }
     }
 }
