@@ -67,7 +67,7 @@ public abstract class JohnsonTrotter {
     }
 
     public static void main(String[] args) {
-        int n = 5;
+        int n = 3;
         generatePermutations(n);
     }
 }
