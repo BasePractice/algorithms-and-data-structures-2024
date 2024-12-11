@@ -2,38 +2,41 @@ package ru.mirea.practice.s0000001.task4;
 
 public abstract class MatrixTest {
     public static void main(String[] args) {
-
         double[][] data1 = {
-                {1, 2, 3},
-                {4, 5, 6},
-                {7, 8, 9}
+            {1, 2, 3},
+            {4, 5, 6}
         };
-
         double[][] data2 = {
-                {9, 8, 7},
-                {6, 5, 4},
-                {3, 2, 1}
+            {7, 8, 9},
+            {10, 11, 12}
         };
 
         Matrix matrix1 = new Matrix(data1);
-        final Matrix matrix2 = new Matrix(data2);
 
-        System.out.println("Matrix 1:");
+        System.out.println("Матрица 1:");
         matrix1.print();
 
-        System.out.println("Matrix 2:");
+        Matrix matrix2 = new Matrix(data2);
+
+        System.out.println("Матрица 2:");
         matrix2.print();
 
+        System.out.println("Сложение матриц:");
         Matrix sum = matrix1.add(matrix2);
-        System.out.println("Matrix 1 + Matrix 2:");
         sum.print();
 
-        Matrix scalarMultiplication = matrix1.multiplyByScalar(2);
-        System.out.println("Matrix 1 * 2:");
-        scalarMultiplication.print();
+        System.out.println("Умножение матрицы 1 на число 2:");
+        Matrix multipliedByScalar = matrix1.multiply(2);
+        multipliedByScalar.print();
 
-        Matrix product = matrix1.multiply(matrix2);
-        System.out.println("Matrix 1 * Matrix 2:");
+        System.out.println("Умножение матриц:");
+        double[][] data3 = {
+            {1, 2},
+            {3, 4},
+            {5, 6}
+        };
+        Matrix matrix3 = new Matrix(data3);
+        Matrix product = matrix1.multiply(matrix3);
         product.print();
     }
 }
