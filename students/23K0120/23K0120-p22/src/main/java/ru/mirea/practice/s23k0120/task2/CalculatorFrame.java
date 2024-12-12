@@ -103,9 +103,6 @@ public class CalculatorFrame extends JFrame {
                 if (!cachedNumber.isEmpty()) {
                     addCached();
                 }
-                if (controller.getStackSize() > 0) {
-                    controller.addNumber(controller.compute());
-                }
                 break;
             default:
                 cachedNumber = cachedNumber.concat(actionName);
@@ -121,7 +118,7 @@ public class CalculatorFrame extends JFrame {
             controller.addNumber(cachedNumberDouble);
             clearCache();
         } catch (NumberFormatException ignored) {
-            return;
+            System.out.println();
         }
     }
 
