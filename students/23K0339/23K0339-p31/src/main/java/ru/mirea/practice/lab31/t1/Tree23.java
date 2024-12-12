@@ -66,7 +66,7 @@ public class Tree23 {
             return true;
         } else if (!node.isLeaf) {
             if (key < node.key.get(0)) {
-                return delete(node.child.getFirst(), key);
+                return delete(node.child.get(0), key);
             } else if (node.key.size() == 1 || key < node.key.get(1)) {
                 return delete(node.child.get(1), key);
             } else {
@@ -88,7 +88,7 @@ public class Tree23 {
         }
 
         if (key < node.key.get(0)) {
-            return contains(node.child.getFirst(), key);
+            return contains(node.child.get(0), key);
         } else if (node.key.size() == 1 || key < node.key.get(1)) {
             return contains(node.child.get(1), key);
         } else {
