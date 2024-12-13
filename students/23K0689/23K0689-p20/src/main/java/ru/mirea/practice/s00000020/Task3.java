@@ -1,12 +1,8 @@
-package ru.mirea.practice.s0000001;
+package ru.mirea.practice.s00000020;
 
 import java.io.Serializable;
 
-/**
- * Наложить ограничения на параметры типа: T должен реализовать интерфейс Comparable (классы оболочки, String),
- * V должен реализовать интерфейс Serializable и расширять класс Animal,
- * K
- */
+
 
 public abstract class Task3 {
     public static void main(String[] args) {
