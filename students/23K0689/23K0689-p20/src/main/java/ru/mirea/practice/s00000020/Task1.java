@@ -1,8 +1,4 @@
-package ru.mirea.practice.s0000001;
-
-/**
- * Создать обобщенный класс с тремя параметрами (T, V, K).
- */
+package ru.mirea.practice.s00000020;
 
 public abstract class Task1 {
     public static void main(String[] args) {
