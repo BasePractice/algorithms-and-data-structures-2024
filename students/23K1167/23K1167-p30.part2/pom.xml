@@ -8,6 +8,6 @@
         <version>2024.1</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>23K1167-p30</artifactId>
+    <artifactId>23K1167-p30.part2</artifactId>
     <description>Пр </description>
 </project>
