@@ -1,4 +1,4 @@
-package ru.mirea.practice.s0000001;
+package ru.mirea.practice.s0000001.task1;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
