@@ -20,4 +20,5 @@ public abstract class Main {
         hashtable.printTable();
     }
 }
+//
 

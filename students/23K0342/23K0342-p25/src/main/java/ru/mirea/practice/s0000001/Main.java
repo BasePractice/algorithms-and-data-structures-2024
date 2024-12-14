@@ -10,3 +10,4 @@ public final class Main {
         System.out.println("первая практическая работа!");
     }
 }
+//

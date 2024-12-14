@@ -50,3 +50,4 @@ public class LinkedQueue extends AbstractQueue {
         return head.value;
     }
 }
+//
