@@ -10,7 +10,7 @@
     </parent>
     <artifactId>23K0755</artifactId>
     <packaging>pom</packaging>
-    <description>Практическая работа Егора</description>
+    <description>Практическая работа Наумовой Натальи</description>
 
     <modules>
         <module>23K0755-p01</module>
@@ -41,9 +41,5 @@
         <module>23K0755-p26</module>
         <module>23K0755-p27</module>
         <module>23K0755-p28</module>
-        <module>23K0755-p29</module>
-        <module>23K0755-p30</module>
-        <module>23K0755-p31</module>
-        <module>23K0755-p32</module>
     </modules>
 </project>
