@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>algorithms-and-data-structures</artifactId>
+        <groupId>ru.mirea.practice</groupId>
+        <version>2024.1</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+    <artifactId>23L0908</artifactId>
+    <packaging>pom</packaging>
+    <description>Практическая работа Хоанг</description>
+
+    <modules>
+        <module>23L0908-p01</module>
+        <module>23L0908-p02</module>
+        <module>23L0908-p03</module>
+        <module>23L0908-p04</module>
+        <module>23L0908-p05</module>
+        <module>23L0908-p06</module>
+        <module>23L0908-p07</module>
+        <module>23L0908-p08</module>
+        <module>23L0908-p09</module>
+        <module>23L0908-p10</module>
+        <module>23L0908-p11</module>
+        <module>23L0908-p12</module>
+        <module>23L0908-p13</module>
+        <module>23L0908-p14</module>
+        <module>23L0908-p15</module>
+        <module>23L0908-p16</module>
+        <module>23L0908-p18</module>
+        <module>23L0908-p19</module>
+        <module>23L0908-p20</module>
+        <module>23L0908-p22</module>
+        <module>23L0908-p23</module>
+        <module>23L0908-p24</module>
+        <module>23L0908-p25</module>
+        <module>23L0908-p26</module>
+        <module>23L0908-p27</module>
+        <module>23L0908-p28</module>
+        <module>23L0908-p29</module>
+        <module>23L0908-p30</module>
+        <module>23L0908-p31</module>
+        <module>23L0908-p32</module>
+
+    </modules>
+</project>

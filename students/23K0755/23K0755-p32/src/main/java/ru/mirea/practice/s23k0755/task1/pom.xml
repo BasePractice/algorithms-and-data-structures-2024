@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>algorithms-and-data-structures</artifactId>
+        <groupId>ru.mirea.practice</groupId>
+        <version>2024.1</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+    <artifactId>23K0755</artifactId>
+    <packaging>pom</packaging>
+    <description>Практическая работа Наумовой Натальи</description>
+
+    <modules>
+        <module>23K0755-p01</module>
+        <module>23K0755-p02</module>
+        <module>23K0755-p03</module>
+        <module>23K0755-p04</module>
+        <module>23K0755-p05</module>
+        <module>23K0755-p06</module>
+        <module>23K0755-p07</module>
+        <module>23K0755-p08</module>
+        <module>23K0755-p09</module>
+        <module>23K0755-p10</module>
+        <module>23K0755-p11</module>
+        <module>23K0755-p12</module>
+        <module>23K0755-p13</module>
+        <module>23K0755-p14</module>
+        <module>23K0755-p15</module>
+        <module>23K0755-p16</module>
+        <module>23K0755-p17</module>
+        <module>23K0755-p18</module>
+        <module>23K0755-p19</module>
+        <module>23K0755-p20</module>
+        <module>23K0755-p21</module>
+        <module>23K0755-p22</module>
+        <module>23K0755-p23</module>
+        <module>23K0755-p24</module>
+        <module>23K0755-p25</module>
+        <module>23K0755-p26</module>
+        <module>23K0755-p27</module>
+        <module>23K0755-p28</module>
+    </modules>
+</project>
