@@ -8,6 +8,6 @@
         <version>2024.1</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>23K0342-p24</artifactId>
+    <artifactId>23K0342-pr24</artifactId>
     <description>Массивы</description>
 </project>
