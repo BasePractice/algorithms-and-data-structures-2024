@@ -81,6 +81,7 @@
         <module>students/23K0186</module>
         <module>students/23K0755</module>
         <module>students/23K1292</module>
+        <module>students/23L0908</module>
         <module>students/23K0342</module>
     </modules>
     <dependencies>
@@ -148,7 +149,7 @@
                     <dependency>
                         <groupId>com.puppycrawl.tools</groupId>
                         <artifactId>checkstyle</artifactId>
-                        <version>10.19.0</version>
+                        <version>10.20.1</version>
                     </dependency>
                 </dependencies>
                 <configuration>
